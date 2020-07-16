@@ -1,0 +1,71 @@
+#### Server
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+*.o
+*.so
+*.a
+
+OpenDB
+server/OpenDB
+server/bin/*
+temp
+
+
+#### Client
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+client/node_modules
+
+# testing
+client/coverage
+
+# production
+client/build
+client/out
+
+# misc
+client/.DS_Store
+
+
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# package
+client/dist
+client/.next
+
+deploy/client/node_modules
+
+# testing
+deploy/client/coverage
+
+# production
+deploy/client/build
+deploy/client/out
+
+# misc
+deploy/client/.DS_Store
+
+
+
+deploy/client/npm-debug.log*
+deploy/client/yarn-debug.log*
+deploy/client/yarn-error.log*
+
+# package
+deploy/client/dist
+deploy/client/.next

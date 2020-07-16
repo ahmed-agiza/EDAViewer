@@ -1,0 +1,16 @@
+{
+	"name": "signer",
+	"version": "1.0.0",
+	"description": "Sign EDAV S3 URLs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Ahmed Agiza",
+	"license": "MIT",
+	"dependencies": {
+		"aws-sdk": "^2.713.0",
+		"sanitize-filename": "^1.6.3",
+		"uuid": "^8.2.0"
+	}
+}

@@ -1,0 +1,73 @@
+#### Server
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+*.o
+*.so
+*.a
+
+OpenDB
+server/OpenDB
+server/bin/*
+temp
+build
+
+deploy/server/edav-server
+
+#### Client
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+client/node_modules
+
+# testing
+client/coverage
+
+# production
+client/build
+client/out
+client/out_lambda
+
+# misc
+client/.DS_Store
+.env
+deploy/client/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+server/.env
+server/.env.local
+server/.env.development.local
+server/.env.test.local
+server/.env.production.local
+
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# package
+client/dist
+client/.next
+
+.serverless
+.aws-sam
+deploy/packaged.yaml
+deploy/edaviewercom.sh

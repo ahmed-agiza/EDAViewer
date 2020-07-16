@@ -1,0 +1,4410 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN gcd ;
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 0 0 ) ( 22800 21000 ) ;
+
+ROW CORE_ROW_0 FreePDK45_38x28_10R_NP_162NW_34O 0 0 FS DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_1 FreePDK45_38x28_10R_NP_162NW_34O 0 1400 N DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_2 FreePDK45_38x28_10R_NP_162NW_34O 0 2800 FS DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_3 FreePDK45_38x28_10R_NP_162NW_34O 0 4200 N DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_4 FreePDK45_38x28_10R_NP_162NW_34O 0 5600 FS DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_5 FreePDK45_38x28_10R_NP_162NW_34O 0 7000 N DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_6 FreePDK45_38x28_10R_NP_162NW_34O 0 8400 FS DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_7 FreePDK45_38x28_10R_NP_162NW_34O 0 9800 N DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_8 FreePDK45_38x28_10R_NP_162NW_34O 0 11200 FS DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_9 FreePDK45_38x28_10R_NP_162NW_34O 0 12600 N DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_10 FreePDK45_38x28_10R_NP_162NW_34O 0 14000 FS DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_11 FreePDK45_38x28_10R_NP_162NW_34O 0 15400 N DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_12 FreePDK45_38x28_10R_NP_162NW_34O 0 16800 FS DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_13 FreePDK45_38x28_10R_NP_162NW_34O 0 18200 N DO 120 BY 1 STEP 190 0
+ ;
+ROW CORE_ROW_14 FreePDK45_38x28_10R_NP_162NW_34O 0 19600 FS DO 120 BY 1 STEP 190 0
+ ;
+
+TRACKS Y 1670 DO 13 STEP 1600 LAYER metal10 ;
+TRACKS X 1775 DO 13 STEP 1680 LAYER metal10 ;
+TRACKS X 935 DO 27 STEP 840 LAYER metal9 ;
+TRACKS Y 1670 DO 13 STEP 1600 LAYER metal9 ;
+TRACKS Y 910 DO 24 STEP 840 LAYER metal8 ;
+TRACKS X 935 DO 27 STEP 840 LAYER metal8 ;
+TRACKS X 375 DO 81 STEP 280 LAYER metal7 ;
+TRACKS Y 910 DO 24 STEP 840 LAYER metal7 ;
+TRACKS Y 350 DO 74 STEP 280 LAYER metal6 ;
+TRACKS X 375 DO 81 STEP 280 LAYER metal6 ;
+TRACKS X 375 DO 81 STEP 280 LAYER metal5 ;
+TRACKS Y 350 DO 74 STEP 280 LAYER metal5 ;
+TRACKS Y 70 DO 150 STEP 140 LAYER metal4 ;
+TRACKS X 375 DO 81 STEP 280 LAYER metal4 ;
+TRACKS X 95 DO 120 STEP 190 LAYER metal3 ;
+TRACKS Y 70 DO 150 STEP 140 LAYER metal3 ;
+TRACKS Y 70 DO 150 STEP 140 LAYER metal2 ;
+TRACKS X 95 DO 120 STEP 190 LAYER metal2 ;
+TRACKS X 95 DO 120 STEP 190 LAYER metal1 ;
+TRACKS Y 70 DO 150 STEP 140 LAYER metal1 ;
+
+GCELLGRID Y 21090 DO 1 STEP 2190 ;
+GCELLGRID Y 4200 DO 8 STEP 2100 ;
+GCELLGRID Y -90 DO 2 STEP 2190 ;
+GCELLGRID X 22805 DO 1 STEP 1780 ;
+GCELLGRID X 4225 DO 9 STEP 2100 ;
+GCELLGRID X -5 DO 2 STEP 2130 ;
+
+VIAS 7 ;
+- Via7Array-0_1
+ + VIARULE Via7Array-0
+ + CUTSIZE 400 400
+ + LAYERS metal7 via7 metal8
+ + CUTSPACING 440 440
+ + ENCLOSURE 300 0 300 0
+ + ROWCOL 1 1
+ ;
+- Via6Array-0_1
+ + VIARULE Via6Array-0
+ + CUTSIZE 140 140
+ + LAYERS metal6 via6 metal7
+ + CUTSPACING 160 160
+ + ENCLOSURE 130 130 130 130
+ + ROWCOL 1 3
+ ;
+- Via5Array-0_1
+ + VIARULE Via5Array-0
+ + CUTSIZE 140 140
+ + LAYERS metal5 via5 metal6
+ + CUTSPACING 160 160
+ + ENCLOSURE 130 15 130 15
+ + ROWCOL 1 3
+ ;
+- Via4Array-0_1
+ + VIARULE Via4Array-0
+ + CUTSIZE 140 140
+ + LAYERS metal4 via4 metal5
+ + CUTSPACING 160 160
+ + ENCLOSURE 130 15 130 15
+ + ROWCOL 1 3
+ ;
+- Via3Array-0_1
+ + VIARULE Via3Array-0
+ + CUTSIZE 70 70
+ + LAYERS metal3 via3 metal4
+ + CUTSPACING 90 90
+ + ENCLOSURE 65 50 65 50
+ + ROWCOL 1 6
+ ;
+- Via2Array-0_1
+ + VIARULE Via2Array-0
+ + CUTSIZE 70 70
+ + LAYERS metal2 via2 metal3
+ + CUTSPACING 90 90
+ + ENCLOSURE 65 50 65 50
+ + ROWCOL 1 6
+ ;
+- Via1Array-1_1
+ + VIARULE Via1Array-1
+ + CUTSIZE 70 70
+ + LAYERS metal1 via1 metal2
+ + CUTSPACING 80 80
+ + ENCLOSURE 15 50 15 50
+ + ROWCOL 1 7
+ ;
+END VIAS
+
+COMPONENTS 182 ;
+- g297__8780 NOR2_X1 + PLACED ( 8170 0 ) FS
+ ;
+- g298__4296 NOR2_X2 + PLACED ( 8360 2800 ) S
+ ;
+- g299 INV_X1 + PLACED ( 8740 0 ) S
+ ;
+- ctrl_state_out_reg\[0\] DFF_X1 + PLACED ( 5130 2800 ) FS
+ ;
+- ctrl_state_out_reg\[1\] DFF_X2 + PLACED ( 3990 0 ) S
+ ;
+- dpath_a_reg_out_reg\[0\] DFF_X1 + PLACED ( 0 0 ) FS
+ ;
+- dpath_a_reg_out_reg\[1\] DFF_X1 + PLACED ( 380 7000 ) N
+ ;
+- dpath_a_reg_out_reg\[2\] DFF_X1 + PLACED ( 7790 7000 ) FN
+ ;
+- dpath_a_reg_out_reg\[3\] DFF_X1 + PLACED ( 0 11200 ) FS
+ ;
+- dpath_a_reg_out_reg\[4\] DFF_X1 + PLACED ( 0 14000 ) FS
+ ;
+- dpath_a_reg_out_reg\[5\] DFF_X1 + PLACED ( 0 19600 ) FS
+ ;
+- dpath_a_reg_out_reg\[6\] DFF_X1 + PLACED ( 3610 19600 ) FS
+ ;
+- dpath_a_reg_out_reg\[7\] DFF_X1 + PLACED ( 8360 19600 ) S
+ ;
+- dpath_a_reg_out_reg\[8\] DFF_X1 + PLACED ( 12160 19600 ) S
+ ;
+- dpath_a_reg_out_reg\[9\] DFF_X1 + PLACED ( 16150 19600 ) S
+ ;
+- dpath_a_reg_out_reg\[10\] DFF_X1 + PLACED ( 19570 18200 ) FN
+ ;
+- dpath_a_reg_out_reg\[11\] DFF_X1 + PLACED ( 17100 12600 ) FN
+ ;
+- dpath_a_reg_out_reg\[12\] DFF_X1 + PLACED ( 11400 5600 ) FS
+ ;
+- dpath_a_reg_out_reg\[13\] DFF_X1 + PLACED ( 18810 5600 ) S
+ ;
+- dpath_a_reg_out_reg\[14\] DFF_X1 + PLACED ( 17670 2800 ) S
+ ;
+- dpath_a_reg_out_reg\[15\] DFF_X1 + PLACED ( 11210 0 ) FS
+ ;
+- dpath_b_reg_out_reg\[0\] DFF_X1 + PLACED ( 0 2800 ) FS
+ ;
+- dpath_b_reg_out_reg\[1\] DFF_X1 + PLACED ( 570 8400 ) S
+ ;
+- dpath_b_reg_out_reg\[2\] DFF_X1 + PLACED ( 6840 8400 ) S
+ ;
+- dpath_b_reg_out_reg\[3\] DFF_X1 + PLACED ( 7220 11200 ) S
+ ;
+- dpath_b_reg_out_reg\[4\] DFF_X1 + PLACED ( 6840 14000 ) S
+ ;
+- dpath_b_reg_out_reg\[5\] DFF_X1 + PLACED ( 0 15400 ) N
+ ;
+- dpath_b_reg_out_reg\[6\] DFF_X1 + PLACED ( 3610 16800 ) FS
+ ;
+- dpath_b_reg_out_reg\[7\] DFF_X1 + PLACED ( 8930 12600 ) N
+ ;
+- dpath_b_reg_out_reg\[8\] DFF_X1 + PLACED ( 10260 14000 ) S
+ ;
+- dpath_b_reg_out_reg\[9\] DFF_X1 + PLACED ( 13490 14000 ) FS
+ ;
+- dpath_b_reg_out_reg\[10\] DFF_X1 + PLACED ( 16720 15400 ) N
+ ;
+- dpath_b_reg_out_reg\[11\] DFF_X1 + PLACED ( 15580 11200 ) FS
+ ;
+- dpath_b_reg_out_reg\[12\] DFF_X1 + PLACED ( 11590 7000 ) N
+ ;
+- dpath_b_reg_out_reg\[13\] DFF_X1 + PLACED ( 16910 8400 ) FS
+ ;
+- dpath_b_reg_out_reg\[14\] DFF_X1 + PLACED ( 17480 4200 ) N
+ ;
+- dpath_b_reg_out_reg\[15\] DFF_X1 + PLACED ( 10070 4200 ) N
+ ;
+- g3558__3772 OAI22_X1 + PLACED ( 3040 5600 ) S
+ ;
+- g3559__1474 OAI22_X1 + PLACED ( 13300 4200 ) FN
+ ;
+- g3560__4547 OAI22_X1 + PLACED ( 20710 4200 ) N
+ ;
+- g3561__9682 OAI22_X1 + PLACED ( 19950 0 ) FS
+ ;
+- g3562__2683 OAI22_X1 + PLACED ( 17480 18200 ) N
+ ;
+- g3563__1309 OAI22_X1 + PLACED ( 7410 5600 ) S
+ ;
+- g3564__6877 OAI22_X1 + PLACED ( 3230 11200 ) FS
+ ;
+- g3565__2900 OAI21_X1 + PLACED ( 0 1400 ) FN
+ ;
+- g3566__2391 OAI22_X1 + PLACED ( 13870 18200 ) N
+ ;
+- g3567__7675 OAI22_X1 + PLACED ( 2660 16800 ) FS
+ ;
+- g3568__7118 OAI22_X1 + PLACED ( 10640 18200 ) FN
+ ;
+- g3569__8757 OAI22_X1 + PLACED ( 20520 19600 ) FS
+ ;
+- g3570__1786 OAI22_X1 + PLACED ( 6840 19600 ) FS
+ ;
+- g3571__5953 OAI22_X1 + PLACED ( 20520 12600 ) N
+ ;
+- g3572__5703 OAI22_X1 + PLACED ( 11970 1400 ) FN
+ ;
+- g3573__7114 OAI22_X1 + PLACED ( 3230 14000 ) S
+ ;
+- g3590__5266 AOI222_X1 + PLACED ( 3420 12600 ) FN
+ ;
+- g3591__2250 AOI222_X1 + PLACED ( 14440 0 ) S
+ ;
+- g3592__6083 AOI222_X1 + PLACED ( 19380 7000 ) FN
+ ;
+- g3593__2703 AOI222_X1 + PLACED ( 19760 1400 ) N
+ ;
+- g3594__5795 AOI222_X1 + PLACED ( 570 5600 ) FS
+ ;
+- g3595__7344 AOI222_X1 + PLACED ( 5890 5600 ) FS
+ ;
+- g3596__1840 AOI222_X1 + PLACED ( 4180 11200 ) S
+ ;
+- g3597__5019 AOI222_X1 + PLACED ( 4560 18200 ) N
+ ;
+- g3598__1857 AOI222_X1 + PLACED ( 760 1400 ) FN
+ ;
+- g3599__9906 AOI222_X1 + PLACED ( 3040 18200 ) FN
+ ;
+- g3600__8780 AOI222_X1 + PLACED ( 9120 18200 ) N
+ ;
+- g3601__4296 AOI222_X1 + PLACED ( 12350 18200 ) N
+ ;
+- g3602__3772 AOI222_X1 + PLACED ( 20900 16800 ) FS
+ ;
+- g3603__1474 AOI222_X1 + PLACED ( 20140 11200 ) FS
+ ;
+- g3604__4547 AOI222_X1 + PLACED ( 12920 1400 ) FN
+ ;
+- g3605__9682 AOI222_X1 + PLACED ( 15960 18200 ) N
+ ;
+- g3606__2683 OAI22_X1 + PLACED ( 12540 2800 ) FS
+ ;
+- g3607__1309 OAI22_X1 + PLACED ( 2090 5600 ) FS
+ ;
+- g3608__6877 OAI22_X1 + PLACED ( 8360 5600 ) S
+ ;
+- g3609__2900 OAI22_X1 + PLACED ( 7980 9800 ) FN
+ ;
+- g3610__2391 OAI22_X1 + PLACED ( 7790 12600 ) FN
+ ;
+- g3611__7675 OAI22_X1 + PLACED ( 3230 15400 ) N
+ ;
+- g3612__7118 OAI22_X1 + PLACED ( 5700 15400 ) N
+ ;
+- g3613__8757 OAI22_X1 + PLACED ( 10450 11200 ) S
+ ;
+- g3614__1786 OAI22_X1 + PLACED ( 12920 15400 ) N
+ ;
+- g3615__5953 OAI22_X1 + PLACED ( 13870 15400 ) N
+ ;
+- g3616__5703 OAI22_X1 + PLACED ( 17100 14000 ) FS
+ ;
+- g3617__7114 OAI22_X1 + PLACED ( 16530 9800 ) N
+ ;
+- g3618__5266 OAI22_X1 + PLACED ( 11970 8400 ) FS
+ ;
+- g3619__2250 OAI22_X1 + PLACED ( 16910 7000 ) N
+ ;
+- g3620__6083 OAI22_X1 + PLACED ( 16720 2800 ) FS
+ ;
+- g3621__2703 OAI22_X1 + PLACED ( 2280 1400 ) N
+ ;
+- g3622 INV_X1 + PLACED ( 10260 5600 ) FS
+ ;
+- g3623__5795 NAND2_X1 + PLACED ( 9880 2800 ) S
+ ;
+- g3624__7344 NAND2_X1 + PLACED ( 9310 2800 ) FS
+ ;
+- g3625__1840 NOR2_X2 + PLACED ( 11590 2800 ) FS
+ ;
+- g3626__5019 AND2_X1 + PLACED ( 10830 2800 ) FS
+ ;
+- g3627__1857 OAI221_X1 + PLACED ( 15010 2800 ) FS
+ ;
+- g3628__9906 OR4_X1 + PLACED ( 14250 4200 ) FN
+ ;
+- g3629__8780 AOI221_X1 + PLACED ( 15200 9800 ) N
+ ;
+- g3630__4296 OAI22_X1 + PLACED ( 15200 12600 ) FN
+ ;
+- g3631__3772 OAI221_X1 + PLACED ( 12920 12600 ) FN
+ ;
+- g3632__1474 OAI222_X1 + PLACED ( 11210 16800 ) FS
+ ;
+- g3635__4547 AOI21_X1 + PLACED ( 6080 1400 ) N
+ ;
+- g3636__9682 AND2_X1 + PLACED ( 11590 18200 ) N
+ ;
+- g3637__2683 NOR2_X1 + PLACED ( 7600 0 ) FS
+ ;
+- g3638__1309 AOI22_X1 + PLACED ( 8170 1400 ) N
+ ;
+- g3639__6877 OAI21_X1 + PLACED ( 9120 1400 ) FN
+ ;
+- g3640__2900 AOI22_X1 + PLACED ( 7410 15400 ) FN
+ ;
+- g3641__2391 OR2_X1 + PLACED ( 6650 15400 ) N
+ ;
+- g3642 INV_X1 + PLACED ( 8740 4200 ) FN
+ ;
+- g3643__7675 NAND4_X1 + PLACED ( 9310 5600 ) FS
+ ;
+- g3644__7118 OAI22_X1 + PLACED ( 1330 16800 ) FS
+ ;
+- g3645__8757 AND2_X1 + PLACED ( 570 16800 ) S
+ ;
+- g3646__1786 AND4_X1 + PLACED ( 14630 5600 ) S
+ ;
+- g3647__5953 AOI21_X1 + PLACED ( 7030 12600 ) FN
+ ;
+- g3648__5703 AOI22_X1 + PLACED ( 6080 12600 ) N
+ ;
+- g3649__7114 AND4_X1 + PLACED ( 14060 12600 ) N
+ ;
+- g3650__5266 OAI21_X1 + PLACED ( 7220 9800 ) N
+ ;
+- g3651__2250 NAND2_X1 + PLACED ( 6650 11200 ) FS
+ ;
+- g3652__6083 OAI21_X1 + PLACED ( 7030 7000 ) FN
+ ;
+- g3653__2703 AND4_X1 + PLACED ( 5700 14000 ) FS
+ ;
+- g3654__5795 OAI221_X1 + PLACED ( 4750 5600 ) S
+ ;
+- g3655__7344 AOI22_X1 + PLACED ( 15960 4200 ) N
+ ;
+- g3656__1840 OAI21_X1 + PLACED ( 3990 5600 ) FS
+ ;
+- g3657__5019 NOR4_X1 + PLACED ( 5700 11200 ) S
+ ;
+- g3658__1857 NOR2_X1 + PLACED ( 16910 4200 ) FN
+ ;
+- g3659__9906 NAND3_X1 + PLACED ( 6840 1400 ) FN
+ ;
+- g3660__8780 AOI22_X1 + PLACED ( 13110 16800 ) FS
+ ;
+- g3661__4296 AOI22_X1 + PLACED ( 7220 16800 ) FS
+ ;
+- g3662__3772 AOI22_X1 + PLACED ( 13490 2800 ) FS
+ ;
+- g3663__1474 AOI22_X1 + PLACED ( 5130 12600 ) N
+ ;
+- g3664__4547 AOI22_X1 + PLACED ( 3230 1400 ) N
+ ;
+- g3665__9682 AOI22_X1 + PLACED ( 18810 11200 ) S
+ ;
+- g3666__2683 AOI22_X1 + PLACED ( 3040 4200 ) N
+ ;
+- g3667__1309 AOI22_X1 + PLACED ( 7220 4200 ) FN
+ ;
+- g3668__6877 AOI22_X1 + PLACED ( 12920 8400 ) FS
+ ;
+- g3669__2900 AOI22_X1 + PLACED ( 4180 15400 ) FN
+ ;
+- g3670__2391 AOI22_X1 + PLACED ( 14820 15400 ) N
+ ;
+- g3671__7675 AOI22_X1 + PLACED ( 18240 14000 ) S
+ ;
+- g3672__7118 AOI22_X1 + PLACED ( 18050 7000 ) FN
+ ;
+- g3673__8757 AOI22_X1 + PLACED ( 6270 9800 ) N
+ ;
+- g3674__1786 AOI22_X1 + PLACED ( 17100 0 ) S
+ ;
+- g3675__5953 AOI22_X1 + PLACED ( 8930 15400 ) FN
+ ;
+- g3676__5703 OAI22_X1 + PLACED ( 14820 7000 ) N
+ ;
+- g3677__7114 AOI22_X1 + PLACED ( 15770 15400 ) N
+ ;
+- g3678__5266 OAI22_X1 + PLACED ( 16150 12600 ) FN
+ ;
+- g3679 INV_X1 + PLACED ( 6650 7000 ) N
+ ;
+- g3680__2250 NAND2_X1 + PLACED ( 7600 1400 ) N
+ ;
+- g3681__6083 NOR2_X1 + PLACED ( 4560 1400 ) N
+ ;
+- g3682__2703 NOR2_X1 + PLACED ( 14440 2800 ) FS
+ ;
+- g3683 INV_X1 + PLACED ( 10450 2800 ) FS
+ ;
+- g3684__5795 NAND2_X1 + PLACED ( 3230 0 ) FS
+ ;
+- g3685__7344 NOR2_X1 + PLACED ( 15390 4200 ) FN
+ ;
+- g3686__1840 NAND2_X1 + PLACED ( 8170 4200 ) N
+ ;
+- g3719 INV_X1 + PLACED ( 11020 7000 ) N
+ ;
+- dpath_sub_sub_752_15_g1033__5019 XOR2_X1 + PLACED ( 15580 1400 ) FN
+ ;
+- dpath_sub_sub_752_15_g1034__1857 FA_X1 + PLACED ( 16720 1400 ) N
+ ;
+- dpath_sub_sub_752_15_g1035__9906 FA_X1 + PLACED ( 15770 5600 ) FS
+ ;
+- dpath_sub_sub_752_15_g1036__8780 FA_X1 + PLACED ( 13870 8400 ) S
+ ;
+- dpath_sub_sub_752_15_g1037__4296 FA_X1 + PLACED ( 17480 9800 ) N
+ ;
+- dpath_sub_sub_752_15_g1038__3772 FA_X1 + PLACED ( 17480 16800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1039__1474 FA_X1 + PLACED ( 14060 16800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1040__4547 FA_X1 + PLACED ( 9880 15400 ) N
+ ;
+- dpath_sub_sub_752_15_g1041__9682 FA_X1 + PLACED ( 8170 16800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1042__2683 FA_X1 + PLACED ( 6080 18200 ) FN
+ ;
+- dpath_sub_sub_752_15_g1043__1309 FA_X1 + PLACED ( 0 18200 ) N
+ ;
+- dpath_sub_sub_752_15_g1044__6877 FA_X1 + PLACED ( 0 12600 ) N
+ ;
+- dpath_sub_sub_752_15_g1045__2900 FA_X1 + PLACED ( 380 9800 ) N
+ ;
+- dpath_sub_sub_752_15_g1046__2391 FA_X1 + PLACED ( 3610 7000 ) N
+ ;
+- dpath_sub_sub_752_15_g1047__7675 FA_X1 + PLACED ( 0 4200 ) FN
+ ;
+- dpath_sub_sub_752_15_g1048__7118 OAI21_X1 + PLACED ( 3230 2800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1049__8757 XNOR2_X1 + PLACED ( 14440 1400 ) N
+ ;
+- dpath_sub_sub_752_15_g1050__1786 NAND2_X1 + PLACED ( 3990 2800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1051 INV_X1 + PLACED ( 11590 19600 ) S
+ ;
+- dpath_sub_sub_752_15_g1052 INV_X1 + PLACED ( 17100 16800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1053 INV_X1 + PLACED ( 12730 16800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1054 INV_X1 + PLACED ( 3040 12600 ) FN
+ ;
+- dpath_sub_sub_752_15_g1055 INV_X1 + PLACED ( 6840 16800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1056 INV_X1 + PLACED ( 20520 16800 ) S
+ ;
+- dpath_sub_sub_752_15_g1057 INV_X1 + PLACED ( 19000 7000 ) FN
+ ;
+- dpath_sub_sub_752_15_g1058 INV_X1 + PLACED ( 0 7000 ) FN
+ ;
+- dpath_sub_sub_752_15_g1059 INV_X1 + PLACED ( 14820 9800 ) FN
+ ;
+- dpath_sub_sub_752_15_g1060 INV_X1 + PLACED ( 3420 9800 ) FN
+ ;
+- dpath_sub_sub_752_15_g1061 INV_X1 + PLACED ( 4180 1400 ) N
+ ;
+- dpath_sub_sub_752_15_g1062 INV_X1 + PLACED ( 2280 16800 ) FS
+ ;
+- dpath_sub_sub_752_15_g1063 INV_X1 + PLACED ( 19380 0 ) S
+ ;
+- dpath_sub_sub_752_15_g1064 INV_X1 + PLACED ( 6460 8400 ) S
+ ;
+- dpath_sub_sub_752_15_g1065 INV_X1 + PLACED ( 19760 11200 ) FS
+ ;
+END COMPONENTS
+
+PINS 66 ;
+- clk + NET clk + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 10545 21000 ) S ;
+- req_msg[31] + NET req_msg[31] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 13585 0 ) N ;
+- req_msg[30] + NET req_msg[30] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 19855 0 ) N ;
+- req_msg[29] + NET req_msg[29] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 22800 7630 ) W ;
+- req_msg[28] + NET req_msg[28] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 15865 0 ) N ;
+- req_msg[27] + NET req_msg[27] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 22800 11970 ) W ;
+- req_msg[26] + NET req_msg[26] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 22800 17570 ) W ;
+- req_msg[25] + NET req_msg[25] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 16815 21000 ) S ;
+- req_msg[24] + NET req_msg[24] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 13205 21000 ) S ;
+- req_msg[23] + NET req_msg[23] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 9975 21000 ) S ;
+- req_msg[22] + NET req_msg[22] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 4845 21000 ) S ;
+- req_msg[21] + NET req_msg[21] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 3705 21000 ) S ;
+- req_msg[20] + NET req_msg[20] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 13230 ) E ;
+- req_msg[19] + NET req_msg[19] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 11970 ) E ;
+- req_msg[18] + NET req_msg[18] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 6745 0 ) N ;
+- req_msg[17] + NET req_msg[17] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 6370 ) E ;
+- req_msg[16] + NET req_msg[16] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 2030 ) E ;
+- req_msg[15] + NET req_msg[15] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal4 ( -70 0 ) ( 70 140 )
+  + PLACED ( 13535 0 ) N ;
+- req_msg[14] + NET req_msg[14] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 17955 0 ) N ;
+- req_msg[13] + NET req_msg[13] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal5 ( -70 0 ) ( 70 140 )
+  + PLACED ( 22800 7630 ) W ;
+- req_msg[12] + NET req_msg[12] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 13015 0 ) N ;
+- req_msg[11] + NET req_msg[11] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal5 ( -70 0 ) ( 70 140 )
+  + PLACED ( 22800 11830 ) W ;
+- req_msg[10] + NET req_msg[10] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 22800 14770 ) W ;
+- req_msg[9] + NET req_msg[9] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 14725 21000 ) S ;
+- req_msg[8] + NET req_msg[8] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal4 ( -70 0 ) ( 70 140 )
+  + PLACED ( 13255 21000 ) S ;
+- req_msg[7] + NET req_msg[7] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal4 ( -70 0 ) ( 70 140 )
+  + PLACED ( 9895 21000 ) S ;
+- req_msg[6] + NET req_msg[6] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 7315 21000 ) S ;
+- req_msg[5] + NET req_msg[5] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 16030 ) E ;
+- req_msg[4] + NET req_msg[4] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal5 ( -70 0 ) ( 70 140 )
+  + PLACED ( 0 13230 ) E ;
+- req_msg[3] + NET req_msg[3] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 10430 ) E ;
+- req_msg[2] + NET req_msg[2] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 8075 0 ) N ;
+- req_msg[1] + NET req_msg[1] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 4830 ) E ;
+- req_msg[0] + NET req_msg[0] + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 3325 0 ) N ;
+- req_rdy + NET req_rdy + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 11115 0 ) N ;
+- req_val + NET req_val + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 7505 0 ) N ;
+- reset + NET reset + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 7125 0 ) N ;
+- resp_msg[15] + NET resp_msg[15] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 14535 0 ) N ;
+- resp_msg[14] + NET resp_msg[14] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 20425 0 ) N ;
+- resp_msg[13] + NET resp_msg[13] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 22800 6650 ) W ;
+- resp_msg[12] + NET resp_msg[12] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 14155 0 ) N ;
+- resp_msg[11] + NET resp_msg[11] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 22800 11410 ) W ;
+- resp_msg[10] + NET resp_msg[10] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 22800 17290 ) W ;
+- resp_msg[9] + NET resp_msg[9] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal4 ( -70 0 ) ( 70 140 )
+  + PLACED ( 16615 21000 ) S ;
+- resp_msg[8] + NET resp_msg[8] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal6 ( -70 0 ) ( 70 140 )
+  + PLACED ( 12975 21000 ) S ;
+- resp_msg[7] + NET resp_msg[7] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal4 ( -70 0 ) ( 70 140 )
+  + PLACED ( 10735 21000 ) S ;
+- resp_msg[6] + NET resp_msg[6] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal4 ( -70 0 ) ( 70 140 )
+  + PLACED ( 4575 21000 ) S ;
+- resp_msg[5] + NET resp_msg[5] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 3135 21000 ) S ;
+- resp_msg[4] + NET resp_msg[4] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 13510 ) E ;
+- resp_msg[3] + NET resp_msg[3] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 11410 ) E ;
+- resp_msg[2] + NET resp_msg[2] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 7210 ) E ;
+- resp_msg[1] + NET resp_msg[1] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 5810 ) E ;
+- resp_msg[0] + NET resp_msg[0] + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal3 ( -35 0 ) ( 35 70 )
+  + PLACED ( 0 2590 ) E ;
+- resp_rdy + NET resp_rdy + DIRECTION INPUT + USE SIGNAL
+  + LAYER metal4 ( -70 0 ) ( 70 140 )
+  + PLACED ( 7655 0 ) N ;
+- resp_val + NET resp_val + DIRECTION OUTPUT + USE SIGNAL
+  + LAYER metal2 ( -35 0 ) ( 35 70 )
+  + PLACED ( 8455 0 ) N ;
+- VSS + NET VSS + SPECIAL + DIRECTION INOUT + USE GROUND
+ + PORT
+  + LAYER metal8 ( -200 -200 ) ( 200 200 )
+  + FIXED ( 1200 4200 ) N
+ ;
+- VDD + NET VDD + SPECIAL + DIRECTION INOUT + USE POWER
+ + PORT
+  + LAYER metal8 ( -200 -200 ) ( 200 200 )
+  + FIXED ( 4000 4200 ) N
+ ;
+END PINS
+
+SPECIALNETS 2 ;
+- VDD  ( * VDD )
+  + ROUTED metal1 170 + SHAPE FOLLOWPIN ( 0 0 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 2800 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 5600 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 8400 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 11200 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 14000 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 16800 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 19600 ) ( 22800 * )
+    NEW metal8 1000 + SHAPE STRIPE ( 2300 0 ) ( * 21000 )
+    NEW metal8 1000 + SHAPE STRIPE ( 12300 0 ) ( * 21000 )
+    NEW metal8 1000 + SHAPE STRIPE ( 22300 0 ) ( * 21000 )
+    NEW metal8 0 + SHAPE STRIPE ( 2300 115 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 2300 115 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 2300 0 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 2300 0 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 2300 0 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 2300 0 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 2300 0 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 2300 2800 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 2300 2800 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 2300 2800 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 2300 2800 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 2300 2800 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 2300 2800 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 2300 2800 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 2300 5600 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 2300 5600 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 2300 5600 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 2300 5600 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 2300 5600 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 2300 5600 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 2300 5600 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 2300 8400 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 2300 8400 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 2300 8400 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 2300 8400 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 2300 8400 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 2300 8400 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 2300 8400 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 2300 11200 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 2300 11200 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 2300 11200 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 2300 11200 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 2300 11200 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 2300 11200 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 2300 11200 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 2300 14000 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 2300 14000 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 2300 14000 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 2300 14000 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 2300 14000 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 2300 14000 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 2300 14000 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 2300 16800 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 2300 16800 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 2300 16800 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 2300 16800 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 2300 16800 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 2300 16800 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 2300 16800 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 2300 19600 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 2300 19600 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 2300 19600 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 2300 19600 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 2300 19600 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 2300 19600 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 2300 19600 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 12300 115 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 12300 115 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 12300 0 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 12300 0 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 12300 0 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 12300 0 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 12300 0 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 12300 2800 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 12300 2800 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 12300 2800 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 12300 2800 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 12300 2800 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 12300 2800 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 12300 2800 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 12300 5600 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 12300 5600 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 12300 5600 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 12300 5600 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 12300 5600 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 12300 5600 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 12300 5600 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 12300 8400 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 12300 8400 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 12300 8400 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 12300 8400 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 12300 8400 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 12300 8400 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 12300 8400 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 12300 11200 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 12300 11200 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 12300 11200 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 12300 11200 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 12300 11200 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 12300 11200 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 12300 11200 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 12300 14000 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 12300 14000 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 12300 14000 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 12300 14000 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 12300 14000 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 12300 14000 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 12300 14000 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 12300 16800 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 12300 16800 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 12300 16800 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 12300 16800 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 12300 16800 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 12300 16800 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 12300 16800 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 12300 19600 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 12300 19600 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 12300 19600 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 12300 19600 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 12300 19600 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 12300 19600 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 12300 19600 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 22300 115 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 22300 115 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 22300 0 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 22300 0 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 22300 0 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 22300 0 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 22300 0 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 22300 2800 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 22300 2800 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 22300 2800 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 22300 2800 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 22300 2800 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 22300 2800 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 22300 2800 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 22300 5600 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 22300 5600 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 22300 5600 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 22300 5600 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 22300 5600 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 22300 5600 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 22300 5600 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 22300 8400 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 22300 8400 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 22300 8400 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 22300 8400 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 22300 8400 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 22300 8400 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 22300 8400 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 22300 11200 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 22300 11200 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 22300 11200 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 22300 11200 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 22300 11200 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 22300 11200 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 22300 11200 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 22300 14000 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 22300 14000 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 22300 14000 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 22300 14000 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 22300 14000 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 22300 14000 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 22300 14000 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 22300 16800 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 22300 16800 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 22300 16800 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 22300 16800 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 22300 16800 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 22300 16800 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 22300 16800 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 22300 19600 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 22300 19600 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 22300 19600 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 22300 19600 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 22300 19600 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 22300 19600 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 22300 19600 ) Via1Array-1_1
+  + USE POWER
+ ;
+- VSS  ( * VSS )
+  + ROUTED metal1 170 + SHAPE FOLLOWPIN ( 0 1400 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 4200 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 7000 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 9800 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 12600 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 15400 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 18200 ) ( 22800 * )
+    NEW metal1 170 + SHAPE FOLLOWPIN ( 0 21000 ) ( 22800 * )
+    NEW metal8 1000 + SHAPE STRIPE ( 5500 0 ) ( * 21000 )
+    NEW metal8 1000 + SHAPE STRIPE ( 15500 0 ) ( * 21000 )
+    NEW metal8 0 + SHAPE STRIPE ( 5500 1400 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 5500 1400 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 5500 1400 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 5500 1400 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 5500 1400 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 5500 1400 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 5500 1400 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 5500 4200 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 5500 4200 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 5500 4200 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 5500 4200 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 5500 4200 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 5500 4200 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 5500 4200 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 5500 7000 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 5500 7000 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 5500 7000 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 5500 7000 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 5500 7000 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 5500 7000 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 5500 7000 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 5500 9800 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 5500 9800 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 5500 9800 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 5500 9800 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 5500 9800 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 5500 9800 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 5500 9800 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 5500 12600 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 5500 12600 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 5500 12600 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 5500 12600 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 5500 12600 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 5500 12600 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 5500 12600 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 5500 15400 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 5500 15400 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 5500 15400 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 5500 15400 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 5500 15400 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 5500 15400 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 5500 15400 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 5500 18200 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 5500 18200 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 5500 18200 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 5500 18200 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 5500 18200 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 5500 18200 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 5500 18200 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 5500 20885 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 5500 20885 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 5500 21000 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 5500 21000 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 5500 21000 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 5500 21000 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 5500 21000 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 15500 1400 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 15500 1400 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 15500 1400 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 15500 1400 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 15500 1400 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 15500 1400 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 15500 1400 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 15500 4200 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 15500 4200 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 15500 4200 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 15500 4200 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 15500 4200 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 15500 4200 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 15500 4200 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 15500 7000 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 15500 7000 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 15500 7000 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 15500 7000 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 15500 7000 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 15500 7000 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 15500 7000 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 15500 9800 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 15500 9800 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 15500 9800 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 15500 9800 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 15500 9800 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 15500 9800 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 15500 9800 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 15500 12600 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 15500 12600 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 15500 12600 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 15500 12600 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 15500 12600 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 15500 12600 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 15500 12600 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 15500 15400 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 15500 15400 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 15500 15400 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 15500 15400 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 15500 15400 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 15500 15400 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 15500 15400 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 15500 18200 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 15500 18200 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 15500 18200 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 15500 18200 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 15500 18200 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 15500 18200 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 15500 18200 ) Via1Array-1_1
+    NEW metal8 0 + SHAPE STRIPE ( 15500 20885 ) Via7Array-0_1
+    NEW metal7 0 + SHAPE STRIPE ( 15500 20885 ) Via6Array-0_1
+    NEW metal6 0 + SHAPE STRIPE ( 15500 21000 ) Via5Array-0_1
+    NEW metal5 0 + SHAPE STRIPE ( 15500 21000 ) Via4Array-0_1
+    NEW metal4 0 + SHAPE STRIPE ( 15500 21000 ) Via3Array-0_1
+    NEW metal3 0 + SHAPE STRIPE ( 15500 21000 ) Via2Array-0_1
+    NEW metal2 0 + SHAPE STRIPE ( 15500 21000 ) Via1Array-1_1
+  + USE GROUND
+ ;
+END SPECIALNETS
+
+NETS 266 ;
+- clk
+  ( PIN clk ) ( dpath_b_reg_out_reg\[15\] CK ) ( dpath_b_reg_out_reg\[14\] CK )
+  ( dpath_b_reg_out_reg\[13\] CK ) ( dpath_b_reg_out_reg\[12\] CK )
+  ( dpath_b_reg_out_reg\[11\] CK ) ( dpath_b_reg_out_reg\[10\] CK )
+  ( dpath_b_reg_out_reg\[9\] CK ) ( dpath_b_reg_out_reg\[8\] CK )
+  ( dpath_b_reg_out_reg\[7\] CK ) ( dpath_b_reg_out_reg\[6\] CK )
+  ( dpath_b_reg_out_reg\[5\] CK ) ( dpath_b_reg_out_reg\[4\] CK )
+  ( dpath_b_reg_out_reg\[3\] CK ) ( dpath_b_reg_out_reg\[2\] CK )
+  ( dpath_b_reg_out_reg\[1\] CK ) ( dpath_b_reg_out_reg\[0\] CK )
+  ( dpath_a_reg_out_reg\[15\] CK ) ( dpath_a_reg_out_reg\[14\] CK )
+  ( dpath_a_reg_out_reg\[13\] CK ) ( dpath_a_reg_out_reg\[12\] CK )
+  ( dpath_a_reg_out_reg\[11\] CK ) ( dpath_a_reg_out_reg\[10\] CK )
+  ( dpath_a_reg_out_reg\[9\] CK ) ( dpath_a_reg_out_reg\[8\] CK )
+  ( dpath_a_reg_out_reg\[7\] CK ) ( dpath_a_reg_out_reg\[6\] CK )
+  ( dpath_a_reg_out_reg\[5\] CK ) ( dpath_a_reg_out_reg\[4\] CK )
+  ( dpath_a_reg_out_reg\[3\] CK ) ( dpath_a_reg_out_reg\[2\] CK )
+  ( dpath_a_reg_out_reg\[1\] CK ) ( dpath_a_reg_out_reg\[0\] CK )
+  ( ctrl_state_out_reg\[1\] CK ) ( ctrl_state_out_reg\[0\] CK )
+  + ROUTED metal2 ( 21185 16030 ) ( * 18830 ) via1_4
+    NEW metal2 ( 20425 6090 ) ( * 6370 ) via1_4
+    NEW metal2 ( 19095 4130 ) ( 19285 * )
+    NEW metal2 ( 18715 13090 ) ( * 13230 ) via1_4
+    NEW metal3 ( 18295 13090 ) ( 18715 * ) via2_5
+    NEW metal3 ( 18295 16030 ) ( 18335 * ) via2_5
+    NEW metal4 ( 18295 14630 ) ( * 16030 ) via3_2
+    NEW metal3 ( 17005 14630 ) ( 18295 * ) via3_2
+    NEW metal3 ( 13585 5670 ) ( 15675 * )
+    NEW metal2 ( 14915 14770 ) ( 15105 * ) via1_4
+    NEW metal3 ( 10545 20370 ) ( 13775 * ) via2_5
+    NEW metal3 ( 13015 6090 ) ( 13585 * )
+    NEW metal3 ( 9975 7490 ) ( 12825 * )
+    NEW metal3 ( 8775 770 ) ( 12825 * ) via2_5
+    NEW metal3 ( 8835 14630 ) ( 10165 * )
+    NEW metal3 ( 8775 7630 ) ( 9405 * ) via2_5
+    NEW metal3 ( 8455 14770 ) ( 8835 * )
+    NEW metal3 ( 8645 20370 ) ( * 20790 )
+    NEW metal3 ( 7695 16310 ) ( 8455 * ) via2_5
+    NEW metal3 ( 8265 770 ) ( * 840 )
+    NEW metal2 ( 6745 2450 ) ( * 3570 ) via1_4
+    NEW metal3 ( 6255 2450 ) ( 6745 * ) via2_5
+    NEW metal4 ( 6255 770 ) ( * 2450 ) via3_2
+    NEW metal2 ( 5225 16310 ) ( * 17570 ) via1_4
+    NEW metal3 ( 4655 20370 ) ( * 20650 )
+    NEW metal3 ( 2945 630 ) ( * 770 )
+    NEW metal2 ( 1615 10990 ) ( 2185 * )
+    NEW metal2 ( 1615 8190 ) ( 1995 * )
+    NEW metal3 ( 1495 16310 ) ( 1615 * ) via2_5
+    NEW metal2 ( 1615 3150 ) ( * 3570 ) via1_4
+    NEW metal3 ( 935 3150 ) ( 1615 * ) via2_5
+    NEW metal4 ( 935 770 ) ( * 3150 ) via3_2
+    NEW metal3 ( 935 770 ) ( 1615 * ) via2_5
+    NEW metal4 ( 1495 16310 ) ( * 20370 ) via3_2
+    NEW metal3 ( 1495 20370 ) ( 1615 * ) via2_5
+    NEW metal3 ( 1615 770 ) ( 2945 * )
+    NEW metal2 ( 1615 8190 ) ( * 10990 )
+    NEW metal2 ( 1615 10990 ) ( * 11970 ) via1_4
+    NEW metal2 ( 1615 11970 ) ( * 14770 ) via1_4
+    NEW metal2 ( 1615 14770 ) ( * 16030 ) via1_4
+    NEW metal2 ( 1615 16030 ) ( * 16310 )
+    NEW metal3 ( 1615 16310 ) ( 5225 * ) via2_5
+    NEW metal3 ( 1615 20370 ) ( 1995 * )
+    NEW metal2 ( 1995 7630 ) ( * 8190 )
+    NEW metal3 ( 1995 20370 ) ( * 20650 )
+    NEW metal3 ( 1995 20650 ) ( 4655 * )
+    NEW metal2 ( 2185 9170 ) ( * 10990 )
+    NEW metal3 ( 2945 630 ) ( 4275 * )
+    NEW metal3 ( 4275 630 ) ( * 770 )
+    NEW metal3 ( 4275 770 ) ( 5985 * ) via2_5
+    NEW metal3 ( 4655 20370 ) ( 5225 * ) via2_5
+    NEW metal3 ( 5225 16310 ) ( 6365 * )
+    NEW metal3 ( 5225 20370 ) ( 6365 * )
+    NEW metal3 ( 5985 770 ) ( 6255 * ) via3_2
+    NEW metal3 ( 6255 770 ) ( 6745 * )
+    NEW metal3 ( 6365 16310 ) ( * 16450 )
+    NEW metal3 ( 6365 16450 ) ( 7695 * )
+    NEW metal3 ( 6365 20370 ) ( * 20790 )
+    NEW metal3 ( 6365 20790 ) ( 8645 * )
+    NEW metal3 ( 6745 770 ) ( * 840 )
+    NEW metal3 ( 6745 840 ) ( 8265 * )
+    NEW metal3 ( 7695 16310 ) ( * 16450 )
+    NEW metal3 ( 8265 770 ) ( 8775 * ) via3_2
+    NEW metal3 ( 8455 9170 ) ( 8775 * ) via3_2
+    NEW metal2 ( 8455 14770 ) ( * 16310 )
+    NEW metal3 ( 8645 20370 ) ( 9975 * ) via2_5
+    NEW metal4 ( 8775 770 ) ( * 7630 ) via3_2
+    NEW metal4 ( 8775 7630 ) ( * 9170 )
+    NEW metal4 ( 8775 9170 ) ( * 12110 ) via3_2
+    NEW metal3 ( 8775 12110 ) ( 8835 * ) via2_5
+    NEW metal2 ( 8835 11970 ) ( * 12110 )
+    NEW metal2 ( 8835 12110 ) ( * 13230 ) via2_5
+    NEW metal3 ( 8835 13230 ) ( 10545 * ) via2_5
+    NEW metal3 ( 8835 14630 ) ( * 14770 )
+    NEW metal3 ( 9405 7630 ) ( 9975 * )
+    NEW metal3 ( 9975 7490 ) ( * 7630 )
+    NEW metal3 ( 9975 20370 ) ( 10545 * ) via2_5
+    NEW metal3 ( 10165 14630 ) ( * 14770 )
+    NEW metal3 ( 10165 14770 ) ( 10545 * ) via2_5
+    NEW metal2 ( 10545 13230 ) ( * 14770 )
+    NEW metal3 ( 10545 14770 ) ( 11875 * ) via2_5
+    NEW metal2 ( 10545 20370 ) ( * 20965 0 )
+    NEW metal2 ( 11685 4830 ) ( * 6090 ) via2_5
+    NEW metal3 ( 11685 6090 ) ( 13015 * ) via2_5
+    NEW metal3 ( 11875 14770 ) ( 14915 * ) via2_5
+    NEW metal3 ( 12825 7490 ) ( * 7630 )
+    NEW metal3 ( 12825 7630 ) ( 13205 * ) via2_5
+    NEW metal2 ( 13015 6090 ) ( * 6370 ) via1_4
+    NEW metal2 ( 13015 6370 ) ( * 7210 )
+    NEW metal2 ( 13015 7210 ) ( 13205 * )
+    NEW metal2 ( 13205 7210 ) ( * 7630 ) via1_4
+    NEW metal3 ( 13585 5670 ) ( * 6090 )
+    NEW metal3 ( 13775 20370 ) ( 17765 * ) via2_5
+    NEW metal3 ( 14915 14770 ) ( 17005 * )
+    NEW metal3 ( 15675 5670 ) ( * 5950 )
+    NEW metal3 ( 15675 5950 ) ( 18715 * )
+    NEW metal3 ( 17005 14630 ) ( * 14770 )
+    NEW metal2 ( 17195 11970 ) ( * 13090 ) via2_5
+    NEW metal3 ( 17195 13090 ) ( 18295 * ) via3_2
+    NEW metal4 ( 18295 13090 ) ( * 14630 )
+    NEW metal3 ( 18335 16030 ) ( 21185 * ) via2_5
+    NEW metal2 ( 18525 9170 ) ( * 12250 )
+    NEW metal2 ( 18525 12250 ) ( 18715 * )
+    NEW metal3 ( 18715 5950 ) ( * 6090 )
+    NEW metal3 ( 18715 6090 ) ( 19095 * ) via2_5
+    NEW metal2 ( 18715 12250 ) ( * 13090 )
+    NEW metal2 ( 19095 4130 ) ( * 4830 ) via1_4
+    NEW metal2 ( 19095 4830 ) ( * 6090 )
+    NEW metal3 ( 19095 6090 ) ( 20425 * ) via2_5
+    NEW metal2 ( 19285 3570 ) ( * 4130 )
+    NEW metal4 ( 935 770 ) via3_2
+    NEW metal4 ( 1495 16310 ) via3_2
+    NEW metal2 ( 1615 770 ) via1_4
+    NEW metal2 ( 1615 20370 ) via1_4
+    NEW metal2 ( 1995 7630 ) via1_4
+    NEW metal2 ( 2185 9170 ) via1_4
+    NEW metal2 ( 5225 20370 ) via1_4
+    NEW metal2 ( 5985 770 ) via1_4
+    NEW metal2 ( 8455 9170 ) via1_4
+    NEW metal3 ( 8455 9170 ) via2_5
+    NEW metal2 ( 8455 14770 ) via1_4
+    NEW metal3 ( 8455 14770 ) via2_5
+    NEW metal2 ( 8835 11970 ) via1_4
+    NEW metal2 ( 9405 7630 ) via1_4
+    NEW metal2 ( 9975 20370 ) via1_4
+    NEW metal2 ( 10545 13230 ) via1_4
+    NEW metal2 ( 11685 4830 ) via1_4
+    NEW metal2 ( 11875 14770 ) via1_4
+    NEW metal2 ( 12825 770 ) via1_4
+    NEW metal2 ( 13775 20370 ) via1_4
+    NEW metal2 ( 17195 11970 ) via1_4
+    NEW metal2 ( 17765 20370 ) via1_4
+    NEW metal2 ( 18335 16030 ) via1_4
+    NEW metal2 ( 18525 9170 ) via1_4
+    NEW metal2 ( 19285 3570 ) via1_4
+ ;
+- req_val
+  ( PIN req_val ) ( g3659__9906 A3 )
+  + ROUTED metal2 ( 7505 35 0 ) ( * 2030 ) via1_7
+ ;
+- reset
+  ( PIN reset ) ( g3637__2683 A2 ) ( g3635__4547 A )
+  + ROUTED metal2 ( 7695 630 ) ( * 770 ) via1_7
+    NEW metal3 ( 7125 630 ) ( 7695 * ) via2_5
+    NEW metal2 ( 6745 1190 ) ( * 2030 ) via1_7
+    NEW metal2 ( 6745 1190 ) ( 7125 * )
+    NEW metal2 ( 7125 35 0 ) ( * 630 ) via2_5
+    NEW metal2 ( 7125 630 ) ( * 1190 )
+ ;
+- resp_rdy
+  ( PIN resp_rdy ) ( g3680__2250 A2 )
+  + ROUTED metal2 ( 7695 1330 ) ( * 2030 ) via1_4
+    NEW metal3 ( 7375 1330 ) ( 7695 * ) via2_5
+    NEW metal4 ( 7375 630 ) ( * 1330 ) via3_2
+    NEW metal4 ( 7375 630 ) ( 7655 * )
+    NEW metal4 ( 7655 70 0 ) ( * 630 )
+ ;
+- req_msg[31]
+  ( PIN req_msg[31] ) ( g3604__4547 B2 )
+  + ROUTED metal2 ( 13585 35 0 ) ( * 2030 ) via1_7
+ ;
+- req_msg[30]
+  ( PIN req_msg[30] ) ( g3593__2703 C2 )
+  + ROUTED metal2 ( 19855 35 0 ) ( * 2030 ) via1_7
+ ;
+- req_msg[29]
+  ( PIN req_msg[29] ) ( g3592__6083 C2 )
+  + ROUTED metal1 ( 20805 7630 0 ) ( 22135 * ) via1_7
+    NEW metal3 ( 22135 7630 ) ( 22765 * 0 )
+    NEW metal3 ( 22135 7630 ) via2_5
+ ;
+- req_msg[28]
+  ( PIN req_msg[28] ) ( g3591__2250 C2 )
+  + ROUTED metal2 ( 15865 35 0 ) ( * 770 ) via1_7
+ ;
+- req_msg[27]
+  ( PIN req_msg[27] ) ( g3603__1474 B2 )
+  + ROUTED metal3 ( 20995 11970 ) ( 22765 * 0 )
+    NEW metal2 ( 20995 11970 ) via1_7
+    NEW metal3 ( 20995 11970 ) via2_5
+ ;
+- req_msg[26]
+  ( PIN req_msg[26] ) ( g3602__3772 B2 )
+  + ROUTED metal3 ( 21755 17570 ) ( 22765 * 0 )
+    NEW metal2 ( 21755 17570 ) via1_7
+    NEW metal3 ( 21755 17570 ) via2_5
+ ;
+- req_msg[25]
+  ( PIN req_msg[25] ) ( g3605__9682 B2 )
+  + ROUTED metal2 ( 16815 20650 ) ( 17005 * )
+    NEW metal2 ( 16815 18830 ) ( * 19250 )
+    NEW metal2 ( 16815 19250 ) ( 17005 * )
+    NEW metal2 ( 16815 20650 ) ( * 20965 0 )
+    NEW metal2 ( 17005 19250 ) ( * 20650 )
+    NEW metal2 ( 16815 18830 ) via1_7
+ ;
+- req_msg[24]
+  ( PIN req_msg[24] ) ( g3601__4296 B2 )
+  + ROUTED metal2 ( 13205 18830 ) ( * 20965 0 )
+    NEW metal2 ( 13205 18830 ) via1_7
+ ;
+- req_msg[23]
+  ( PIN req_msg[23] ) ( g3600__8780 B2 )
+  + ROUTED metal2 ( 9975 20650 ) ( 10165 * )
+    NEW metal2 ( 9975 18830 ) ( * 20090 )
+    NEW metal2 ( 9975 20090 ) ( 10165 * )
+    NEW metal2 ( 9975 20650 ) ( * 20965 0 )
+    NEW metal2 ( 10165 20090 ) ( * 20650 )
+    NEW metal2 ( 9975 18830 ) via1_7
+ ;
+- req_msg[22]
+  ( PIN req_msg[22] ) ( g3597__5019 B2 )
+  + ROUTED metal2 ( 4845 20790 ) ( 5415 * )
+    NEW metal2 ( 4845 20790 ) ( * 20965 0 )
+    NEW metal2 ( 5415 18830 ) ( * 20790 )
+    NEW metal2 ( 5415 18830 ) via1_7
+ ;
+- req_msg[21]
+  ( PIN req_msg[21] ) ( g3599__9906 B2 )
+  + ROUTED metal2 ( 3705 18830 ) ( * 20965 0 )
+    NEW metal2 ( 3705 18830 ) via1_7
+ ;
+- req_msg[20]
+  ( PIN req_msg[20] ) ( g3590__5266 B2 )
+  + ROUTED metal3 ( 35 13230 0 ) ( 4085 * ) via2_5
+    NEW metal2 ( 4085 13230 ) via1_7
+ ;
+- req_msg[19]
+  ( PIN req_msg[19] ) ( g3596__1840 B2 )
+  + ROUTED metal3 ( 35 11970 0 ) ( 4845 * ) via2_5
+    NEW metal2 ( 4845 11970 ) via1_7
+ ;
+- req_msg[18]
+  ( PIN req_msg[18] ) ( g3595__7344 B2 )
+  + ROUTED metal4 ( 6815 630 ) ( * 3850 ) via3_2
+    NEW metal3 ( 6745 630 ) ( 6815 * ) via3_2
+    NEW metal2 ( 6745 3850 ) ( * 6370 ) via1_7
+    NEW metal2 ( 6745 35 0 ) ( * 630 ) via2_5
+    NEW metal3 ( 6745 3850 ) ( 6815 * )
+    NEW metal3 ( 6745 3850 ) via2_5
+ ;
+- req_msg[17]
+  ( PIN req_msg[17] ) ( g3594__5795 B2 )
+  + ROUTED metal3 ( 35 6370 0 ) ( 1425 * ) via2_5
+    NEW metal2 ( 1425 6370 ) via1_7
+ ;
+- req_msg[16]
+  ( PIN req_msg[16] ) ( g3598__1857 B2 )
+  + ROUTED metal3 ( 35 2030 0 ) ( 1425 * ) via2_5
+    NEW metal2 ( 1425 2030 ) via1_7
+ ;
+- req_msg[15]
+  ( PIN req_msg[15] ) ( g3662__3772 B2 )
+  + ROUTED metal2 ( 13585 2310 ) ( * 3570 ) via1_4
+    NEW metal3 ( 13535 2310 ) ( 13585 * ) via2_5
+    NEW metal4 ( 13535 70 0 ) ( * 2310 ) via3_2
+ ;
+- req_msg[14]
+  ( PIN req_msg[14] ) ( g3674__1786 B2 )
+  + ROUTED metal2 ( 17955 35 0 ) ( * 770 ) via1_7
+ ;
+- req_msg[13]
+  ( PIN req_msg[13] ) ( g3672__7118 B2 )
+  + ROUTED metal3 ( 18905 7630 ) ( 21095 * ) via3_2
+    NEW metal5 ( 21095 7630 ) ( 22730 * 0 )
+    NEW metal2 ( 18905 7630 ) via1_7
+    NEW metal3 ( 18905 7630 ) via2_5
+    NEW metal5 ( 21095 7630 ) via4_0
+ ;
+- req_msg[12]
+  ( PIN req_msg[12] ) ( g3668__6877 B2 )
+  + ROUTED metal4 ( 13255 1330 ) ( * 9170 ) via3_2
+    NEW metal3 ( 13015 1330 ) ( 13255 * ) via3_2
+    NEW metal2 ( 13015 35 0 ) ( * 1330 ) via2_5
+    NEW metal3 ( 13015 9170 ) ( 13255 * )
+    NEW metal2 ( 13015 9170 ) via1_4
+    NEW metal3 ( 13015 9170 ) via2_5
+ ;
+- req_msg[11]
+  ( PIN req_msg[11] ) ( g3665__9682 B2 )
+  + ROUTED metal2 ( 19665 11830 ) ( * 11970 ) via1_4
+    NEW metal3 ( 19665 11830 ) ( 19695 * ) via3_2
+    NEW metal5 ( 19695 11830 ) ( 22730 * 0 )
+    NEW metal3 ( 19665 11830 ) via2_5
+    NEW metal5 ( 19695 11830 ) via4_0
+ ;
+- req_msg[10]
+  ( PIN req_msg[10] ) ( g3671__7675 B2 )
+  + ROUTED metal1 ( 19095 14770 0 ) ( 21565 * ) via1_7
+    NEW metal3 ( 21565 14770 ) ( 22765 * 0 )
+    NEW metal3 ( 21565 14770 ) via2_5
+ ;
+- req_msg[9]
+  ( PIN req_msg[9] ) ( g3670__2391 B2 )
+  + ROUTED metal2 ( 14725 19530 ) ( 14915 * )
+    NEW metal2 ( 14725 17990 ) ( 14915 * )
+    NEW metal2 ( 14725 17990 ) ( * 18550 )
+    NEW metal2 ( 14725 18550 ) ( 14915 * )
+    NEW metal2 ( 14725 19530 ) ( * 20965 0 )
+    NEW metal2 ( 14915 16030 ) ( * 17990 )
+    NEW metal2 ( 14915 18550 ) ( * 19530 )
+    NEW metal2 ( 14915 16030 ) via1_4
+ ;
+- req_msg[8]
+  ( PIN req_msg[8] ) ( g3660__8780 B2 )
+  + ROUTED metal2 ( 13205 17570 ) ( * 18270 ) via2_5
+    NEW metal3 ( 13205 18270 ) ( 13255 * ) via3_2
+    NEW metal4 ( 13255 18270 ) ( * 20930 0 )
+    NEW metal2 ( 13205 17570 ) via1_7
+ ;
+- req_msg[7]
+  ( PIN req_msg[7] ) ( g3675__5953 B2 )
+  + ROUTED metal2 ( 9785 16030 ) ( * 18550 ) via2_5
+    NEW metal3 ( 9785 18550 ) ( 9895 * ) via3_2
+    NEW metal4 ( 9895 18550 ) ( * 20930 0 )
+    NEW metal2 ( 9785 16030 ) via1_7
+ ;
+- req_msg[6]
+  ( PIN req_msg[6] ) ( g3661__4296 B2 )
+  + ROUTED metal2 ( 7315 17570 ) ( * 20965 0 )
+    NEW metal2 ( 7315 17570 ) via1_7
+ ;
+- req_msg[5]
+  ( PIN req_msg[5] ) ( g3669__2900 B2 )
+  + ROUTED metal3 ( 35 16030 0 ) ( 5035 * ) via2_5
+    NEW metal2 ( 5035 16030 ) via1_7
+ ;
+- req_msg[4]
+  ( PIN req_msg[4] ) ( g3663__1474 B2 )
+  + ROUTED metal3 ( 5135 13230 ) ( 5225 * ) via2_5
+    NEW metal5 ( 70 13230 0 ) ( 5135 * ) via4_0
+    NEW metal4 ( 5135 13230 ) via3_2
+    NEW metal2 ( 5225 13230 ) via1_7
+ ;
+- req_msg[3]
+  ( PIN req_msg[3] ) ( g3673__8757 B2 )
+  + ROUTED metal1 ( 5035 10430 ) ( 6365 * 0 )
+    NEW metal3 ( 35 10430 0 ) ( 5035 * ) via2_5
+    NEW metal2 ( 5035 10430 ) via1_7
+ ;
+- req_msg[2]
+  ( PIN req_msg[2] ) ( g3667__1309 B2 )
+  + ROUTED metal2 ( 8075 2310 ) ( * 4830 ) via1_7
+    NEW metal3 ( 7935 2310 ) ( 8075 * ) via2_5
+    NEW metal4 ( 7935 490 ) ( * 2310 ) via3_2
+    NEW metal3 ( 7935 490 ) ( 8075 * ) via2_5
+    NEW metal2 ( 8075 35 0 ) ( * 490 )
+    NEW metal4 ( 7935 490 ) via3_2
+ ;
+- req_msg[1]
+  ( PIN req_msg[1] ) ( g3666__2683 B2 )
+  + ROUTED metal3 ( 2755 4830 ) ( 3135 * ) via2_5
+    NEW metal3 ( 35 4830 0 ) ( 475 * )
+    NEW metal3 ( 475 4830 ) ( * 4970 )
+    NEW metal3 ( 475 4970 ) ( 2755 * )
+    NEW metal3 ( 2755 4830 ) ( * 4970 )
+    NEW metal2 ( 3135 4830 ) via1_7
+ ;
+- req_msg[0]
+  ( PIN req_msg[0] ) ( g3664__4547 B2 )
+  + ROUTED metal2 ( 3325 35 0 ) ( * 2030 ) via1_4
+ ;
+- req_rdy
+  ( PIN req_rdy ) ( g3719 A ) ( g3675__5953 B1 ) ( g3674__1786 B1 )
+  ( g3673__8757 B1 ) ( g3672__7118 B1 ) ( g3671__7675 B1 ) ( g3670__2391 B1 )
+  ( g3669__2900 B1 ) ( g3668__6877 B1 ) ( g3667__1309 B1 ) ( g3666__2683 B1 )
+  ( g3665__9682 B1 ) ( g3664__4547 B1 ) ( g3663__1474 B1 ) ( g3662__3772 B1 )
+  ( g3661__4296 B1 ) ( g3660__8780 B1 ) ( g298__4296 ZN )
+  + ROUTED metal2 ( 18905 14770 ) ( * 16310 ) via2_5
+    NEW metal2 ( 18715 9030 ) ( * 9310 )
+    NEW metal2 ( 17765 350 ) ( * 770 ) via1_4
+    NEW metal3 ( 11115 350 ) ( 17765 * ) via2_5
+    NEW metal2 ( 13775 3150 ) ( * 3570 ) via1_4
+    NEW metal2 ( 13395 17430 ) ( * 17570 ) via1_4
+    NEW metal3 ( 9595 17430 ) ( 13395 * ) via2_8
+    NEW metal2 ( 13205 9030 ) ( * 9170 ) via1_4
+    NEW metal3 ( 11115 9030 ) ( 13205 * ) via2_5
+    NEW metal2 ( 11115 4970 ) ( * 7630 ) via1_7
+    NEW metal3 ( 9215 4970 ) ( 11115 * ) via2_5
+    NEW metal3 ( 9215 2730 ) ( 11115 * ) via2_5
+    NEW metal2 ( 9405 17570 ) ( 9595 * )
+    NEW metal2 ( 9215 3850 ) ( * 4970 ) via2_5
+    NEW metal3 ( 4845 17850 ) ( 7505 * ) via2_5
+    NEW metal3 ( 6255 10430 ) ( 6555 * ) via2_5
+    NEW metal4 ( 6255 4970 ) ( * 10430 ) via3_2
+    NEW metal2 ( 5415 13090 ) ( * 13230 ) via1_4
+    NEW metal2 ( 4845 15190 ) ( * 16030 ) via1_4
+    NEW metal2 ( 3420 2450 ) ( 3515 * )
+    NEW metal2 ( 3325 3850 ) ( 3420 * )
+    NEW metal2 ( 3325 3850 ) ( * 4830 ) via1_4
+    NEW metal2 ( 3325 4830 ) ( * 4970 ) via2_5
+    NEW metal3 ( 3325 4970 ) ( 6255 * ) via3_2
+    NEW metal2 ( 3420 2450 ) ( * 3850 )
+    NEW metal2 ( 3515 2030 ) ( * 2450 )
+    NEW metal2 ( 4845 15190 ) ( 5415 * )
+    NEW metal2 ( 4845 16030 ) ( * 17850 ) via2_5
+    NEW metal3 ( 5415 13090 ) ( 6255 * ) via3_2
+    NEW metal2 ( 5415 13230 ) ( * 15190 )
+    NEW metal3 ( 6255 4970 ) ( 7885 * ) via2_5
+    NEW metal4 ( 6255 10430 ) ( * 13090 )
+    NEW metal2 ( 7505 17570 ) ( * 17850 )
+    NEW metal3 ( 7505 17850 ) ( 9405 * ) via2_5
+    NEW metal2 ( 7885 4830 ) ( * 4970 )
+    NEW metal3 ( 7885 4970 ) ( 9215 * )
+    NEW metal2 ( 9215 2730 ) ( * 3850 ) via1_7
+    NEW metal2 ( 9405 17570 ) ( * 17850 )
+    NEW metal2 ( 9595 16030 ) ( * 17430 ) via2_5
+    NEW metal2 ( 9595 17430 ) ( * 17570 )
+    NEW metal2 ( 11115 35 0 ) ( * 350 ) via2_5
+    NEW metal2 ( 11115 350 ) ( * 2730 )
+    NEW metal3 ( 11115 2730 ) ( 11685 * )
+    NEW metal2 ( 11115 7630 ) ( * 9030 ) via2_5
+    NEW metal3 ( 11685 2730 ) ( * 3010 )
+    NEW metal3 ( 11685 3010 ) ( 12635 * )
+    NEW metal3 ( 12635 3010 ) ( * 3150 )
+    NEW metal3 ( 12635 3150 ) ( 13775 * ) via2_5
+    NEW metal3 ( 13205 9030 ) ( 18715 * ) via2_5
+    NEW metal2 ( 15105 16030 ) ( * 16170 ) via2_5
+    NEW metal3 ( 15105 16170 ) ( 16815 * )
+    NEW metal3 ( 16815 16170 ) ( * 16310 )
+    NEW metal3 ( 16815 16310 ) ( 18905 * )
+    NEW metal2 ( 18715 7630 ) ( * 9030 )
+    NEW metal2 ( 18715 9310 ) ( 19475 * )
+    NEW metal3 ( 18905 14770 ) ( 19665 * ) via2_5
+    NEW metal2 ( 19475 9310 ) ( * 11970 ) via1_4
+    NEW metal2 ( 19475 11970 ) ( * 12950 )
+    NEW metal2 ( 19475 12950 ) ( 19665 * )
+    NEW metal2 ( 19665 12950 ) ( * 14770 )
+    NEW metal2 ( 3515 2030 ) via1_4
+    NEW metal3 ( 5415 13090 ) via2_5
+    NEW metal2 ( 6555 10430 ) via1_4
+    NEW metal2 ( 7505 17570 ) via1_4
+    NEW metal2 ( 7885 4830 ) via1_4
+    NEW metal3 ( 9215 2730 ) via2_5
+    NEW metal2 ( 9595 16030 ) via1_4
+    NEW metal2 ( 15105 16030 ) via1_4
+    NEW metal2 ( 18715 7630 ) via1_4
+    NEW metal2 ( 18905 14770 ) via1_4
+    NEW metal3 ( 18905 14770 ) via2_5
+ ;
+- resp_val
+  ( PIN resp_val ) ( g297__8780 ZN )
+  + ROUTED metal2 ( 8455 35 0 ) ( * 210 ) via1_7
+    NEW metal1 ( 8455 210 ) ( 8645 * 0 )
+ ;
+- resp_msg[15]
+  ( PIN resp_msg[15] ) ( dpath_sub_sub_752_15_g1033__5019 Z ) ( g3604__4547 A1 )
+  + ROUTED metal2 ( 15675 2450 ) ( * 2730 ) via2_5
+    NEW metal2 ( 14345 490 ) ( 14535 * )
+    NEW metal3 ( 13205 770 ) ( 14345 * ) via2_5
+    NEW metal2 ( 13015 2030 ) ( 13205 * )
+    NEW metal2 ( 13205 770 ) ( * 2030 )
+    NEW metal2 ( 13205 2030 ) ( * 2730 )
+    NEW metal2 ( 13205 2730 ) ( 13395 * ) via2_8
+    NEW metal3 ( 13395 2730 ) ( 15675 * )
+    NEW metal2 ( 14345 490 ) ( * 770 )
+    NEW metal2 ( 14535 35 0 ) ( * 490 )
+    NEW metal2 ( 13015 2030 ) via1_8
+    NEW metal3 ( 13205 770 ) via2_5
+    NEW metal2 ( 15675 2450 ) via1_7
+ ;
+- resp_msg[14]
+  ( PIN resp_msg[14] ) ( dpath_sub_sub_752_15_g1034__1857 S ) ( g3593__2703 A1 )
+  + ROUTED metal2 ( 21185 630 ) ( * 910 )
+    NEW metal3 ( 19475 630 ) ( 20425 * ) via2_5
+    NEW metal2 ( 19475 630 ) ( * 1050 )
+    NEW metal2 ( 19475 1050 ) ( 19665 * )
+    NEW metal2 ( 19665 1050 ) ( * 1750 ) via1_4
+    NEW metal2 ( 20425 35 0 ) ( * 630 )
+    NEW metal3 ( 20425 630 ) ( 21185 * ) via2_5
+    NEW metal2 ( 21185 910 ) ( 21375 * )
+    NEW metal1 ( 21185 2030 0 ) ( 21375 * ) via1_7
+    NEW metal2 ( 21375 910 ) ( * 2030 )
+    NEW metal3 ( 19475 630 ) via2_5
+ ;
+- resp_msg[13]
+  ( PIN resp_msg[13] ) ( dpath_sub_sub_752_15_g1035__9906 S ) ( g3592__6083 A1 )
+  + ROUTED metal2 ( 19665 6230 ) ( * 7630 )
+    NEW metal3 ( 18715 6230 ) ( 19665 * ) via2_5
+    NEW metal2 ( 18715 6090 ) ( * 6230 ) via2_8
+    NEW metal2 ( 19475 7630 ) ( 19665 * )
+    NEW metal3 ( 19665 6230 ) ( 20995 * )
+    NEW metal3 ( 20995 6230 ) ( * 6650 )
+    NEW metal3 ( 20995 6650 ) ( 22765 * 0 )
+    NEW metal2 ( 18715 6090 ) via1_4
+    NEW metal2 ( 19475 7630 ) via1_4
+ ;
+- resp_msg[12]
+  ( PIN resp_msg[12] ) ( dpath_sub_sub_752_15_g1036__8780 S ) ( g3591__2250 A1 )
+  + ROUTED metal2 ( 14535 630 ) ( * 770 ) via1_7
+    NEW metal3 ( 14095 630 ) ( 14155 * ) via2_5
+    NEW metal3 ( 13965 6090 ) ( 14095 * ) via3_2
+    NEW metal2 ( 13965 6090 ) ( * 8610 ) via1_7
+    NEW metal4 ( 14095 630 ) ( * 6090 )
+    NEW metal2 ( 14155 35 0 ) ( * 630 )
+    NEW metal3 ( 14155 630 ) ( 14535 * ) via2_8
+    NEW metal3 ( 13965 6090 ) via2_5
+    NEW metal4 ( 14095 630 ) via3_2
+ ;
+- resp_msg[11]
+  ( PIN resp_msg[11] ) ( dpath_sub_sub_752_15_g1037__4296 S ) ( g3603__1474 A2 )
+  + ROUTED metal3 ( 21375 11410 ) ( 22765 * 0 )
+    NEW metal2 ( 21185 11410 ) ( 21375 * ) via2_8
+    NEW metal2 ( 21185 10850 ) ( * 11410 )
+    NEW metal1 ( 20425 10850 0 ) ( 21185 * ) via1_7
+    NEW metal2 ( 21185 11410 ) ( * 11970 ) via1_4
+ ;
+- resp_msg[10]
+  ( PIN resp_msg[10] ) ( dpath_sub_sub_752_15_g1038__3772 S ) ( g3602__3772 A2 )
+  + ROUTED metal2 ( 21945 17290 ) ( * 17570 ) via1_4
+    NEW metal3 ( 20425 17150 ) ( 21565 * )
+    NEW metal3 ( 21565 17150 ) ( * 17290 )
+    NEW metal3 ( 21565 17290 ) ( 21945 * ) via2_5
+    NEW metal3 ( 21945 17290 ) ( 22765 * 0 )
+    NEW metal2 ( 20425 17150 ) via1_4
+    NEW metal3 ( 20425 17150 ) via2_5
+ ;
+- resp_msg[9]
+  ( PIN resp_msg[9] ) ( dpath_sub_sub_752_15_g1039__1474 S ) ( g3605__9682 C2 )
+  + ROUTED metal3 ( 17005 18550 ) ( * 18690 )
+    NEW metal2 ( 17005 17850 ) ( * 18550 ) via2_5
+    NEW metal4 ( 16615 18690 ) ( * 20930 0 )
+    NEW metal2 ( 16055 18690 ) ( * 18830 ) via1_7
+    NEW metal3 ( 16055 18690 ) ( 16615 * ) via3_2
+    NEW metal3 ( 16615 18690 ) ( 17005 * )
+    NEW metal3 ( 16055 18690 ) via2_5
+    NEW metal2 ( 17005 17850 ) via1_4
+ ;
+- resp_msg[8]
+  ( PIN resp_msg[8] ) ( dpath_sub_sub_752_15_g1040__4547 S ) ( g3601__4296 A2 )
+  + ROUTED metal4 ( 13535 18690 ) ( * 18830 ) via4_0
+    NEW metal3 ( 13395 18690 ) ( 13535 * ) via3_2
+    NEW metal2 ( 13395 17850 ) ( * 18690 ) via2_5
+    NEW metal6 ( 13255 18830 ) ( * 20230 )
+    NEW metal2 ( 12825 16590 ) ( 13205 * )
+    NEW metal6 ( 12975 20230 ) ( * 20930 0 )
+    NEW metal6 ( 12975 20230 ) ( 13255 * )
+    NEW metal2 ( 13205 16590 ) ( * 17290 )
+    NEW metal2 ( 13205 17290 ) ( 13585 * )
+    NEW metal5 ( 13255 18830 ) ( 13535 * )
+    NEW metal2 ( 13395 17850 ) ( 13585 * )
+    NEW metal2 ( 13395 18690 ) ( * 18830 ) via1_4
+    NEW metal2 ( 13585 17290 ) ( * 17850 )
+    NEW metal2 ( 12825 16590 ) via1_8
+    NEW metal6 ( 13255 18830 ) via5_0
+ ;
+- resp_msg[7]
+  ( PIN resp_msg[7] ) ( dpath_sub_sub_752_15_g1041__9682 S ) ( g3600__8780 A2 )
+  + ROUTED metal4 ( 10735 17850 ) ( * 19250 ) via3_2
+    NEW metal2 ( 10165 18830 ) ( * 19250 ) via2_5
+    NEW metal3 ( 10165 19250 ) ( 10735 * )
+    NEW metal3 ( 10735 17850 ) ( 11115 * ) via2_5
+    NEW metal4 ( 10735 19250 ) ( * 20930 0 )
+    NEW metal2 ( 10165 18830 ) via1_4
+    NEW metal4 ( 10735 17850 ) via3_2
+    NEW metal2 ( 11115 17850 ) via1_4
+ ;
+- resp_msg[6]
+  ( PIN resp_msg[6] ) ( dpath_sub_sub_752_15_g1042__2683 S ) ( g3597__5019 C2 )
+  + ROUTED metal4 ( 4575 19250 ) ( * 20930 0 )
+    NEW metal3 ( 4575 19250 ) ( 4655 * ) via2_5
+    NEW metal2 ( 4655 18830 ) ( * 19250 )
+    NEW metal3 ( 4655 19250 ) ( 6175 * ) via2_8
+    NEW metal2 ( 6175 19250 ) ( * 19390 ) via1_7
+    NEW metal4 ( 4575 19250 ) via3_2
+    NEW metal2 ( 4655 18830 ) via1_7
+ ;
+- resp_msg[5]
+  ( PIN resp_msg[5] ) ( dpath_sub_sub_752_15_g1043__1309 S ) ( g3599__9906 A2 )
+  + ROUTED metal2 ( 2945 19110 ) ( 3515 * )
+    NEW metal2 ( 2945 19390 ) ( * 20230 )
+    NEW metal2 ( 2945 19110 ) ( * 19390 ) via1_7
+    NEW metal2 ( 2945 20230 ) ( 3135 * )
+    NEW metal2 ( 3135 20230 ) ( * 20965 0 )
+    NEW metal2 ( 3515 18830 ) ( * 19110 )
+    NEW metal2 ( 3515 18830 ) via1_4
+ ;
+- resp_msg[4]
+  ( PIN resp_msg[4] ) ( dpath_sub_sub_752_15_g1044__6877 S ) ( g3590__5266 A2 )
+  + ROUTED metal2 ( 3705 13650 ) ( 3895 * )
+    NEW metal3 ( 2375 13650 ) ( 3705 * ) via2_8
+    NEW metal3 ( 35 13510 0 ) ( 2375 * )
+    NEW metal3 ( 2375 13510 ) ( * 13650 )
+    NEW metal3 ( 2375 13650 ) ( * 13790 )
+    NEW metal3 ( 2375 13790 ) ( 2755 * ) via2_8
+    NEW metal2 ( 2755 13790 ) ( 2945 * ) via1_8
+    NEW metal2 ( 3895 13230 ) ( * 13650 )
+    NEW metal2 ( 3895 13230 ) via1_4
+ ;
+- resp_msg[3]
+  ( PIN resp_msg[3] ) ( dpath_sub_sub_752_15_g1045__2900 S ) ( g3596__1840 C2 )
+  + ROUTED metal2 ( 5415 11410 ) ( 5605 * )
+    NEW metal3 ( 3325 11410 ) ( 5415 * ) via2_8
+    NEW metal2 ( 3325 10990 ) ( * 11410 ) via2_5
+    NEW metal3 ( 35 11410 0 ) ( 3325 * )
+    NEW metal2 ( 5605 11410 ) ( * 11970 ) via1_7
+    NEW metal2 ( 3325 10990 ) via1_7
+ ;
+- resp_msg[2]
+  ( PIN resp_msg[2] ) ( dpath_sub_sub_752_15_g1046__2391 S ) ( g3595__7344 C2 )
+  + ROUTED metal3 ( 3705 7210 ) ( * 7350 )
+    NEW metal3 ( 35 7210 0 ) ( 1995 * )
+    NEW metal3 ( 1995 7210 ) ( * 7350 )
+    NEW metal3 ( 1995 7350 ) ( 3705 * )
+    NEW metal3 ( 3705 7210 ) ( 6555 * ) via2_5
+    NEW metal2 ( 5985 6370 ) ( * 6510 )
+    NEW metal2 ( 5985 6510 ) ( 6175 * )
+    NEW metal2 ( 6175 6510 ) ( * 6650 )
+    NEW metal2 ( 6175 6650 ) ( 6555 * )
+    NEW metal2 ( 6555 6650 ) ( * 7210 )
+    NEW metal2 ( 6555 7210 ) ( * 7350 ) via1_4
+    NEW metal2 ( 5985 6370 ) via1_4
+ ;
+- resp_msg[1]
+  ( PIN resp_msg[1] ) ( dpath_sub_sub_752_15_g1047__7675 S ) ( g3594__5795 C2 )
+  + ROUTED metal1 ( 95 6370 ) ( 665 * 0 )
+    NEW metal2 ( 95 5390 ) ( * 5950 ) via2_5
+    NEW metal3 ( 35 5810 0 ) ( 95 * )
+    NEW metal3 ( 95 5810 ) ( * 5950 )
+    NEW metal2 ( 95 5950 ) ( * 6370 ) via1_7
+    NEW metal2 ( 95 5390 ) via1_7
+ ;
+- resp_msg[0]
+  ( PIN resp_msg[0] ) ( dpath_sub_sub_752_15_g1048__7118 ZN ) ( g3598__1857 A2 )
+  + ROUTED metal3 ( 35 2590 0 ) ( 665 * )
+    NEW metal3 ( 665 2590 ) ( * 2730 )
+    NEW metal3 ( 665 2730 ) ( 1235 * ) via2_5
+    NEW metal2 ( 1235 2030 ) ( * 2730 )
+    NEW metal3 ( 1235 2730 ) ( 1425 * )
+    NEW metal3 ( 1425 2730 ) ( * 2870 )
+    NEW metal3 ( 1425 2870 ) ( 1615 * )
+    NEW metal3 ( 1615 2870 ) ( * 3010 )
+    NEW metal3 ( 1615 3010 ) ( 3705 * ) via2_5
+    NEW metal2 ( 1235 2030 ) via1_4
+    NEW metal2 ( 3705 3010 ) via1_7
+ ;
+- ctrl_state$out[1]
+  ( g3684__5795 A1 ) ( g3639__6877 B2 ) ( g3638__1309 B2 ) ( g3573__7114 A2 )
+  ( g3572__5703 A2 ) ( g3571__5953 A2 ) ( g3570__1786 A2 ) ( g3569__8757 A2 )
+  ( g3568__7118 A2 ) ( g3567__7675 A2 ) ( g3566__2391 A2 ) ( g3565__2900 B2 )
+  ( g3564__6877 A2 ) ( g3563__1309 A2 ) ( g3562__2683 A2 ) ( g3561__9682 A2 )
+  ( g3560__4547 A2 ) ( g3559__1474 A2 ) ( g3558__3772 A2 )
+  ( ctrl_state_out_reg\[1\] Q ) ( g299 A ) ( g298__4296 A1 )
+  + ROUTED metal2 ( 21565 2310 ) ( 21755 * )
+    NEW metal2 ( 21565 19530 ) ( * 20370 ) via1_7
+    NEW metal2 ( 21565 4410 ) ( * 4830 ) via1_7
+    NEW metal3 ( 14915 4410 ) ( 21565 * ) via2_5
+    NEW metal2 ( 21375 16870 ) ( 21470 * )
+    NEW metal3 ( 15675 19110 ) ( 18335 * ) via2_8
+    NEW metal2 ( 15675 18410 ) ( * 18830 ) via1_7
+    NEW metal3 ( 10925 18410 ) ( 15675 * ) via2_8
+    NEW metal3 ( 13775 4480 ) ( 14915 * )
+    NEW metal3 ( 13395 4550 ) ( 13775 * )
+    NEW metal3 ( 12065 4970 ) ( 13395 * ) via2_5
+    NEW metal2 ( 11685 2030 ) ( * 3570 )
+    NEW metal1 ( 9785 2030 0 ) ( 11685 * ) via1_7
+    NEW metal2 ( 10735 18690 ) ( * 18830 ) via1_4
+    NEW metal3 ( 8265 2450 ) ( 9785 * ) via2_5
+    NEW metal3 ( 7655 3710 ) ( 8265 * )
+    NEW metal2 ( 8075 18690 ) ( * 20370 ) via1_7
+    NEW metal2 ( 7505 5670 ) ( * 6370 ) via1_4
+    NEW metal3 ( 4655 5530 ) ( 7125 * )
+    NEW metal3 ( 3735 18410 ) ( 5415 * )
+    NEW metal3 ( 4295 5670 ) ( 4655 * )
+    NEW metal4 ( 4295 1610 ) ( * 5670 ) via3_2
+    NEW metal3 ( 4275 1610 ) ( 4295 * ) via3_2
+    NEW metal2 ( 4275 1050 ) ( * 1610 ) via2_5
+    NEW metal4 ( 4015 5670 ) ( * 6230 ) via3_2
+    NEW metal4 ( 3735 12110 ) ( * 14490 ) via3_2
+    NEW metal2 ( 3325 14490 ) ( * 14770 ) via1_7
+    NEW metal2 ( 3135 6230 ) ( * 6370 ) via1_4
+    NEW metal3 ( 3135 1610 ) ( * 1750 )
+    NEW metal3 ( 1045 1610 ) ( * 1750 )
+    NEW metal2 ( 665 1750 ) ( * 2030 ) via1_4
+    NEW metal3 ( 665 1750 ) ( 1045 * )
+    NEW metal3 ( 1045 1610 ) ( 2755 * )
+    NEW metal3 ( 2755 1610 ) ( * 1750 )
+    NEW metal3 ( 2755 1750 ) ( 3135 * )
+    NEW metal3 ( 3135 1610 ) ( 4275 * )
+    NEW metal3 ( 3135 6230 ) ( 4015 * )
+    NEW metal3 ( 3325 14490 ) ( 3735 * )
+    NEW metal3 ( 3515 17570 ) ( 3735 * ) via3_2
+    NEW metal1 ( 3705 770 0 ) ( 4275 * 0 )
+    NEW metal3 ( 3735 12110 ) ( 4085 * ) via2_8
+    NEW metal4 ( 3735 14490 ) ( * 17570 )
+    NEW metal4 ( 3735 17570 ) ( * 18410 ) via3_2
+    NEW metal4 ( 4015 5670 ) ( 4295 * )
+    NEW metal4 ( 4015 6230 ) ( * 7910 )
+    NEW metal4 ( 4015 7910 ) ( 4295 * )
+    NEW metal2 ( 4085 11970 ) ( * 12110 )
+    NEW metal3 ( 4085 12110 ) ( 4295 * ) via3_2
+    NEW metal4 ( 4295 7910 ) ( * 12110 )
+    NEW metal3 ( 4655 5530 ) ( * 5670 )
+    NEW metal3 ( 5415 18410 ) ( * 18690 )
+    NEW metal3 ( 5415 18690 ) ( 8075 * ) via2_5
+    NEW metal3 ( 7125 5530 ) ( * 5670 )
+    NEW metal3 ( 7125 5670 ) ( 7505 * ) via2_5
+    NEW metal3 ( 7505 5670 ) ( 7655 * ) via3_2
+    NEW metal4 ( 7655 3710 ) ( * 5670 )
+    NEW metal1 ( 7695 20370 0 ) ( 8075 * )
+    NEW metal3 ( 8075 18690 ) ( 10735 * ) via2_8
+    NEW metal2 ( 8265 2030 ) ( * 2450 ) via2_5
+    NEW metal2 ( 8265 2450 ) ( * 3570 ) via2_5
+    NEW metal3 ( 8265 3570 ) ( * 3710 )
+    NEW metal3 ( 8265 3710 ) ( 8835 * ) via2_5
+    NEW metal1 ( 9025 770 0 ) ( 9785 * ) via1_7
+    NEW metal2 ( 9785 770 ) ( * 2030 ) via1_7
+    NEW metal2 ( 9785 2030 ) ( * 2450 )
+    NEW metal3 ( 10735 18690 ) ( 10925 * )
+    NEW metal3 ( 10925 18410 ) ( * 18690 )
+    NEW metal1 ( 11685 2030 ) ( 12065 * 0 )
+    NEW metal2 ( 11685 3570 ) ( 11875 * )
+    NEW metal2 ( 11875 3570 ) ( * 4270 )
+    NEW metal2 ( 11875 4270 ) ( 12065 * )
+    NEW metal2 ( 12065 4270 ) ( * 4970 ) via2_5
+    NEW metal2 ( 13395 4550 ) ( * 4830 ) via1_7
+    NEW metal2 ( 13395 4830 ) ( * 4970 )
+    NEW metal3 ( 13775 4480 ) ( * 4550 )
+    NEW metal1 ( 14725 18830 0 ) ( 15675 * )
+    NEW metal3 ( 14915 4410 ) ( * 4480 )
+    NEW metal2 ( 15675 18830 ) ( * 19110 ) via2_5
+    NEW metal2 ( 18335 18830 ) ( * 19110 )
+    NEW metal3 ( 18335 19110 ) ( 18905 * )
+    NEW metal3 ( 18905 19110 ) ( * 19530 )
+    NEW metal3 ( 18905 19530 ) ( 21375 * ) via3_2
+    NEW metal1 ( 20805 770 0 ) ( 21565 * ) via1_7
+    NEW metal2 ( 21375 13230 ) ( * 15750 )
+    NEW metal2 ( 21375 15750 ) ( 21470 * )
+    NEW metal2 ( 21375 16870 ) ( * 17290 ) via2_5
+    NEW metal4 ( 21375 17290 ) ( * 19530 )
+    NEW metal3 ( 21375 19530 ) ( 21565 * ) via2_8
+    NEW metal1 ( 21375 20370 0 ) ( 21565 * )
+    NEW metal2 ( 21470 15750 ) ( * 16870 )
+    NEW metal2 ( 21565 770 ) ( * 1190 )
+    NEW metal2 ( 21565 1190 ) ( 21755 * )
+    NEW metal2 ( 21565 2310 ) ( * 4410 )
+    NEW metal2 ( 21755 1190 ) ( * 2310 )
+    NEW metal3 ( 665 1750 ) via2_5
+    NEW metal3 ( 3135 6230 ) via2_5
+    NEW metal3 ( 3325 14490 ) via2_5
+    NEW metal2 ( 3515 17570 ) via1_7
+    NEW metal3 ( 3515 17570 ) via2_5
+    NEW metal4 ( 3735 12110 ) via3_2
+    NEW metal2 ( 4085 11970 ) via1_4
+    NEW metal2 ( 4275 1050 ) via1_7
+    NEW metal4 ( 7655 3710 ) via3_2
+    NEW metal2 ( 8265 2030 ) via1_4
+    NEW metal2 ( 8835 3710 ) via1_7
+    NEW metal3 ( 13395 4550 ) via2_8
+    NEW metal2 ( 18335 18830 ) via1_7
+    NEW metal2 ( 21375 13230 ) via1_7
+    NEW metal4 ( 21375 17290 ) via3_2
+ ;
+- ctrl_state$out[0]
+  ( g3686__1840 A1 ) ( g3639__6877 A ) ( g3638__1309 A2 ) ( g3624__7344 A2 )
+  ( ctrl_state_out_reg\[0\] Q ) ( g298__4296 A2 ) ( g297__8780 A2 )
+  + ROUTED metal2 ( 8645 1050 ) ( 9025 * )
+    NEW metal2 ( 8645 3430 ) ( * 4830 ) via1_7
+    NEW metal2 ( 8265 770 ) ( * 1050 )
+    NEW metal2 ( 8265 1050 ) ( 8645 * )
+    NEW metal1 ( 8265 3570 0 ) ( 8455 * 0 )
+    NEW metal2 ( 8645 1050 ) ( * 3430 ) via1_7
+    NEW metal2 ( 9025 1050 ) ( * 1890 ) via1_7
+    NEW metal2 ( 9025 1890 ) ( 9215 * )
+    NEW metal2 ( 9215 1890 ) ( * 2030 ) via1_7
+    NEW metal2 ( 9215 2030 ) ( * 2310 )
+    NEW metal2 ( 9215 2310 ) ( 9405 * )
+    NEW metal2 ( 9405 2310 ) ( * 3570 ) via1_7
+    NEW metal2 ( 8265 770 ) via1_4
+ ;
+- dpath_a_reg$out[15]
+  ( dpath_sub_sub_752_15_g1049__8757 B ) ( g3682__2703 A2 ) ( g3662__3772 A2 )
+  ( dpath_a_reg_out_reg\[15\] Q )
+  + ROUTED metal2 ( 14535 1610 ) ( 14915 * )
+    NEW metal2 ( 14345 3430 ) ( * 3570 ) via1_4
+    NEW metal2 ( 14345 1050 ) ( * 1610 )
+    NEW metal2 ( 14345 1610 ) ( 14535 * )
+    NEW metal2 ( 14345 3430 ) ( 14535 * )
+    NEW metal2 ( 14535 1610 ) ( * 3430 )
+    NEW metal2 ( 14535 3430 ) ( * 3570 ) via1_7
+    NEW metal2 ( 14915 1610 ) ( * 2310 ) via1_7
+    NEW metal2 ( 14345 1050 ) via1_4
+ ;
+- dpath_a_reg$out[14]
+  ( dpath_sub_sub_752_15_g1034__1857 B ) ( g3685__7344 A2 ) ( g3674__1786 A2 )
+  ( g3655__7344 B2 ) ( dpath_a_reg_out_reg\[14\] Q )
+  + ROUTED metal3 ( 17765 3010 ) ( 19095 * ) via2_5
+    NEW metal2 ( 17195 3010 ) ( * 3290 )
+    NEW metal2 ( 16245 3290 ) ( * 4410 )
+    NEW metal2 ( 16055 4410 ) ( * 4830 ) via1_7
+    NEW metal1 ( 15865 4830 0 ) ( 16055 * 0 )
+    NEW metal2 ( 16055 4410 ) ( 16245 * )
+    NEW metal2 ( 16245 3290 ) ( 17195 * )
+    NEW metal2 ( 17195 910 ) ( * 3010 ) via2_5
+    NEW metal3 ( 17195 3010 ) ( 17765 * ) via2_5
+    NEW metal2 ( 17765 3010 ) ( * 3150 ) via1_7
+    NEW metal2 ( 19095 1890 ) ( * 3010 )
+    NEW metal2 ( 17195 910 ) via1_7
+    NEW metal2 ( 19095 1890 ) via1_4
+ ;
+- dpath_a_reg$out[13]
+  ( dpath_sub_sub_752_15_g1035__9906 B ) ( g3676__5703 A2 ) ( g3672__7118 A2 )
+  ( dpath_a_reg_out_reg\[13\] Q )
+  + ROUTED metal2 ( 18145 6650 ) ( * 7490 ) via1_7
+    NEW metal2 ( 16625 7490 ) ( * 7630 ) via1_7
+    NEW metal1 ( 15675 7630 0 ) ( 16625 * )
+    NEW metal3 ( 16625 7490 ) ( 18145 * ) via2_5
+    NEW metal2 ( 18145 6510 ) ( * 6650 )
+    NEW metal2 ( 18145 6650 ) ( 18905 * ) via1_8
+    NEW metal3 ( 16625 7490 ) via2_5
+    NEW metal2 ( 18145 6510 ) via1_4
+ ;
+- dpath_a_reg$out[12]
+  ( dpath_sub_sub_752_15_g1036__8780 B ) ( g3676__5703 B2 ) ( g3668__6877 A2 )
+  ( g3629__8780 B2 ) ( dpath_a_reg_out_reg\[12\] Q )
+  + ROUTED metal2 ( 14535 7770 ) ( 14915 * )
+    NEW metal2 ( 14535 6650 ) ( * 7770 )
+    NEW metal3 ( 13775 9310 ) ( 14535 * ) via2_5
+    NEW metal2 ( 14535 7770 ) ( * 9310 ) via1_4
+    NEW metal2 ( 14535 9310 ) ( * 10710 )
+    NEW metal2 ( 14535 10710 ) ( 15295 * )
+    NEW metal2 ( 14915 7630 ) ( * 7770 )
+    NEW metal2 ( 15295 10430 ) ( * 10710 )
+    NEW metal2 ( 13775 9310 ) via1_7
+    NEW metal3 ( 13775 9310 ) via2_5
+    NEW metal2 ( 14535 6650 ) via1_7
+    NEW metal2 ( 14915 7630 ) via1_7
+    NEW metal2 ( 15295 10430 ) via1_7
+ ;
+- dpath_a_reg$out[11]
+  ( dpath_sub_sub_752_15_g1037__4296 B ) ( g3678__5266 A2 ) ( g3665__9682 A2 )
+  ( g3629__8780 C2 ) ( dpath_a_reg_out_reg\[11\] Q )
+  + ROUTED metal2 ( 18905 10290 ) ( * 11970 ) via1_7
+    NEW metal3 ( 16055 10290 ) ( 18905 * ) via2_5
+    NEW metal2 ( 15865 10290 ) ( * 10430 ) via1_4
+    NEW metal3 ( 15865 10290 ) ( 16055 * ) via3_2
+    NEW metal4 ( 16055 10290 ) ( * 12110 )
+    NEW metal4 ( 16055 12110 ) ( 16335 * )
+    NEW metal2 ( 16245 13230 ) ( * 13510 ) via2_5
+    NEW metal3 ( 16245 13510 ) ( 16335 * ) via3_2
+    NEW metal4 ( 16335 12110 ) ( * 13510 )
+    NEW metal3 ( 16335 13510 ) ( 17195 * ) via2_5
+    NEW metal3 ( 18905 10290 ) ( 19855 * ) via2_5
+    NEW metal3 ( 15865 10290 ) via2_5
+    NEW metal2 ( 16245 13230 ) via1_4
+    NEW metal2 ( 17195 13510 ) via1_4
+    NEW metal2 ( 19855 10290 ) via1_4
+ ;
+- dpath_a_reg$out[10]
+  ( dpath_sub_sub_752_15_g1038__3772 B ) ( g3678__5266 B2 ) ( g3677__7114 A2 )
+  ( g3671__7675 A2 ) ( dpath_a_reg_out_reg\[10\] Q )
+  + ROUTED metal2 ( 19665 18410 ) ( 19855 * )
+    NEW metal2 ( 17005 14910 ) ( * 15890 )
+    NEW metal2 ( 16625 15890 ) ( 17005 * )
+    NEW metal2 ( 17005 13230 ) ( * 14910 )
+    NEW metal2 ( 17005 14910 ) ( 17195 * ) via2_8
+    NEW metal3 ( 17195 14910 ) ( 18335 * ) via2_5
+    NEW metal2 ( 18335 14910 ) ( * 15750 )
+    NEW metal2 ( 18335 15750 ) ( 18525 * )
+    NEW metal2 ( 18525 15750 ) ( * 18550 ) via1_7
+    NEW metal1 ( 18525 18550 ) ( 19665 * 0 ) via1_7
+    NEW metal2 ( 19665 18410 ) ( * 18550 )
+    NEW metal2 ( 19855 17710 ) ( * 18410 )
+    NEW metal2 ( 16625 15890 ) via1_8
+    NEW metal2 ( 17005 13230 ) via1_7
+    NEW metal2 ( 18335 14910 ) via1_7
+    NEW metal2 ( 19855 17710 ) via1_4
+ ;
+- dpath_a_reg$out[9]
+  ( dpath_sub_sub_752_15_g1039__1474 B ) ( g3677__7114 B2 ) ( g3670__2391 A2 )
+  ( g3631__3772 B2 ) ( dpath_a_reg_out_reg\[9\] Q )
+  + ROUTED metal2 ( 16245 18550 ) ( 16435 * )
+    NEW metal2 ( 16055 19810 ) ( 16245 * )
+    NEW metal2 ( 15675 16170 ) ( 15865 * )
+    NEW metal3 ( 13965 13230 ) ( 14095 * ) via3_2
+    NEW metal4 ( 14095 13230 ) ( * 16450 ) via3_2
+    NEW metal3 ( 14095 16450 ) ( 15675 * ) via2_5
+    NEW metal2 ( 15675 16030 ) ( * 16170 )
+    NEW metal2 ( 15675 16170 ) ( * 16450 )
+    NEW metal3 ( 15675 16450 ) ( 16435 * ) via2_5
+    NEW metal2 ( 15865 16030 ) ( * 16170 )
+    NEW metal2 ( 16055 19810 ) ( * 20090 ) via1_7
+    NEW metal1 ( 16055 20090 ) ( 16245 * 0 )
+    NEW metal2 ( 16245 18550 ) ( * 19810 )
+    NEW metal2 ( 16435 16450 ) ( * 17710 ) via1_4
+    NEW metal2 ( 16435 17710 ) ( * 18550 )
+    NEW metal2 ( 13965 13230 ) via1_7
+    NEW metal3 ( 13965 13230 ) via2_5
+    NEW metal2 ( 15675 16030 ) via1_7
+    NEW metal2 ( 15865 16030 ) via1_4
+ ;
+- dpath_a_reg$out[8]
+  ( dpath_sub_sub_752_15_g1040__4547 B ) ( g3660__8780 A2 ) ( g3631__3772 C2 )
+  ( dpath_a_reg_out_reg\[8\] Q )
+  + ROUTED metal2 ( 13585 18270 ) ( 13965 * )
+    NEW metal3 ( 12255 20650 ) ( 13585 * ) via2_5
+    NEW metal3 ( 12255 14490 ) ( 13395 * ) via2_5
+    NEW metal2 ( 12255 14490 ) ( * 15890 ) via1_4
+    NEW metal2 ( 12255 15890 ) ( * 16590 ) via2_8
+    NEW metal3 ( 12255 16590 ) ( 13965 * ) via2_5
+    NEW metal2 ( 13395 13230 ) ( * 14490 )
+    NEW metal2 ( 13585 18270 ) ( * 20650 )
+    NEW metal2 ( 13965 16590 ) ( * 17570 ) via1_7
+    NEW metal2 ( 13965 17570 ) ( * 18270 )
+    NEW metal3 ( 12255 14490 ) via2_5
+    NEW metal2 ( 12255 20650 ) via1_7
+    NEW metal3 ( 12255 20650 ) via2_5
+    NEW metal2 ( 13395 13230 ) via1_4
+ ;
+- dpath_a_reg$out[7]
+  ( dpath_sub_sub_752_15_g1041__9682 B ) ( g3675__5953 A2 )
+  ( dpath_a_reg_out_reg\[7\] Q )
+  + ROUTED metal2 ( 10545 17290 ) ( * 17710 ) via1_4
+    NEW metal3 ( 8645 17290 ) ( 10545 * ) via2_5
+    NEW metal1 ( 8645 15890 ) ( 9025 * 0 )
+    NEW metal2 ( 8455 18970 ) ( 8645 * )
+    NEW metal2 ( 8455 18970 ) ( * 19950 ) via1_7
+    NEW metal2 ( 8645 15890 ) ( * 17290 ) via2_5
+    NEW metal2 ( 8645 17290 ) ( * 18970 )
+    NEW metal2 ( 8645 15890 ) via1_7
+ ;
+- dpath_a_reg$out[6]
+  ( dpath_sub_sub_752_15_g1042__2683 B ) ( g3661__4296 A2 ) ( g3641__2391 A2 )
+  ( g3640__2900 B2 ) ( dpath_a_reg_out_reg\[6\] Q )
+  + ROUTED metal2 ( 8075 16310 ) ( 8265 * )
+    NEW metal2 ( 7885 18270 ) ( 8075 * )
+    NEW metal3 ( 6745 18270 ) ( 7885 * ) via2_8
+    NEW metal2 ( 6745 18270 ) ( * 18690 ) via1_4
+    NEW metal2 ( 6745 18690 ) ( * 19950 ) via1_7
+    NEW metal2 ( 6935 16030 ) ( * 16310 )
+    NEW metal2 ( 6935 16310 ) ( 8075 * )
+    NEW metal2 ( 8075 16310 ) ( * 17710 ) via1_7
+    NEW metal2 ( 8075 17710 ) ( * 18270 )
+    NEW metal2 ( 8265 16030 ) ( * 16310 )
+    NEW metal3 ( 6745 18270 ) via2_8
+    NEW metal2 ( 6935 16030 ) via1_4
+    NEW metal2 ( 8265 16030 ) via1_7
+ ;
+- dpath_a_reg$out[5]
+  ( dpath_sub_sub_752_15_g1043__1309 B ) ( g3669__2900 A2 )
+  ( dpath_a_reg_out_reg\[5\] Q )
+  + ROUTED metal3 ( 4015 15890 ) ( 4275 * ) via2_5
+    NEW metal3 ( 3135 19250 ) ( 4015 * ) via3_2
+    NEW metal2 ( 2375 18690 ) ( * 19250 ) via2_5
+    NEW metal3 ( 2375 19250 ) ( 3135 * ) via2_8
+    NEW metal2 ( 3135 19250 ) ( * 19950 ) via1_7
+    NEW metal4 ( 4015 15890 ) ( * 19250 )
+    NEW metal2 ( 2375 18690 ) via1_4
+    NEW metal4 ( 4015 15890 ) via3_2
+    NEW metal2 ( 4275 15890 ) via1_7
+ ;
+- dpath_a_reg$out[4]
+  ( dpath_sub_sub_752_15_g1044__6877 B ) ( g3663__1474 A2 ) ( g3647__5953 B2 )
+  ( dpath_a_reg_out_reg\[4\] Q )
+  + ROUTED metal2 ( 7505 13790 ) ( 7695 * )
+    NEW metal3 ( 3135 13790 ) ( 5985 * ) via2_5
+    NEW metal2 ( 2375 13090 ) ( * 13650 )
+    NEW metal2 ( 2375 13650 ) ( 3135 * )
+    NEW metal2 ( 3135 13650 ) ( * 13790 ) via2_5
+    NEW metal2 ( 3135 13790 ) ( * 14350 ) via1_7
+    NEW metal2 ( 5985 13230 ) ( * 13790 )
+    NEW metal3 ( 5985 13790 ) ( 7505 * ) via2_8
+    NEW metal2 ( 7695 13230 ) ( * 13790 )
+    NEW metal2 ( 2375 13090 ) via1_4
+    NEW metal2 ( 5985 13230 ) via1_4
+    NEW metal2 ( 7695 13230 ) via1_4
+ ;
+- dpath_a_reg$out[3]
+  ( dpath_sub_sub_752_15_g1045__2900 B ) ( g3673__8757 A2 ) ( g3651__2250 A2 )
+  ( g3650__5266 B2 ) ( dpath_a_reg_out_reg\[3\] Q )
+  + ROUTED metal2 ( 7125 10570 ) ( 7315 * )
+    NEW metal2 ( 6745 10990 ) ( 7125 * )
+    NEW metal2 ( 6745 11690 ) ( * 11970 ) via1_7
+    NEW metal3 ( 3135 11690 ) ( 6745 * ) via2_5
+    NEW metal2 ( 3135 11550 ) ( * 11690 ) via2_5
+    NEW metal2 ( 2755 10290 ) ( * 10850 )
+    NEW metal2 ( 2755 10850 ) ( 3135 * )
+    NEW metal2 ( 3135 10850 ) ( * 11550 ) via1_7
+    NEW metal2 ( 6745 10990 ) ( * 11690 )
+    NEW metal2 ( 7125 10430 ) ( * 10570 )
+    NEW metal2 ( 7125 10570 ) ( * 10990 )
+    NEW metal2 ( 7315 10430 ) ( * 10570 )
+    NEW metal2 ( 2755 10290 ) via1_4
+    NEW metal2 ( 7125 10430 ) via1_7
+    NEW metal2 ( 7315 10430 ) via1_4
+ ;
+- dpath_a_reg$out[2]
+  ( dpath_sub_sub_752_15_g1046__2391 B ) ( g3667__1309 A2 ) ( g3654__5795 B2 )
+  ( dpath_a_reg_out_reg\[2\] Q )
+  + ROUTED metal1 ( 5985 4690 ) ( 7315 * 0 )
+    NEW metal2 ( 5985 7210 ) ( 6175 * )
+    NEW metal2 ( 5795 5250 ) ( 5985 * )
+    NEW metal2 ( 5795 5250 ) ( * 6370 ) via1_7
+    NEW metal2 ( 5795 6370 ) ( * 6790 )
+    NEW metal2 ( 5795 6790 ) ( 6175 * )
+    NEW metal2 ( 5985 4690 ) ( * 5250 )
+    NEW metal2 ( 5985 7210 ) ( * 7490 ) via1_4
+    NEW metal3 ( 5985 7490 ) ( 7885 * ) via2_5
+    NEW metal2 ( 6175 6790 ) ( * 7210 )
+    NEW metal2 ( 5985 4690 ) via1_7
+    NEW metal3 ( 5985 7490 ) via2_5
+    NEW metal2 ( 7885 7490 ) via1_4
+ ;
+- dpath_a_reg$out[1]
+  ( dpath_sub_sub_752_15_g1047__7675 B ) ( g3666__2683 A2 ) ( g3654__5795 C2 )
+  ( dpath_a_reg_out_reg\[1\] Q )
+  + ROUTED metal3 ( 3895 6650 ) ( 5225 * ) via2_5
+    NEW metal2 ( 3515 7210 ) ( 3895 * )
+    NEW metal2 ( 665 4550 ) ( * 4690 ) via1_4
+    NEW metal3 ( 665 4550 ) ( 3895 * ) via2_5
+    NEW metal2 ( 3515 7210 ) ( * 7350 ) via1_7
+    NEW metal2 ( 3895 4550 ) ( * 4690 ) via1_7
+    NEW metal2 ( 3895 4690 ) ( * 6650 ) via2_5
+    NEW metal2 ( 3895 6650 ) ( * 7210 )
+    NEW metal2 ( 5225 6370 ) ( * 6650 )
+    NEW metal3 ( 665 4550 ) via2_5
+    NEW metal2 ( 5225 6370 ) via1_4
+ ;
+- dpath_a_reg$out[0]
+  ( dpath_sub_sub_752_15_g1061 A ) ( g3684__5795 A2 ) ( g3681__6083 A2 )
+  ( g3664__4547 A2 ) ( dpath_a_reg_out_reg\[0\] Q )
+  + ROUTED metal2 ( 4085 1050 ) ( * 1890 ) via1_7
+    NEW metal3 ( 3135 1050 ) ( 4085 * ) via2_5
+    NEW metal1 ( 3135 770 0 ) ( 3325 * 0 )
+    NEW metal2 ( 4085 1890 ) ( * 2030 )
+    NEW metal2 ( 4085 2030 ) ( 4275 * ) via1_8
+    NEW metal2 ( 4275 2030 ) ( 4655 * ) via1_7
+    NEW metal2 ( 3135 1050 ) via1_7
+    NEW metal3 ( 3135 1050 ) via2_5
+ ;
+- dpath_b_reg$out[15]
+  ( dpath_sub_sub_752_15_g1049__8757 A ) ( g3627__1857 B1 ) ( g3604__4547 C2 )
+  ( dpath_b_reg_out_reg\[15\] Q )
+  + ROUTED metal2 ( 15295 2870 ) ( * 3570 ) via1_4
+    NEW metal3 ( 14375 2870 ) ( 14725 * ) via2_5
+    NEW metal3 ( 13205 5110 ) ( 14375 * ) via3_2
+    NEW metal2 ( 14345 2030 ) ( * 2870 ) via2_5
+    NEW metal3 ( 14345 2870 ) ( 14375 * ) via3_2
+    NEW metal4 ( 14375 2870 ) ( * 5110 )
+    NEW metal2 ( 14725 1890 ) ( * 2870 )
+    NEW metal3 ( 14725 2870 ) ( 15295 * ) via2_5
+    NEW metal2 ( 13205 5110 ) via1_4
+    NEW metal3 ( 13205 5110 ) via2_5
+    NEW metal2 ( 14345 2030 ) via1_7
+    NEW metal2 ( 14725 1890 ) via1_7
+ ;
+- dpath_b_reg$out[14]
+  ( dpath_sub_sub_752_15_g1063 A ) ( g3593__2703 B2 )
+  ( dpath_b_reg_out_reg\[14\] Q )
+  + ROUTED metal2 ( 19665 770 ) ( * 910 ) via2_8
+    NEW metal3 ( 19665 910 ) ( 19855 * )
+    NEW metal3 ( 19855 910 ) ( * 1050 )
+    NEW metal3 ( 19855 1050 ) ( 20535 * ) via3_2
+    NEW metal4 ( 20535 1050 ) ( * 2170 ) via3_2
+    NEW metal3 ( 20535 2170 ) ( 20615 * ) via2_5
+    NEW metal2 ( 20615 2030 ) ( * 2170 )
+    NEW metal2 ( 20615 2170 ) ( * 4550 ) via1_7
+    NEW metal2 ( 19665 770 ) via1_7
+    NEW metal2 ( 20615 2030 ) via1_4
+ ;
+- dpath_b_reg$out[13]
+  ( dpath_sub_sub_752_15_g1057 A ) ( g3592__6083 B2 )
+  ( dpath_b_reg_out_reg\[13\] Q )
+  + ROUTED metal2 ( 19285 7630 ) ( * 7910 )
+    NEW metal2 ( 19285 7910 ) ( 20045 * )
+    NEW metal2 ( 20045 7630 ) ( * 7910 )
+    NEW metal2 ( 20045 7910 ) ( * 8750 ) via1_7
+    NEW metal2 ( 19285 7630 ) via1_7
+    NEW metal2 ( 20045 7630 ) via1_7
+ ;
+- dpath_b_reg$out[12]
+  ( dpath_sub_sub_752_15_g1059 A ) ( g3591__2250 B2 )
+  ( dpath_b_reg_out_reg\[12\] Q )
+  + ROUTED metal4 ( 16895 5390 ) ( 17175 * )
+    NEW metal3 ( 14915 6090 ) ( 16895 * ) via3_2
+    NEW metal2 ( 15105 630 ) ( * 770 ) via1_4
+    NEW metal2 ( 14725 6650 ) ( 14915 * )
+    NEW metal2 ( 14725 8050 ) ( * 10010 )
+    NEW metal2 ( 14725 6650 ) ( * 7350 ) via1_7
+    NEW metal2 ( 14725 10010 ) ( 15105 * )
+    NEW metal2 ( 14915 6090 ) ( * 6650 )
+    NEW metal3 ( 15105 630 ) ( 16895 * ) via3_2
+    NEW metal2 ( 15105 10010 ) ( * 10430 ) via1_4
+    NEW metal4 ( 16895 630 ) ( * 1330 )
+    NEW metal4 ( 16895 1330 ) ( 17175 * )
+    NEW metal4 ( 16895 5390 ) ( * 6090 )
+    NEW metal4 ( 17175 1330 ) ( * 5390 )
+    NEW metal2 ( 14725 8050 ) via1_7
+    NEW metal3 ( 14915 6090 ) via2_5
+    NEW metal3 ( 15105 630 ) via2_5
+ ;
+- dpath_b_reg$out[11]
+  ( dpath_sub_sub_752_15_g1065 A ) ( g3603__1474 C2 )
+  ( dpath_b_reg_out_reg\[11\] Q )
+  + ROUTED metal2 ( 19855 11970 ) ( 20235 * ) via1_7
+    NEW metal3 ( 18715 11970 ) ( 19855 * ) via2_5
+    NEW metal2 ( 18715 11970 ) via1_4
+    NEW metal3 ( 18715 11970 ) via2_5
+    NEW metal2 ( 19855 11970 ) via1_7
+ ;
+- dpath_b_reg$out[10]
+  ( dpath_sub_sub_752_15_g1056 A ) ( g3602__3772 C2 )
+  ( dpath_b_reg_out_reg\[10\] Q )
+  + ROUTED metal2 ( 20995 16450 ) ( * 17570 ) via1_7
+    NEW metal1 ( 19855 16450 0 ) ( 20995 * ) via1_7
+    NEW metal1 ( 20805 17570 0 ) ( 20995 * 0 )
+ ;
+- dpath_b_reg$out[9]
+  ( dpath_sub_sub_752_15_g1052 A ) ( g3605__9682 A2 )
+  ( dpath_b_reg_out_reg\[9\] Q )
+  + ROUTED metal2 ( 17195 17150 ) ( * 17570 ) via1_7
+    NEW metal3 ( 16895 17150 ) ( 17195 * ) via2_5
+    NEW metal4 ( 16895 15050 ) ( * 17150 ) via3_2
+    NEW metal3 ( 16625 15050 ) ( 16895 * ) via3_2
+    NEW metal2 ( 17005 18830 ) ( 17195 * )
+    NEW metal2 ( 17195 17570 ) ( * 18830 )
+    NEW metal2 ( 16625 15050 ) via1_7
+    NEW metal3 ( 16625 15050 ) via2_5
+    NEW metal2 ( 17005 18830 ) via1_4
+ ;
+- dpath_b_reg$out[8]
+  ( dpath_sub_sub_752_15_g1053 A ) ( g3632__1474 B1 ) ( g3601__4296 C2 )
+  ( dpath_b_reg_out_reg\[8\] Q )
+  + ROUTED metal2 ( 12825 17290 ) ( * 17570 ) via1_4
+    NEW metal2 ( 12635 18550 ) ( * 18690 )
+    NEW metal2 ( 12445 18690 ) ( * 18830 ) via1_7
+    NEW metal2 ( 11875 17150 ) ( * 17570 ) via1_7
+    NEW metal3 ( 10355 17150 ) ( 11875 * ) via2_5
+    NEW metal2 ( 10355 15050 ) ( * 17150 ) via2_5
+    NEW metal3 ( 11875 17150 ) ( 12445 * )
+    NEW metal3 ( 12445 17150 ) ( * 17290 )
+    NEW metal3 ( 12445 17290 ) ( 12825 * ) via2_5
+    NEW metal2 ( 12445 18690 ) ( 12635 * )
+    NEW metal2 ( 12635 18550 ) ( 12825 * )
+    NEW metal2 ( 12825 17570 ) ( * 18550 )
+    NEW metal2 ( 10355 15050 ) via1_7
+ ;
+- dpath_b_reg$out[7]
+  ( dpath_sub_sub_752_15_g1051 A ) ( g3657__5019 A2 ) ( g3632__1474 A2 )
+  ( g3600__8780 C2 ) ( dpath_b_reg_out_reg\[7\] Q )
+  + ROUTED metal3 ( 11575 18130 ) ( 12255 * ) via2_5
+    NEW metal2 ( 11875 19810 ) ( * 20370 ) via1_7
+    NEW metal3 ( 11575 19810 ) ( 11875 * ) via2_8
+    NEW metal4 ( 11575 12530 ) ( * 18130 ) via3_2
+    NEW metal3 ( 11115 12530 ) ( * 12670 )
+    NEW metal2 ( 9215 18130 ) ( * 18830 ) via1_7
+    NEW metal2 ( 6175 11970 ) ( * 12250 )
+    NEW metal2 ( 6175 12250 ) ( 6365 * )
+    NEW metal2 ( 6365 12250 ) ( * 12390 ) via2_5
+    NEW metal3 ( 6365 12390 ) ( 8455 * )
+    NEW metal3 ( 8455 12390 ) ( * 12530 )
+    NEW metal3 ( 8455 12530 ) ( 9595 * )
+    NEW metal3 ( 9215 18130 ) ( 11575 * )
+    NEW metal3 ( 9595 12530 ) ( * 12670 )
+    NEW metal3 ( 9595 12670 ) ( 11115 * )
+    NEW metal3 ( 11115 12530 ) ( 11575 * ) via3_2
+    NEW metal3 ( 11575 12530 ) ( 12065 * ) via2_5
+    NEW metal4 ( 11575 18130 ) ( * 19810 ) via3_2
+    NEW metal2 ( 12065 12530 ) ( * 12950 ) via1_7
+    NEW metal2 ( 12255 17570 ) ( * 18130 )
+    NEW metal2 ( 6175 11970 ) via1_4
+    NEW metal3 ( 9215 18130 ) via2_5
+    NEW metal2 ( 12255 17570 ) via1_4
+ ;
+- dpath_b_reg$out[6]
+  ( dpath_sub_sub_752_15_g1055 A ) ( g3597__5019 A2 )
+  ( dpath_b_reg_out_reg\[6\] Q )
+  + ROUTED metal2 ( 6745 17850 ) ( * 17990 )
+    NEW metal2 ( 6365 17990 ) ( * 18830 )
+    NEW metal2 ( 6175 18830 ) ( * 19110 )
+    NEW metal2 ( 5605 18830 ) ( * 19110 )
+    NEW metal2 ( 5605 19110 ) ( 6175 * )
+    NEW metal2 ( 6175 18830 ) ( 6365 * )
+    NEW metal2 ( 6365 17990 ) ( 6745 * )
+    NEW metal1 ( 6745 17570 0 ) ( 6935 * 0 )
+    NEW metal2 ( 5605 18830 ) via1_4
+    NEW metal2 ( 6745 17850 ) via1_7
+ ;
+- dpath_b_reg$out[5]
+  ( dpath_sub_sub_752_15_g1062 A ) ( g3644__7118 A2 ) ( g3599__9906 C2 )
+  ( dpath_b_reg_out_reg\[5\] Q )
+  + ROUTED metal2 ( 3135 16450 ) ( * 17150 )
+    NEW metal2 ( 2375 17150 ) ( * 17570 ) via1_7
+    NEW metal1 ( 2185 17570 0 ) ( 2375 * 0 )
+    NEW metal2 ( 2375 17150 ) ( 3135 * )
+    NEW metal2 ( 3135 17150 ) ( 4085 * )
+    NEW metal2 ( 4085 17150 ) ( * 17850 )
+    NEW metal2 ( 4085 17850 ) ( 4465 * )
+    NEW metal2 ( 4465 17850 ) ( * 18830 ) via1_4
+    NEW metal2 ( 3135 16450 ) via1_7
+ ;
+- dpath_b_reg$out[4]
+  ( dpath_sub_sub_752_15_g1054 A ) ( g3648__5703 B1 ) ( g3590__5266 C2 )
+  ( dpath_b_reg_out_reg\[4\] Q )
+  + ROUTED metal3 ( 5035 12950 ) ( * 13090 )
+    NEW metal2 ( 4845 13090 ) ( * 13230 ) via1_7
+    NEW metal2 ( 3325 13090 ) ( * 13230 ) via1_4
+    NEW metal3 ( 3325 13090 ) ( 4845 * ) via2_5
+    NEW metal3 ( 4845 13090 ) ( 5035 * )
+    NEW metal3 ( 5035 12950 ) ( 6365 * ) via2_5
+    NEW metal2 ( 6365 12950 ) ( * 13230 ) via1_4
+    NEW metal2 ( 6365 13230 ) ( * 13650 )
+    NEW metal2 ( 6365 13650 ) ( 6935 * )
+    NEW metal2 ( 6935 13650 ) ( * 14350 ) via1_7
+    NEW metal3 ( 3325 13090 ) via2_5
+ ;
+- dpath_b_reg$out[3]
+  ( dpath_sub_sub_752_15_g1060 A ) ( g3657__5019 A4 ) ( g3596__1840 A2 )
+  ( dpath_b_reg_out_reg\[3\] Q )
+  + ROUTED metal1 ( 3705 10430 0 ) ( 4275 * ) via1_7
+    NEW metal2 ( 4275 10430 ) ( * 10850 )
+    NEW metal2 ( 4275 10850 ) ( 4655 * )
+    NEW metal2 ( 4655 10850 ) ( * 11970 ) via1_4
+    NEW metal2 ( 4655 11970 ) ( * 12110 ) via2_5
+    NEW metal3 ( 4655 12110 ) ( 6555 * ) via2_5
+    NEW metal2 ( 6555 11970 ) ( * 12110 )
+    NEW metal3 ( 6555 12110 ) ( 7315 * ) via2_5
+    NEW metal2 ( 6555 11970 ) via1_4
+    NEW metal2 ( 7315 12110 ) via1_4
+ ;
+- dpath_b_reg$out[2]
+  ( dpath_sub_sub_752_15_g1064 A ) ( g3652__6083 B1 ) ( g3595__7344 A2 )
+  ( dpath_b_reg_out_reg\[2\] Q )
+  + ROUTED metal3 ( 6935 7770 ) ( 7315 * ) via2_5
+    NEW metal1 ( 6745 9170 0 ) ( 6935 * 0 )
+    NEW metal3 ( 6935 6370 ) ( 7315 * )
+    NEW metal2 ( 6935 7770 ) ( * 8750 ) via1_7
+    NEW metal3 ( 7315 6370 ) ( * 6790 ) via2_8
+    NEW metal2 ( 7315 6790 ) ( * 7630 ) via1_4
+    NEW metal2 ( 7315 7630 ) ( * 7770 )
+    NEW metal2 ( 6935 6370 ) via1_4
+    NEW metal3 ( 6935 6370 ) via2_5
+    NEW metal3 ( 6935 7770 ) via2_5
+ ;
+- dpath_b_reg$out[1]
+  ( dpath_sub_sub_752_15_g1058 A ) ( g3657__5019 A3 ) ( g3656__1840 A )
+  ( g3594__5795 A2 ) ( dpath_b_reg_out_reg\[1\] Q )
+  + ROUTED metal2 ( 6365 10710 ) ( * 11970 ) via1_4
+    NEW metal3 ( 4845 10710 ) ( 6365 * ) via2_5
+    NEW metal2 ( 4655 6370 ) ( * 10710 )
+    NEW metal3 ( 1805 6370 ) ( 4655 * ) via2_5
+    NEW metal2 ( 1615 6370 ) ( 1805 * ) via2_5
+    NEW metal3 ( 285 7630 ) ( 1615 * ) via2_5
+    NEW metal2 ( 285 7630 ) ( * 8750 ) via1_7
+    NEW metal1 ( 285 8750 ) ( 665 * 0 )
+    NEW metal2 ( 1615 6370 ) ( * 7630 )
+    NEW metal2 ( 4655 10710 ) ( 4845 * ) via2_8
+    NEW metal2 ( 285 7630 ) via1_7
+    NEW metal3 ( 285 7630 ) via2_5
+    NEW metal2 ( 1615 6370 ) via1_4
+    NEW metal2 ( 4655 6370 ) via1_4
+ ;
+- dpath_b_reg$out[0]
+  ( dpath_sub_sub_752_15_g1050__1786 A2 )
+  ( dpath_sub_sub_752_15_g1048__7118 B2 ) ( g3657__5019 A1 ) ( g3598__1857 C2 )
+  ( dpath_b_reg_out_reg\[0\] Q )
+  + ROUTED metal2 ( 5795 11270 ) ( * 11970 ) via1_4
+    NEW metal3 ( 3455 11270 ) ( 5795 * ) via2_5
+    NEW metal2 ( 4085 3430 ) ( * 3570 ) via1_4
+    NEW metal4 ( 3455 3430 ) ( * 11270 ) via3_2
+    NEW metal3 ( 3135 3430 ) ( 3455 * ) via3_2
+    NEW metal2 ( 3135 3150 ) ( * 3430 ) via2_5
+    NEW metal2 ( 2185 2030 ) ( * 2310 ) via2_5
+    NEW metal3 ( 2185 2310 ) ( 3135 * ) via2_5
+    NEW metal2 ( 3135 2310 ) ( * 3150 ) via1_7
+    NEW metal1 ( 3135 3570 0 ) ( 3325 * 0 )
+    NEW metal3 ( 3455 3430 ) ( 4085 * ) via2_8
+    NEW metal2 ( 2185 2030 ) via1_4
+ ;
+- UNCONNECTED
+  ( dpath_a_reg_out_reg\[0\] QN )
+ ;
+- dpath_sub_sub_752_15_n_505
+  ( dpath_sub_sub_752_15_g1034__1857 CO ) ( dpath_sub_sub_752_15_g1033__5019 A )
+  + ROUTED metal2 ( 16435 2170 ) ( 16815 * ) via1_7
+    NEW metal2 ( 16435 2170 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_507
+  ( dpath_sub_sub_752_15_g1035__9906 CO )
+  ( dpath_sub_sub_752_15_g1034__1857 CI )
+  + ROUTED metal3 ( 16335 2310 ) ( 17385 * ) via2_5
+    NEW metal3 ( 15865 5810 ) ( 16335 * ) via3_2
+    NEW metal4 ( 16335 2310 ) ( * 5810 )
+    NEW metal2 ( 17385 1890 ) ( * 2310 )
+    NEW metal2 ( 15865 5810 ) via1_7
+    NEW metal3 ( 15865 5810 ) via2_5
+    NEW metal4 ( 16335 2310 ) via3_2
+    NEW metal2 ( 17385 1890 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_509
+  ( dpath_sub_sub_752_15_g1036__8780 CO )
+  ( dpath_sub_sub_752_15_g1035__9906 CI )
+  + ROUTED metal2 ( 16435 6510 ) ( * 6650 )
+    NEW metal2 ( 16435 6650 ) ( 16815 * )
+    NEW metal2 ( 16815 6650 ) ( * 8610 ) via1_7
+    NEW metal2 ( 16435 6510 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_511
+  ( dpath_sub_sub_752_15_g1037__4296 CO )
+  ( dpath_sub_sub_752_15_g1036__8780 CI )
+  + ROUTED metal2 ( 16245 9310 ) ( * 9590 ) via2_5
+    NEW metal3 ( 16245 9590 ) ( 17575 * ) via2_5
+    NEW metal2 ( 17575 9590 ) ( * 10150 ) via1_7
+    NEW metal2 ( 16245 9310 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_513
+  ( dpath_sub_sub_752_15_g1038__3772 CO )
+  ( dpath_sub_sub_752_15_g1037__4296 CI )
+  + ROUTED metal2 ( 17955 14490 ) ( 18145 * )
+    NEW metal2 ( 17955 10710 ) ( 18145 * )
+    NEW metal2 ( 17765 16310 ) ( 17955 * )
+    NEW metal1 ( 17575 17430 0 ) ( 17765 * ) via1_7
+    NEW metal2 ( 17765 16310 ) ( * 17430 )
+    NEW metal2 ( 17955 10710 ) ( * 12390 )
+    NEW metal2 ( 17955 12390 ) ( 18145 * )
+    NEW metal2 ( 17955 14490 ) ( * 16310 )
+    NEW metal2 ( 18145 10290 ) ( * 10710 )
+    NEW metal2 ( 18145 12390 ) ( * 14490 )
+    NEW metal2 ( 18145 10290 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_515
+  ( dpath_sub_sub_752_15_g1039__1474 CO )
+  ( dpath_sub_sub_752_15_g1038__3772 CI )
+  + ROUTED metal3 ( 14535 17570 ) ( 17385 * )
+    NEW metal3 ( 14155 17710 ) ( 14535 * )
+    NEW metal3 ( 14535 17570 ) ( * 17710 )
+    NEW metal3 ( 17385 17570 ) ( * 17710 )
+    NEW metal3 ( 17385 17710 ) ( 18145 * ) via2_5
+    NEW metal2 ( 14155 17710 ) via1_4
+    NEW metal3 ( 14155 17710 ) via2_5
+    NEW metal2 ( 18145 17710 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_517
+  ( dpath_sub_sub_752_15_g1040__4547 CO )
+  ( dpath_sub_sub_752_15_g1039__1474 CI )
+  + ROUTED metal2 ( 14725 17010 ) ( * 17710 ) via1_4
+    NEW metal3 ( 9975 17010 ) ( 14725 * ) via2_5
+    NEW metal2 ( 9975 16590 ) ( * 17010 ) via2_5
+    NEW metal2 ( 9975 16590 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_519
+  ( dpath_sub_sub_752_15_g1041__9682 CO )
+  ( dpath_sub_sub_752_15_g1040__4547 CI )
+  + ROUTED metal3 ( 8265 16730 ) ( 10545 * ) via2_5
+    NEW metal2 ( 8265 16730 ) ( * 17010 ) via1_7
+    NEW metal2 ( 10545 15890 ) ( * 16730 )
+    NEW metal3 ( 8265 16730 ) via2_5
+    NEW metal2 ( 10545 15890 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_521
+  ( dpath_sub_sub_752_15_g1042__2683 CO )
+  ( dpath_sub_sub_752_15_g1041__9682 CI )
+  + ROUTED metal2 ( 8835 17710 ) ( * 18410 )
+    NEW metal2 ( 8835 18410 ) ( 9025 * )
+    NEW metal2 ( 9025 18410 ) ( * 18550 ) via1_7
+    NEW metal2 ( 8835 17710 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_523
+  ( dpath_sub_sub_752_15_g1043__1309 CO )
+  ( dpath_sub_sub_752_15_g1042__2683 CI )
+  + ROUTED metal2 ( 8265 18830 ) ( 8455 * )
+    NEW metal3 ( 4845 18970 ) ( 8265 * ) via2_5
+    NEW metal3 ( 285 18970 ) ( 2945 * )
+    NEW metal1 ( 95 18970 0 ) ( 285 * ) via1_7
+    NEW metal3 ( 2945 18970 ) ( * 19040 )
+    NEW metal3 ( 2945 19040 ) ( 4845 * )
+    NEW metal3 ( 4845 18970 ) ( * 19040 )
+    NEW metal2 ( 8265 18830 ) ( * 18970 )
+    NEW metal2 ( 8455 18690 ) ( * 18830 )
+    NEW metal3 ( 285 18970 ) via2_5
+    NEW metal2 ( 8455 18690 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_525
+  ( dpath_sub_sub_752_15_g1044__6877 CO )
+  ( dpath_sub_sub_752_15_g1043__1309 CI )
+  + ROUTED metal2 ( 95 13790 ) ( * 18270 )
+    NEW metal2 ( 95 18270 ) ( 665 * )
+    NEW metal2 ( 665 18270 ) ( * 18690 ) via1_4
+    NEW metal2 ( 95 13790 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_527
+  ( dpath_sub_sub_752_15_g1045__2900 CO )
+  ( dpath_sub_sub_752_15_g1044__6877 CI )
+  + ROUTED metal2 ( 665 10570 ) ( * 13090 ) via1_4
+    NEW metal1 ( 475 10570 0 ) ( 665 * ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_529
+  ( dpath_sub_sub_752_15_g1046__2391 CO )
+  ( dpath_sub_sub_752_15_g1045__2900 CI )
+  + ROUTED metal2 ( 3705 8190 ) ( * 9870 ) via2_5
+    NEW metal2 ( 1045 9870 ) ( * 10290 ) via1_4
+    NEW metal3 ( 1045 9870 ) ( 3705 * )
+    NEW metal3 ( 1045 9870 ) via2_5
+    NEW metal2 ( 3705 8190 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_531
+  ( dpath_sub_sub_752_15_g1047__7675 CO )
+  ( dpath_sub_sub_752_15_g1046__2391 CI )
+  + ROUTED metal2 ( 4085 5530 ) ( 4275 * )
+    NEW metal3 ( 2945 5530 ) ( 4085 * ) via2_8
+    NEW metal2 ( 2945 5390 ) ( * 5530 ) via2_5
+    NEW metal2 ( 4275 5530 ) ( * 7490 ) via1_4
+    NEW metal2 ( 2945 5390 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_534
+  ( dpath_sub_sub_752_15_g1049__8757 ZN ) ( dpath_sub_sub_752_15_g1033__5019 B )
+  + ROUTED metal2 ( 15485 1750 ) ( 15865 * )
+    NEW metal2 ( 15865 1750 ) ( * 2030 ) via1_4
+    NEW metal2 ( 15485 1750 ) via1_8
+ ;
+- dpath_sub_sub_752_15_n_535
+  ( dpath_sub_sub_752_15_g1050__1786 ZN ) ( dpath_sub_sub_752_15_g1048__7118 A )
+  ( dpath_sub_sub_752_15_g1047__7675 CI )
+  + ROUTED metal2 ( 4275 3710 ) ( * 3850 )
+    NEW metal2 ( 3895 3850 ) ( * 4270 ) via2_5
+    NEW metal2 ( 2375 4270 ) ( * 4690 ) via1_4
+    NEW metal3 ( 2375 4270 ) ( 3895 * )
+    NEW metal2 ( 3895 3570 ) ( * 3850 )
+    NEW metal2 ( 3895 3850 ) ( 4275 * )
+    NEW metal3 ( 2375 4270 ) via2_5
+    NEW metal2 ( 3895 3570 ) via1_7
+    NEW metal2 ( 4275 3710 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_538
+  ( dpath_sub_sub_752_15_g1051 ZN ) ( dpath_sub_sub_752_15_g1041__9682 A )
+  + ROUTED metal2 ( 10735 17430 ) ( * 18270 )
+    NEW metal2 ( 10735 18270 ) ( 11115 * )
+    NEW metal2 ( 11115 18270 ) ( * 19110 )
+    NEW metal2 ( 11115 19110 ) ( 11685 * )
+    NEW metal2 ( 11685 19110 ) ( * 19810 ) via1_7
+    NEW metal2 ( 10735 17430 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_539
+  ( dpath_sub_sub_752_15_g1052 ZN ) ( dpath_sub_sub_752_15_g1039__1474 A )
+  + ROUTED metal2 ( 16625 16870 ) ( * 17430 ) via1_4
+    NEW metal2 ( 16625 16870 ) ( 17385 * )
+    NEW metal2 ( 17385 16870 ) ( * 17010 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_540
+  ( dpath_sub_sub_752_15_g1053 ZN ) ( dpath_sub_sub_752_15_g1040__4547 A )
+  + ROUTED metal3 ( 13015 16870 ) ( 13395 * ) via2_5
+    NEW metal2 ( 12445 16170 ) ( * 16310 )
+    NEW metal2 ( 12445 16310 ) ( 13205 * )
+    NEW metal2 ( 13015 16870 ) ( * 17010 ) via1_7
+    NEW metal2 ( 13205 16310 ) ( * 16450 )
+    NEW metal2 ( 13205 16450 ) ( 13395 * )
+    NEW metal2 ( 13395 16450 ) ( * 16870 )
+    NEW metal2 ( 12445 16170 ) via1_4
+    NEW metal3 ( 13015 16870 ) via2_5
+ ;
+- dpath_sub_sub_752_15_n_541
+  ( dpath_sub_sub_752_15_g1054 ZN ) ( dpath_sub_sub_752_15_g1044__6877 A )
+  + ROUTED metal2 ( 2565 13370 ) ( 3135 * ) via1_4
+    NEW metal2 ( 2565 13370 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_543
+  ( dpath_sub_sub_752_15_g1055 ZN ) ( dpath_sub_sub_752_15_g1042__2683 A )
+  + ROUTED metal2 ( 7125 17850 ) ( * 18130 )
+    NEW metal2 ( 6555 18130 ) ( * 18970 ) via1_4
+    NEW metal2 ( 6555 18130 ) ( 7125 * )
+    NEW metal2 ( 7125 17850 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_544
+  ( dpath_sub_sub_752_15_g1056 ZN ) ( dpath_sub_sub_752_15_g1038__3772 A )
+  + ROUTED metal2 ( 20045 17430 ) ( 20615 * ) via1_4
+    NEW metal2 ( 20045 17430 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_545
+  ( dpath_sub_sub_752_15_g1057 ZN ) ( dpath_sub_sub_752_15_g1035__9906 A )
+  + ROUTED metal2 ( 18335 6230 ) ( * 6370 )
+    NEW metal2 ( 18335 6370 ) ( 19095 * )
+    NEW metal2 ( 19095 6370 ) ( * 7350 ) via1_7
+    NEW metal2 ( 18335 6230 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_546
+  ( dpath_sub_sub_752_15_g1058 ZN ) ( dpath_sub_sub_752_15_g1047__7675 A )
+  + ROUTED metal2 ( 95 6930 ) ( 475 * )
+    NEW metal2 ( 95 6930 ) ( * 7350 ) via1_7
+    NEW metal2 ( 475 4970 ) ( * 6930 )
+    NEW metal2 ( 475 4970 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_547
+  ( dpath_sub_sub_752_15_g1059 ZN ) ( dpath_sub_sub_752_15_g1036__8780 A )
+  + ROUTED metal2 ( 14345 9030 ) ( * 10010 ) via1_7
+    NEW metal1 ( 14345 10010 ) ( 14915 * 0 )
+    NEW metal2 ( 14345 9030 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_548
+  ( dpath_sub_sub_752_15_g1060 ZN ) ( dpath_sub_sub_752_15_g1045__2900 A )
+  + ROUTED metal2 ( 2945 10570 ) ( 3515 * ) via1_4
+    NEW metal2 ( 2945 10570 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_549
+  ( dpath_sub_sub_752_15_g1061 ZN ) ( dpath_sub_sub_752_15_g1050__1786 A1 )
+  ( dpath_sub_sub_752_15_g1048__7118 B1 )
+  + ROUTED metal2 ( 4465 2590 ) ( * 3290 )
+    NEW metal2 ( 3705 3290 ) ( * 3570 ) via1_4
+    NEW metal2 ( 3705 3290 ) ( 4465 * )
+    NEW metal2 ( 4465 3290 ) ( * 3570 ) via1_7
+    NEW metal2 ( 4465 2590 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_550
+  ( dpath_sub_sub_752_15_g1062 ZN ) ( dpath_sub_sub_752_15_g1043__1309 A )
+  + ROUTED metal2 ( 2565 17850 ) ( * 18970 ) via1_4
+    NEW metal2 ( 2565 17850 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_551
+  ( dpath_sub_sub_752_15_g1063 ZN ) ( dpath_sub_sub_752_15_g1034__1857 A )
+  + ROUTED metal2 ( 19285 1190 ) ( * 2170 ) via1_4
+    NEW metal1 ( 19285 1190 ) ( 19475 * 0 )
+    NEW metal2 ( 19285 1190 ) via1_7
+ ;
+- dpath_sub_sub_752_15_n_552
+  ( dpath_sub_sub_752_15_g1064 ZN ) ( dpath_sub_sub_752_15_g1046__2391 A )
+  + ROUTED metal2 ( 6175 7770 ) ( * 8610 ) via1_7
+    NEW metal1 ( 6175 8610 ) ( 6555 * 0 )
+    NEW metal2 ( 6175 7770 ) via1_4
+ ;
+- dpath_sub_sub_752_15_n_553
+  ( dpath_sub_sub_752_15_g1065 ZN ) ( dpath_sub_sub_752_15_g1037__4296 A )
+  + ROUTED metal2 ( 20045 10570 ) ( * 11410 ) via1_7
+    NEW metal2 ( 20045 10570 ) via1_4
+ ;
+- n_0
+  ( g3686__1840 A2 ) ( g3659__9906 A1 ) ( g3623__5795 A2 ) ( g3573__7114 B1 )
+  ( g3572__5703 B1 ) ( g3571__5953 B1 ) ( g3570__1786 B1 ) ( g3569__8757 B1 )
+  ( g3568__7118 B1 ) ( g3567__7675 B1 ) ( g3566__2391 B1 ) ( g3564__6877 B1 )
+  ( g3563__1309 B1 ) ( g3562__2683 B1 ) ( g3561__9682 B1 ) ( g3560__4547 B1 )
+  ( g3559__1474 B1 ) ( g3558__3772 B1 ) ( ctrl_state_out_reg\[1\] QN )
+  + ROUTED metal2 ( 20615 20090 ) ( 20805 * )
+    NEW metal2 ( 20615 17850 ) ( 20805 * )
+    NEW metal3 ( 14535 19950 ) ( 17385 * )
+    NEW metal2 ( 13965 4690 ) ( * 4830 ) via1_4
+    NEW metal3 ( 10355 2170 ) ( 12635 * ) via2_5
+    NEW metal3 ( 8455 19950 ) ( 10925 * )
+    NEW metal2 ( 8265 4550 ) ( * 4830 ) via1_4
+    NEW metal3 ( 7125 4550 ) ( 8265 * ) via2_5
+    NEW metal1 ( 8075 5950 ) ( * 6370 0 )
+    NEW metal2 ( 7125 20230 ) ( * 20370 ) via1_4
+    NEW metal2 ( 7125 1890 ) ( * 2030 ) via1_4
+    NEW metal3 ( 4465 20160 ) ( 6745 * )
+    NEW metal3 ( 4655 1750 ) ( 5225 * )
+    NEW metal2 ( 4655 1050 ) ( * 1750 ) via2_5
+    NEW metal3 ( 3175 20230 ) ( 4465 * )
+    NEW metal3 ( 3175 15470 ) ( 3895 * ) via2_5
+    NEW metal4 ( 3735 1750 ) ( * 6510 ) via3_2
+    NEW metal4 ( 3175 12530 ) ( * 15470 ) via3_2
+    NEW metal3 ( 2945 17570 ) ( 3175 * ) via3_2
+    NEW metal3 ( 3175 12530 ) ( 3515 * ) via2_5
+    NEW metal4 ( 3175 15470 ) ( * 17570 )
+    NEW metal4 ( 3175 17570 ) ( * 20230 ) via3_2
+    NEW metal2 ( 3515 11970 ) ( * 12530 )
+    NEW metal3 ( 3515 12530 ) ( 4015 * ) via3_2
+    NEW metal2 ( 3705 6370 ) ( * 6510 ) via2_5
+    NEW metal3 ( 3705 6510 ) ( 3735 * )
+    NEW metal4 ( 3735 1750 ) ( 4015 * ) via3_2
+    NEW metal4 ( 3735 6510 ) ( * 8190 )
+    NEW metal4 ( 3735 8190 ) ( 3875 * )
+    NEW metal4 ( 3875 8190 ) ( * 11410 )
+    NEW metal4 ( 3875 11410 ) ( 4015 * )
+    NEW metal2 ( 3895 14770 ) ( * 15470 )
+    NEW metal3 ( 4015 1750 ) ( 4655 * )
+    NEW metal4 ( 4015 11410 ) ( * 12530 )
+    NEW metal3 ( 4465 20160 ) ( * 20230 )
+    NEW metal3 ( 5225 1750 ) ( * 1890 )
+    NEW metal3 ( 5225 1890 ) ( 7125 * ) via2_5
+    NEW metal3 ( 6745 20160 ) ( * 20230 )
+    NEW metal3 ( 6745 20230 ) ( 7125 * ) via2_5
+    NEW metal2 ( 7125 2030 ) ( * 4550 ) via2_5
+    NEW metal3 ( 7125 20230 ) ( 8455 * )
+    NEW metal2 ( 8075 5950 ) ( 8265 * )
+    NEW metal3 ( 8265 4550 ) ( 10355 * ) via2_5
+    NEW metal2 ( 8265 4830 ) ( * 5950 )
+    NEW metal3 ( 8455 19950 ) ( * 20230 )
+    NEW metal2 ( 10355 2170 ) ( * 3570 ) via1_7
+    NEW metal2 ( 10355 3570 ) ( * 4550 )
+    NEW metal3 ( 10355 4550 ) ( 11685 * )
+    NEW metal3 ( 10925 19950 ) ( * 20090 )
+    NEW metal3 ( 10925 20090 ) ( 11305 * ) via2_5
+    NEW metal1 ( 11305 18830 0 ) ( * 19250 ) via1_8
+    NEW metal2 ( 11305 19250 ) ( * 20090 )
+    NEW metal3 ( 11305 20090 ) ( 14155 * ) via2_5
+    NEW metal3 ( 11685 4550 ) ( * 4690 )
+    NEW metal3 ( 11685 4690 ) ( 13965 * ) via2_5
+    NEW metal2 ( 12635 2030 ) ( * 2170 )
+    NEW metal3 ( 13965 4690 ) ( 15295 * )
+    NEW metal2 ( 14155 18830 ) ( * 20090 )
+    NEW metal3 ( 14155 20090 ) ( 14535 * )
+    NEW metal3 ( 14535 19950 ) ( * 20090 )
+    NEW metal3 ( 15295 4690 ) ( * 4830 )
+    NEW metal3 ( 15295 4830 ) ( 20995 * ) via2_5
+    NEW metal3 ( 17385 19950 ) ( * 20090 )
+    NEW metal3 ( 17385 20090 ) ( 17765 * ) via2_5
+    NEW metal2 ( 17765 18830 ) ( * 20090 )
+    NEW metal3 ( 17765 20090 ) ( 20615 * ) via2_8
+    NEW metal2 ( 20235 770 ) ( * 1610 ) via2_8
+    NEW metal3 ( 20235 1610 ) ( 20805 * )
+    NEW metal2 ( 20615 17850 ) ( * 19670 )
+    NEW metal2 ( 20615 19670 ) ( 20805 * )
+    NEW metal3 ( 20805 1610 ) ( * 1890 )
+    NEW metal3 ( 20805 1890 ) ( 20995 * ) via2_5
+    NEW metal2 ( 20805 13230 ) ( * 17850 )
+    NEW metal2 ( 20805 19670 ) ( * 20090 )
+    NEW metal2 ( 20805 20090 ) ( * 20370 ) via1_4
+    NEW metal2 ( 20995 1890 ) ( * 4830 ) via1_4
+    NEW metal2 ( 2945 17570 ) via1_4
+    NEW metal3 ( 2945 17570 ) via2_5
+    NEW metal4 ( 3175 12530 ) via3_2
+    NEW metal2 ( 3515 11970 ) via1_4
+    NEW metal2 ( 3705 6370 ) via1_4
+    NEW metal2 ( 3895 14770 ) via1_4
+    NEW metal2 ( 4655 1050 ) via1_7
+    NEW metal2 ( 8075 5950 ) via1_8
+    NEW metal3 ( 10355 2170 ) via2_5
+    NEW metal2 ( 12635 2030 ) via1_4
+    NEW metal2 ( 14155 18830 ) via1_4
+    NEW metal2 ( 17765 18830 ) via1_4
+    NEW metal2 ( 20235 770 ) via1_4
+    NEW metal2 ( 20805 13230 ) via1_4
+ ;
+- n_1
+  ( g3654__5795 B1 ) ( g3643__7675 A2 ) ( g3608__6877 B2 )
+  ( dpath_b_reg_out_reg\[2\] QN )
+  + ROUTED metal2 ( 9785 6230 ) ( * 6370 ) via1_4
+    NEW metal2 ( 9215 6230 ) ( * 6370 ) via1_7
+    NEW metal3 ( 7655 6230 ) ( 9215 * ) via2_5
+    NEW metal3 ( 7315 8050 ) ( 7655 * ) via3_2
+    NEW metal2 ( 5605 6230 ) ( * 6370 ) via1_4
+    NEW metal3 ( 5605 6230 ) ( 7655 * ) via3_2
+    NEW metal2 ( 7315 8050 ) ( * 9170 ) via1_4
+    NEW metal4 ( 7655 6230 ) ( * 8050 )
+    NEW metal3 ( 9215 6230 ) ( 9785 * ) via2_5
+    NEW metal3 ( 5605 6230 ) via2_5
+    NEW metal3 ( 7315 8050 ) via2_5
+ ;
+- n_2
+  ( g3653__2703 A2 ) ( g3631__3772 C1 ) ( g3614__1786 B2 )
+  ( dpath_b_reg_out_reg\[8\] QN )
+  + ROUTED metal2 ( 13015 15050 ) ( * 16030 ) via1_7
+    NEW metal3 ( 12255 15050 ) ( 13015 * ) via2_5
+    NEW metal3 ( 10735 15050 ) ( 11115 * )
+    NEW metal3 ( 9025 15050 ) ( * 15190 )
+    NEW metal2 ( 5985 14770 ) ( * 15050 ) via2_5
+    NEW metal3 ( 5985 15050 ) ( 6365 * )
+    NEW metal3 ( 6365 15050 ) ( * 15190 )
+    NEW metal3 ( 6365 15190 ) ( 9025 * )
+    NEW metal3 ( 9025 15050 ) ( 10735 * ) via2_5
+    NEW metal3 ( 11115 15050 ) ( * 15190 )
+    NEW metal3 ( 11115 15190 ) ( 12255 * )
+    NEW metal3 ( 12255 15050 ) ( * 15190 )
+    NEW metal2 ( 13015 13230 ) ( * 15050 )
+    NEW metal2 ( 5985 14770 ) via1_4
+    NEW metal2 ( 10735 15050 ) via1_4
+    NEW metal2 ( 13015 13230 ) via1_7
+ ;
+- n_3
+  ( g3678__5266 A1 ) ( g3649__7114 A2 ) ( g3629__8780 C1 ) ( g3617__7114 B2 )
+  ( dpath_b_reg_out_reg\[11\] QN )
+  + ROUTED metal2 ( 18335 12250 ) ( * 12530 ) via2_5
+    NEW metal2 ( 16435 12530 ) ( * 13090 ) via2_5
+    NEW metal2 ( 14345 13090 ) ( * 13230 ) via1_4
+    NEW metal3 ( 14345 13090 ) ( 16435 * )
+    NEW metal1 ( 16245 10430 0 ) ( 16625 * 0 ) via1_7
+    NEW metal3 ( 16435 12530 ) ( 17175 * ) via3_2
+    NEW metal2 ( 16435 13090 ) ( * 13230 ) via1_4
+    NEW metal2 ( 16625 10430 ) ( * 10570 ) via2_5
+    NEW metal3 ( 16625 10570 ) ( 17175 * ) via3_2
+    NEW metal4 ( 17175 10570 ) ( * 12530 )
+    NEW metal3 ( 17175 12530 ) ( 18335 * )
+    NEW metal3 ( 14345 13090 ) via2_5
+    NEW metal3 ( 16435 12530 ) via2_5
+    NEW metal2 ( 18335 12250 ) via1_4
+ ;
+- n_4
+  ( g3676__5703 B1 ) ( g3643__7675 A3 ) ( g3629__8780 B1 ) ( g3618__5266 B2 )
+  ( dpath_b_reg_out_reg\[12\] QN )
+  + ROUTED metal3 ( 14095 10710 ) ( 15485 * ) via2_5
+    NEW metal3 ( 14345 7910 ) ( 15105 * ) via2_5
+    NEW metal2 ( 14345 7630 ) ( * 7910 ) via2_5
+    NEW metal4 ( 14095 7910 ) ( * 10710 ) via3_2
+    NEW metal1 ( 10165 9170 ) ( 12065 * 0 )
+    NEW metal2 ( 10165 7910 ) ( * 9170 ) via1_7
+    NEW metal2 ( 9595 6510 ) ( * 7910 )
+    NEW metal2 ( 9595 7910 ) ( 10165 * ) via2_8
+    NEW metal3 ( 10165 7910 ) ( 14095 * ) via3_2
+    NEW metal3 ( 14095 7910 ) ( 14345 * )
+    NEW metal2 ( 15105 7630 ) ( * 7910 )
+    NEW metal2 ( 15485 10430 ) ( * 10710 )
+    NEW metal2 ( 9595 6510 ) via1_4
+    NEW metal2 ( 14345 7630 ) via1_4
+    NEW metal2 ( 15105 7630 ) via1_4
+    NEW metal2 ( 15485 10430 ) via1_4
+ ;
+- n_5
+  ( g3685__7344 A1 ) ( g3655__7344 B1 ) ( g3646__1786 A3 ) ( g3620__6083 B2 )
+  ( dpath_b_reg_out_reg\[14\] QN )
+  + ROUTED metal2 ( 20235 4830 ) ( * 5390 ) via2_5
+    NEW metal3 ( 16245 4690 ) ( 17005 * )
+    NEW metal2 ( 15485 4690 ) ( * 4830 ) via1_4
+    NEW metal2 ( 15295 5390 ) ( * 6370 ) via1_4
+    NEW metal3 ( 15295 5390 ) ( 16435 * ) via2_5
+    NEW metal3 ( 15485 4690 ) ( 16245 * ) via2_5
+    NEW metal2 ( 16245 4690 ) ( * 4830 ) via1_4
+    NEW metal2 ( 16245 4830 ) ( * 4970 )
+    NEW metal2 ( 16245 4970 ) ( 16435 * )
+    NEW metal2 ( 16435 4970 ) ( * 5390 )
+    NEW metal3 ( 16435 5390 ) ( 20235 * )
+    NEW metal2 ( 16815 3570 ) ( * 4410 )
+    NEW metal2 ( 16815 4410 ) ( 17005 * )
+    NEW metal2 ( 17005 4410 ) ( * 4550 ) via2_5
+    NEW metal3 ( 17005 4550 ) ( * 4690 )
+    NEW metal3 ( 15295 5390 ) via2_5
+    NEW metal3 ( 15485 4690 ) via2_8
+    NEW metal2 ( 16815 3570 ) via1_7
+    NEW metal2 ( 20235 4830 ) via1_4
+ ;
+- n_6
+  ( g3682__2703 A1 ) ( g3646__1786 A4 ) ( g3606__2683 B2 )
+  ( dpath_b_reg_out_reg\[15\] QN )
+  + ROUTED metal2 ( 15105 5950 ) ( * 6370 ) via1_4
+    NEW metal3 ( 13815 5950 ) ( 15105 * ) via2_5
+    NEW metal4 ( 13815 3570 ) ( * 5950 ) via3_2
+    NEW metal3 ( 12635 3570 ) ( 13815 * ) via3_2
+    NEW metal2 ( 12635 3570 ) ( * 3990 )
+    NEW metal2 ( 12635 3990 ) ( 12825 * )
+    NEW metal2 ( 12825 3990 ) ( * 4550 ) via1_4
+    NEW metal3 ( 13815 3570 ) ( 14915 * ) via2_5
+    NEW metal2 ( 12635 3570 ) via1_7
+    NEW metal3 ( 12635 3570 ) via2_5
+    NEW metal2 ( 14915 3570 ) via1_4
+ ;
+- n_7
+  ( g3678__5266 B1 ) ( g3677__7114 A1 ) ( g3649__7114 A3 ) ( g3616__5703 B2 )
+  ( dpath_b_reg_out_reg\[10\] QN )
+  + ROUTED metal1 ( 16815 14770 ) ( 17195 * 0 )
+    NEW metal2 ( 16435 15330 ) ( * 15890 ) via1_4
+    NEW metal3 ( 14535 13230 ) ( 16815 * ) via2_5
+    NEW metal2 ( 16435 15330 ) ( 16815 * )
+    NEW metal2 ( 16815 13230 ) ( * 14770 ) via1_7
+    NEW metal2 ( 16815 14770 ) ( * 15330 )
+    NEW metal2 ( 16815 15330 ) ( * 15610 ) via2_5
+    NEW metal3 ( 16815 15610 ) ( 19475 * ) via2_5
+    NEW metal2 ( 19475 15610 ) ( * 15750 ) via1_4
+    NEW metal2 ( 14535 13230 ) via1_4
+    NEW metal3 ( 14535 13230 ) via2_5
+    NEW metal2 ( 16815 13230 ) via1_4
+ ;
+- n_8
+  ( g3656__1840 B2 ) ( g3558__3772 B2 ) ( dpath_a_reg_out_reg\[1\] QN )
+  + ROUTED metal2 ( 3135 7630 ) ( 4085 * )
+    NEW metal1 ( 3895 6370 0 ) ( 4085 * 0 ) via1_7
+    NEW metal2 ( 4085 6370 ) ( * 7630 )
+    NEW metal2 ( 3135 7630 ) via1_4
+ ;
+- n_9
+  ( g3645__8757 A2 ) ( g3644__7118 B2 ) ( g3567__7675 B2 )
+  ( dpath_a_reg_out_reg\[5\] QN )
+  + ROUTED metal2 ( 2755 17430 ) ( * 17570 ) via1_7
+    NEW metal3 ( 1425 17430 ) ( 2755 * ) via2_5
+    NEW metal2 ( 1045 17570 ) ( * 17850 )
+    NEW metal2 ( 1045 17850 ) ( 1425 * )
+    NEW metal2 ( 1425 17430 ) ( * 17570 ) via1_7
+    NEW metal2 ( 1425 17570 ) ( * 17850 )
+    NEW metal2 ( 1425 17850 ) ( * 20230 ) via2_5
+    NEW metal3 ( 1425 20230 ) ( 2755 * ) via2_5
+    NEW metal2 ( 2755 20230 ) ( * 20370 ) via1_4
+    NEW metal2 ( 1045 17570 ) via1_4
+    NEW metal3 ( 1425 17430 ) via2_5
+ ;
+- n_10
+  ( g3653__2703 A4 ) ( g3640__2900 A2 ) ( g3612__7118 B2 )
+  ( dpath_b_reg_out_reg\[6\] QN )
+  + ROUTED metal2 ( 6365 17710 ) ( * 17850 )
+    NEW metal2 ( 6175 15750 ) ( 6365 * )
+    NEW metal3 ( 5795 16030 ) ( 6175 * ) via2_5
+    NEW metal2 ( 5795 16030 ) ( * 17710 )
+    NEW metal2 ( 5795 17710 ) ( 5985 * )
+    NEW metal2 ( 5985 17710 ) ( * 17850 )
+    NEW metal2 ( 5985 17850 ) ( 6365 * )
+    NEW metal2 ( 6175 15750 ) ( * 16030 )
+    NEW metal3 ( 6175 16030 ) ( 7505 * ) via2_5
+    NEW metal2 ( 6365 14770 ) ( * 15750 )
+    NEW metal2 ( 5795 16030 ) via1_7
+    NEW metal3 ( 5795 16030 ) via2_5
+    NEW metal2 ( 6365 14770 ) via1_4
+    NEW metal2 ( 6365 17710 ) via1_4
+    NEW metal2 ( 7505 16030 ) via1_7
+ ;
+- n_11
+  ( g3650__5266 A ) ( g3609__2900 B2 ) ( dpath_b_reg_out_reg\[3\] QN )
+  + ROUTED metal3 ( 7885 10570 ) ( 8835 * ) via2_5
+    NEW metal2 ( 7695 11270 ) ( 7885 * )
+    NEW metal2 ( 7695 11270 ) ( * 11970 ) via1_4
+    NEW metal2 ( 7885 10430 ) ( * 10570 ) via2_5
+    NEW metal2 ( 7885 10570 ) ( * 11270 )
+    NEW metal2 ( 8835 10430 ) ( * 10570 )
+    NEW metal2 ( 7885 10430 ) via1_4
+    NEW metal2 ( 8835 10430 ) via1_7
+ ;
+- n_12
+  ( g3652__6083 B2 ) ( g3563__1309 B2 ) ( dpath_a_reg_out_reg\[2\] QN )
+  + ROUTED metal2 ( 8265 7350 ) ( * 7490 )
+    NEW metal2 ( 8075 7490 ) ( * 7770 )
+    NEW metal2 ( 7695 7630 ) ( * 7770 )
+    NEW metal2 ( 7695 7770 ) ( 8075 * )
+    NEW metal2 ( 8075 7490 ) ( 8265 * )
+    NEW metal2 ( 8265 6370 ) ( * 7350 ) via1_4
+    NEW metal2 ( 7695 7630 ) via1_7
+    NEW metal2 ( 8265 6370 ) via1_4
+ ;
+- n_13
+  ( g3632__1474 B2 ) ( g3566__2391 B2 ) ( dpath_a_reg_out_reg\[8\] QN )
+  + ROUTED metal3 ( 13015 19110 ) ( 13965 * ) via2_5
+    NEW metal2 ( 12635 19810 ) ( 13015 * )
+    NEW metal2 ( 12065 17570 ) ( * 19110 ) via2_5
+    NEW metal3 ( 12065 19110 ) ( 13015 * ) via2_5
+    NEW metal2 ( 12635 19810 ) ( * 20370 ) via1_4
+    NEW metal2 ( 13015 19110 ) ( * 19810 )
+    NEW metal2 ( 13965 18830 ) ( * 19110 )
+    NEW metal2 ( 12065 17570 ) via1_4
+    NEW metal2 ( 13965 18830 ) via1_4
+ ;
+- n_14
+  ( g3636__9682 A2 ) ( g3632__1474 C2 ) ( g3568__7118 B2 )
+  ( dpath_a_reg_out_reg\[7\] QN )
+  + ROUTED metal3 ( 9785 18830 ) ( 11495 * ) via2_5
+    NEW metal3 ( 8835 18970 ) ( 9785 * )
+    NEW metal2 ( 8835 18970 ) ( * 20370 ) via1_4
+    NEW metal3 ( 9785 18830 ) ( * 18970 )
+    NEW metal2 ( 11305 17570 ) ( * 18130 )
+    NEW metal2 ( 11305 18130 ) ( 11495 * )
+    NEW metal2 ( 11495 18130 ) ( * 18830 ) via1_7
+    NEW metal3 ( 11495 18830 ) ( 11875 * ) via2_5
+    NEW metal3 ( 8835 18970 ) via2_5
+    NEW metal2 ( 11305 17570 ) via1_7
+    NEW metal2 ( 11875 18830 ) via1_4
+ ;
+- n_15
+  ( g3681__6083 A1 ) ( g3621__2703 B2 ) ( dpath_b_reg_out_reg\[0\] QN )
+  + ROUTED metal3 ( 3175 2030 ) ( 5035 * ) via2_5
+    NEW metal3 ( 2755 3150 ) ( 3175 * ) via3_2
+    NEW metal3 ( 2375 2030 ) ( 3175 * ) via3_2
+    NEW metal2 ( 2755 3150 ) ( * 3570 ) via1_4
+    NEW metal4 ( 3175 2030 ) ( * 3150 )
+    NEW metal2 ( 2375 2030 ) via1_7
+    NEW metal3 ( 2375 2030 ) via2_5
+    NEW metal3 ( 2755 3150 ) via2_5
+    NEW metal2 ( 5035 2030 ) via1_7
+ ;
+- n_16
+  ( g3562__2683 B2 ) ( dpath_a_reg_out_reg\[9\] QN )
+  + ROUTED metal3 ( 16625 20230 ) ( 17575 * ) via2_5
+    NEW metal2 ( 16625 20230 ) ( * 20370 ) via1_4
+    NEW metal2 ( 17575 18830 ) ( * 20230 )
+    NEW metal3 ( 16625 20230 ) via2_5
+    NEW metal2 ( 17575 18830 ) via1_7
+ ;
+- n_17
+  ( g3680__2250 A1 ) ( g3659__9906 A2 ) ( ctrl_state_out_reg\[0\] QN )
+  + ROUTED metal2 ( 7885 2030 ) ( 8075 * ) via1_8
+    NEW metal2 ( 7695 2310 ) ( 7885 * )
+    NEW metal2 ( 7315 2030 ) ( * 2310 )
+    NEW metal2 ( 7315 2310 ) ( 7695 * )
+    NEW metal2 ( 7695 2310 ) ( * 3290 )
+    NEW metal2 ( 7695 3290 ) ( 7885 * )
+    NEW metal2 ( 7885 2030 ) ( * 2310 )
+    NEW metal2 ( 7885 3290 ) ( * 3570 ) via1_4
+    NEW metal2 ( 7315 2030 ) via1_4
+ ;
+- n_18
+  ( g3677__7114 B1 ) ( g3649__7114 A4 ) ( g3631__3772 B1 ) ( g3615__5953 B2 )
+  ( dpath_b_reg_out_reg\[9\] QN )
+  + ROUTED metal2 ( 16055 15750 ) ( * 16030 ) via1_4
+    NEW metal3 ( 13965 15610 ) ( 15675 * )
+    NEW metal2 ( 13965 14490 ) ( * 15610 ) via2_5
+    NEW metal2 ( 13775 12810 ) ( * 13230 ) via1_4
+    NEW metal2 ( 13775 12810 ) ( 14725 * )
+    NEW metal2 ( 13965 14490 ) ( 14725 * ) via2_8
+    NEW metal2 ( 13965 15610 ) ( * 16030 ) via1_4
+    NEW metal2 ( 14725 12810 ) ( * 13230 ) via1_4
+    NEW metal2 ( 14725 13230 ) ( * 14490 )
+    NEW metal3 ( 14725 14490 ) ( 16245 * ) via2_5
+    NEW metal3 ( 15675 15610 ) ( * 15750 )
+    NEW metal3 ( 15675 15750 ) ( 16055 * ) via2_5
+    NEW metal2 ( 16245 14490 ) ( * 14690 ) via1_4
+ ;
+- n_19
+  ( g3647__5953 B1 ) ( g3643__7675 A4 ) ( g3610__2391 B2 )
+  ( dpath_b_reg_out_reg\[4\] QN )
+  + ROUTED metal3 ( 8215 6650 ) ( 9405 * ) via2_5
+    NEW metal3 ( 7315 13510 ) ( 8215 * ) via3_2
+    NEW metal2 ( 7315 13230 ) ( * 13510 ) via2_5
+    NEW metal2 ( 7315 13510 ) ( * 14690 ) via1_4
+    NEW metal4 ( 8215 6650 ) ( * 13510 )
+    NEW metal3 ( 8215 13510 ) ( 8645 * ) via2_5
+    NEW metal2 ( 8645 13230 ) ( * 13510 )
+    NEW metal2 ( 9405 6510 ) ( * 6650 )
+    NEW metal2 ( 7315 13230 ) via1_4
+    NEW metal4 ( 8215 6650 ) via3_2
+    NEW metal2 ( 8645 13230 ) via1_7
+    NEW metal2 ( 9405 6510 ) via1_7
+ ;
+- n_20
+  ( g3676__5703 A1 ) ( g3655__7344 A2 ) ( g3646__1786 A2 ) ( g3619__2250 B2 )
+  ( dpath_b_reg_out_reg\[13\] QN )
+  + ROUTED metal1 ( 16815 7630 ) ( * 7770 )
+    NEW metal3 ( 15485 6370 ) ( 16815 * ) via2_5
+    NEW metal2 ( 15485 7630 ) ( * 7770 )
+    NEW metal2 ( 15485 7770 ) ( 15865 * ) via1_8
+    NEW metal1 ( 15865 7770 ) ( 16815 * )
+    NEW metal2 ( 16815 4830 ) ( * 6370 )
+    NEW metal2 ( 16815 6370 ) ( * 6510 )
+    NEW metal2 ( 16815 6510 ) ( 17005 * )
+    NEW metal1 ( 16815 7630 ) ( 17005 * 0 ) via1_7
+    NEW metal2 ( 17005 6510 ) ( * 7630 )
+    NEW metal2 ( 17005 7630 ) ( * 8190 ) via2_5
+    NEW metal3 ( 17005 8190 ) ( 19665 * ) via2_5
+    NEW metal2 ( 19665 8190 ) ( * 9170 ) via1_4
+    NEW metal2 ( 15485 6370 ) via1_4
+    NEW metal3 ( 15485 6370 ) via2_5
+    NEW metal2 ( 15485 7630 ) via1_4
+    NEW metal2 ( 16815 4830 ) via1_4
+ ;
+- n_21
+  ( g3564__6877 B2 ) ( dpath_a_reg_out_reg\[3\] QN )
+  + ROUTED metal2 ( 2755 11970 ) ( 3325 * ) via1_7
+    NEW metal2 ( 2755 11970 ) via1_4
+ ;
+- n_22
+  ( g3653__2703 A3 ) ( g3611__7675 B2 ) ( dpath_b_reg_out_reg\[5\] QN )
+  + ROUTED metal3 ( 3895 14910 ) ( 6175 * ) via2_5
+    NEW metal3 ( 3325 15050 ) ( 3895 * )
+    NEW metal2 ( 2755 16030 ) ( 3325 * ) via1_7
+    NEW metal2 ( 3325 15050 ) ( * 16030 )
+    NEW metal3 ( 3895 14910 ) ( * 15050 )
+    NEW metal2 ( 6175 14770 ) ( * 14910 )
+    NEW metal2 ( 2755 16030 ) via1_4
+    NEW metal3 ( 3325 15050 ) via2_5
+    NEW metal2 ( 6175 14770 ) via1_4
+ ;
+- n_23
+  ( g3569__8757 B2 ) ( dpath_a_reg_out_reg\[10\] QN )
+  + ROUTED metal1 ( 20045 20370 ) ( 20615 * 0 )
+    NEW metal2 ( 20045 18830 ) ( * 20370 ) via1_7
+    NEW metal2 ( 20045 18830 ) via1_4
+ ;
+- n_24
+  ( g3570__1786 B2 ) ( dpath_a_reg_out_reg\[6\] QN )
+  + ROUTED metal2 ( 6365 20230 ) ( 6935 * )
+    NEW metal2 ( 6365 20230 ) ( * 20370 ) via1_4
+    NEW metal2 ( 6935 20230 ) ( * 20370 ) via1_7
+ ;
+- n_25
+  ( g3613__8757 B2 ) ( dpath_b_reg_out_reg\[7\] QN )
+  + ROUTED metal1 ( 11305 11970 0 ) ( 11685 * ) via1_7
+    NEW metal2 ( 11685 11970 ) ( * 12950 ) via1_4
+ ;
+- n_26
+  ( g3658__1857 A2 ) ( g3560__4547 B2 ) ( dpath_a_reg_out_reg\[13\] QN )
+  + ROUTED metal3 ( 19285 6370 ) ( 20805 * ) via2_5
+    NEW metal2 ( 17385 4830 ) ( * 6370 ) via2_5
+    NEW metal3 ( 17385 6370 ) ( 19285 * ) via2_5
+    NEW metal2 ( 20805 4830 ) ( * 6370 )
+    NEW metal2 ( 17385 4830 ) via1_7
+    NEW metal2 ( 19285 6370 ) via1_4
+    NEW metal2 ( 20805 4830 ) via1_7
+ ;
+- n_27
+  ( g3571__5953 B2 ) ( dpath_a_reg_out_reg\[11\] QN )
+  + ROUTED metal1 ( 20425 13230 ) ( 20615 * 0 )
+    NEW metal2 ( 20425 12810 ) ( * 13230 ) via1_7
+    NEW metal3 ( 17575 12810 ) ( 20425 * ) via2_5
+    NEW metal2 ( 17575 12810 ) ( * 12950 ) via1_4
+    NEW metal3 ( 17575 12810 ) via2_5
+ ;
+- n_28
+  ( g3648__5703 B2 ) ( g3573__7114 B2 ) ( dpath_a_reg_out_reg\[4\] QN )
+  + ROUTED metal3 ( 4275 14490 ) ( 6175 * ) via2_5
+    NEW metal2 ( 4085 14490 ) ( 4275 * ) via2_8
+    NEW metal3 ( 2755 15190 ) ( 4085 * ) via2_5
+    NEW metal2 ( 2755 15050 ) ( * 15190 ) via2_5
+    NEW metal2 ( 4085 14490 ) ( * 14770 ) via1_7
+    NEW metal2 ( 4085 14770 ) ( * 15190 )
+    NEW metal2 ( 6175 13230 ) ( * 14490 )
+    NEW metal2 ( 2755 15050 ) via1_4
+    NEW metal2 ( 6175 13230 ) via1_7
+ ;
+- n_29
+  ( g3561__9682 B2 ) ( dpath_a_reg_out_reg\[14\] QN )
+  + ROUTED metal3 ( 18145 770 ) ( 20045 * ) via2_5
+    NEW metal2 ( 18145 770 ) ( * 3570 ) via1_4
+    NEW metal3 ( 18145 770 ) via2_5
+    NEW metal2 ( 20045 770 ) via1_7
+ ;
+- n_30
+  ( g3627__1857 B2 ) ( g3572__5703 B2 ) ( dpath_a_reg_out_reg\[15\] QN )
+  + ROUTED metal2 ( 15105 1890 ) ( * 3570 ) via1_7
+    NEW metal3 ( 13775 1890 ) ( 15105 * ) via2_5
+    NEW metal2 ( 13965 1050 ) ( * 1750 ) via2_5
+    NEW metal3 ( 13775 1750 ) ( * 1890 )
+    NEW metal3 ( 12825 2030 ) ( 13775 * )
+    NEW metal3 ( 13775 1750 ) ( 13965 * )
+    NEW metal3 ( 13775 1890 ) ( * 2030 )
+    NEW metal2 ( 12825 2030 ) via1_4
+    NEW metal3 ( 12825 2030 ) via2_5
+    NEW metal2 ( 13965 1050 ) via1_4
+ ;
+- n_31
+  ( g3607__1309 B2 ) ( dpath_b_reg_out_reg\[1\] QN )
+  + ROUTED metal3 ( 1045 8050 ) ( 2185 * ) via2_5
+    NEW metal2 ( 1045 8050 ) ( * 9170 ) via1_4
+    NEW metal2 ( 2185 6370 ) ( * 8050 )
+    NEW metal3 ( 1045 8050 ) via2_5
+    NEW metal2 ( 2185 6370 ) via1_7
+ ;
+- n_32
+  ( g3559__1474 B2 ) ( dpath_a_reg_out_reg\[12\] QN )
+  + ROUTED metal2 ( 14155 4830 ) ( * 6370 ) via1_4
+    NEW metal2 ( 14155 4830 ) via1_7
+ ;
+- n_33
+  ( g3719 ZN ) ( g3675__5953 A1 ) ( g3674__1786 A1 ) ( g3673__8757 A1 )
+  ( g3672__7118 A1 ) ( g3671__7675 A1 ) ( g3670__2391 A1 ) ( g3669__2900 A1 )
+  ( g3668__6877 A1 ) ( g3667__1309 A1 ) ( g3666__2683 A1 ) ( g3665__9682 A1 )
+  ( g3664__4547 A1 ) ( g3663__1474 A1 ) ( g3662__3772 A1 ) ( g3661__4296 A1 )
+  ( g3660__8780 A1 )
+  + ROUTED metal2 ( 19095 12250 ) ( * 13790 )
+    NEW metal3 ( 18295 12250 ) ( 19095 * ) via2_5
+    NEW metal2 ( 18715 13790 ) ( * 14770 )
+    NEW metal2 ( 18525 14770 ) ( * 14910 ) via1_4
+    NEW metal2 ( 18335 7210 ) ( * 7490 ) via1_4
+    NEW metal4 ( 18295 7210 ) ( * 12250 ) via3_2
+    NEW metal3 ( 16435 7070 ) ( 17765 * )
+    NEW metal3 ( 16245 910 ) ( 17385 * ) via2_5
+    NEW metal3 ( 16435 15330 ) ( * 15610 )
+    NEW metal3 ( 13585 7210 ) ( 16435 * )
+    NEW metal3 ( 14155 3150 ) ( 16245 * ) via2_8
+    NEW metal2 ( 15485 15610 ) ( * 15890 ) via1_4
+    NEW metal2 ( 13775 4410 ) ( 14155 * )
+    NEW metal2 ( 13585 5950 ) ( 13775 * )
+    NEW metal2 ( 13585 8190 ) ( * 9310 ) via1_4
+    NEW metal3 ( 11305 8190 ) ( 13585 * ) via2_5
+    NEW metal2 ( 7885 17570 ) ( * 17710 ) via1_4
+    NEW metal3 ( 6535 17570 ) ( 7885 * ) via2_5
+    NEW metal3 ( 6815 4690 ) ( 7505 * ) via2_5
+    NEW metal3 ( 6815 10290 ) ( 6935 * ) via2_5
+    NEW metal4 ( 6815 8190 ) ( * 10290 ) via3_2
+    NEW metal4 ( 6535 13510 ) ( * 14210 ) via3_2
+    NEW metal2 ( 4465 14210 ) ( * 15890 ) via1_4
+    NEW metal3 ( 3705 4690 ) ( 4655 * ) via2_5
+    NEW metal2 ( 3895 1890 ) ( * 2310 )
+    NEW metal2 ( 3895 2310 ) ( 4655 * )
+    NEW metal3 ( 4465 14210 ) ( 5795 * ) via2_5
+    NEW metal2 ( 4655 2310 ) ( * 4690 )
+    NEW metal3 ( 4655 4690 ) ( 6815 * ) via3_2
+    NEW metal2 ( 5795 13090 ) ( * 14210 )
+    NEW metal3 ( 5795 14210 ) ( 6535 * )
+    NEW metal4 ( 6535 13510 ) ( 6815 * )
+    NEW metal4 ( 6535 14210 ) ( * 17570 ) via3_2
+    NEW metal4 ( 6815 4690 ) ( * 8190 ) via3_2
+    NEW metal3 ( 6815 8190 ) ( 11305 * ) via2_5
+    NEW metal4 ( 6815 10290 ) ( * 13510 )
+    NEW metal3 ( 7885 17570 ) ( 9215 * ) via2_5
+    NEW metal2 ( 9215 15890 ) ( * 17570 )
+    NEW metal3 ( 9215 17570 ) ( 9785 * )
+    NEW metal3 ( 9785 17570 ) ( * 17640 )
+    NEW metal3 ( 9785 17640 ) ( 11305 * )
+    NEW metal3 ( 11305 17640 ) ( * 17710 )
+    NEW metal3 ( 11305 17710 ) ( 13775 * ) via2_5
+    NEW metal2 ( 13585 5950 ) ( * 7210 ) via2_5
+    NEW metal2 ( 13585 7210 ) ( * 8190 )
+    NEW metal2 ( 13775 4410 ) ( * 5950 )
+    NEW metal2 ( 14155 3150 ) ( * 3710 ) via1_4
+    NEW metal2 ( 14155 3710 ) ( * 4410 )
+    NEW metal2 ( 15485 15610 ) ( 15865 * ) via2_8
+    NEW metal3 ( 15865 15610 ) ( 16435 * )
+    NEW metal2 ( 16245 910 ) ( * 3150 )
+    NEW metal3 ( 16435 7070 ) ( * 7210 )
+    NEW metal3 ( 16435 15330 ) ( 18525 * ) via2_5
+    NEW metal3 ( 17765 7070 ) ( * 7210 )
+    NEW metal3 ( 17765 7210 ) ( 18295 * ) via3_2
+    NEW metal3 ( 18295 7210 ) ( 18335 * ) via2_5
+    NEW metal2 ( 18525 14770 ) ( 18715 * )
+    NEW metal2 ( 18525 14910 ) ( * 15330 )
+    NEW metal2 ( 18715 13790 ) ( 19095 * )
+    NEW metal2 ( 19095 12110 ) ( * 12250 )
+    NEW metal2 ( 3705 4690 ) via1_4
+    NEW metal3 ( 3705 4690 ) via2_5
+    NEW metal2 ( 3895 1890 ) via1_4
+    NEW metal3 ( 4465 14210 ) via2_5
+    NEW metal2 ( 5795 13090 ) via1_4
+    NEW metal2 ( 6935 10290 ) via1_4
+    NEW metal2 ( 7505 4690 ) via1_4
+    NEW metal2 ( 9215 15890 ) via1_4
+    NEW metal2 ( 11305 8190 ) via1_7
+    NEW metal2 ( 13775 17710 ) via1_4
+    NEW metal3 ( 14155 3150 ) via2_5
+    NEW metal3 ( 16245 910 ) via2_5
+    NEW metal2 ( 17385 910 ) via1_4
+    NEW metal2 ( 19095 12110 ) via1_4
+ ;
+- n_34
+  ( g3684__5795 ZN ) ( g3565__2900 A )
+  + ROUTED metal2 ( 3705 1050 ) ( * 1190 ) via2_5
+    NEW metal2 ( 95 1190 ) ( * 2030 ) via1_7
+    NEW metal3 ( 95 1190 ) ( 3705 * )
+    NEW metal3 ( 95 1190 ) via2_5
+    NEW metal2 ( 3705 1050 ) via1_7
+ ;
+- n_35
+  ( g3683 ZN ) ( g3626__5019 A2 )
+  + ROUTED metal2 ( 10735 3290 ) ( 11115 * )
+    NEW metal2 ( 11115 3290 ) ( * 3570 ) via1_4
+    NEW metal2 ( 10735 3290 ) via1_8
+ ;
+- n_36
+  ( g3686__1840 ZN ) ( g3683 A ) ( g3625__1840 A2 ) ( g3605__9682 B1 )
+  ( g3604__4547 B1 ) ( g3603__1474 B1 ) ( g3602__3772 B1 ) ( g3601__4296 B1 )
+  ( g3600__8780 B1 ) ( g3599__9906 B1 ) ( g3598__1857 B1 ) ( g3597__5019 B1 )
+  ( g3596__1840 B1 ) ( g3595__7344 B1 ) ( g3594__5795 B1 ) ( g3593__2703 C1 )
+  ( g3592__6083 C1 ) ( g3591__2250 C1 ) ( g3590__5266 B1 )
+  + ROUTED metal2 ( 20805 9310 ) ( 20995 * )
+    NEW metal3 ( 18525 17990 ) ( 20615 * )
+    NEW metal2 ( 20425 7350 ) ( * 7630 ) via1_7
+    NEW metal2 ( 20045 3850 ) ( 20235 * )
+    NEW metal2 ( 16625 17990 ) ( * 18830 ) via1_4
+    NEW metal2 ( 15485 70 ) ( * 770 ) via1_4
+    NEW metal2 ( 13775 70 ) ( * 2030 ) via1_4
+    NEW metal2 ( 13015 17990 ) ( * 18830 ) via1_4
+    NEW metal3 ( 11015 17990 ) ( 13015 * ) via2_5
+    NEW metal3 ( 10545 4270 ) ( 12445 * ) via2_5
+    NEW metal4 ( 11015 11550 ) ( * 12250 )
+    NEW metal4 ( 10735 12250 ) ( * 17150 )
+    NEW metal3 ( 8835 5670 ) ( 10545 * ) via2_5
+    NEW metal3 ( 8835 19110 ) ( 9785 * ) via2_5
+    NEW metal3 ( 8455 5810 ) ( 8835 * )
+    NEW metal2 ( 8455 5390 ) ( * 5810 ) via2_5
+    NEW metal3 ( 7375 11130 ) ( 8265 * )
+    NEW metal4 ( 7095 5810 ) ( * 6510 )
+    NEW metal3 ( 5225 19110 ) ( 6555 * )
+    NEW metal2 ( 6555 5810 ) ( * 6370 ) via1_4
+    NEW metal2 ( 5225 18690 ) ( * 18830 ) via1_4
+    NEW metal3 ( 4575 18690 ) ( 5225 * ) via2_5
+    NEW metal2 ( 5035 11130 ) ( * 11970 ) via1_4
+    NEW metal2 ( 4655 12390 ) ( * 13790 )
+    NEW metal4 ( 4575 14070 ) ( * 18690 ) via3_2
+    NEW metal2 ( 3895 18690 ) ( * 18830 ) via1_4
+    NEW metal2 ( 1615 1890 ) ( * 2030 ) via1_4
+    NEW metal3 ( 1215 1890 ) ( 1615 * ) via2_5
+    NEW metal2 ( 1235 5810 ) ( * 6370 ) via1_4
+    NEW metal4 ( 1215 1890 ) ( * 5810 ) via3_2
+    NEW metal3 ( 1215 5810 ) ( 1235 * ) via2_5
+    NEW metal3 ( 1235 5810 ) ( 6555 * ) via2_5
+    NEW metal3 ( 3895 18690 ) ( 4575 * )
+    NEW metal2 ( 4275 13230 ) ( * 13790 )
+    NEW metal2 ( 4275 13790 ) ( 4655 * )
+    NEW metal3 ( 4575 14070 ) ( 4655 * ) via2_5
+    NEW metal2 ( 4655 12390 ) ( 5035 * )
+    NEW metal2 ( 4655 13790 ) ( * 14070 )
+    NEW metal3 ( 5035 11130 ) ( 7375 * ) via3_2
+    NEW metal2 ( 5035 11970 ) ( * 12390 )
+    NEW metal2 ( 5225 18830 ) ( * 19110 ) via2_5
+    NEW metal3 ( 6555 5810 ) ( 7095 * ) via3_2
+    NEW metal3 ( 6555 19110 ) ( * 19250 )
+    NEW metal3 ( 6555 19250 ) ( 8835 * )
+    NEW metal3 ( 7095 5810 ) ( 8455 * )
+    NEW metal4 ( 7095 6510 ) ( 7375 * )
+    NEW metal4 ( 7375 6510 ) ( * 11130 )
+    NEW metal3 ( 8265 11130 ) ( * 11550 )
+    NEW metal3 ( 8265 11550 ) ( 11015 * ) via3_2
+    NEW metal3 ( 8835 5670 ) ( * 5810 )
+    NEW metal3 ( 8835 19110 ) ( * 19250 )
+    NEW metal2 ( 9785 18830 ) ( * 19110 )
+    NEW metal2 ( 10545 3570 ) ( * 4270 ) via2_5
+    NEW metal2 ( 10545 4270 ) ( * 5670 )
+    NEW metal4 ( 10735 12250 ) ( 11015 * )
+    NEW metal4 ( 10735 17150 ) ( 11015 * )
+    NEW metal4 ( 11015 17150 ) ( * 17990 ) via3_2
+    NEW metal2 ( 12445 3570 ) ( * 4270 )
+    NEW metal3 ( 13015 17990 ) ( 16625 * ) via2_5
+    NEW metal3 ( 13775 70 ) ( 15485 * ) via2_5
+    NEW metal3 ( 15485 70 ) ( 18525 * ) via2_5
+    NEW metal3 ( 16625 17990 ) ( 17195 * )
+    NEW metal3 ( 17195 17990 ) ( * 18130 )
+    NEW metal3 ( 17195 18130 ) ( 18525 * )
+    NEW metal2 ( 18525 70 ) ( * 2310 ) via2_5
+    NEW metal3 ( 18525 2310 ) ( 20235 * ) via2_5
+    NEW metal3 ( 18525 17990 ) ( * 18130 )
+    NEW metal2 ( 20045 3850 ) ( * 7350 )
+    NEW metal2 ( 20045 7350 ) ( 20425 * ) via2_8
+    NEW metal2 ( 20235 2030 ) ( * 2310 )
+    NEW metal2 ( 20235 2310 ) ( * 3850 )
+    NEW metal3 ( 20425 7350 ) ( 20995 * ) via2_5
+    NEW metal3 ( 20615 17990 ) ( * 18130 )
+    NEW metal3 ( 20615 18130 ) ( 21095 * ) via3_2
+    NEW metal2 ( 20805 9310 ) ( * 11970 ) via1_4
+    NEW metal2 ( 20805 11970 ) ( * 12950 ) via2_5
+    NEW metal3 ( 20805 12950 ) ( 21095 * ) via3_2
+    NEW metal2 ( 20995 7350 ) ( * 9310 )
+    NEW metal4 ( 21095 12950 ) ( * 18130 )
+    NEW metal3 ( 21095 18130 ) ( 21565 * ) via2_5
+    NEW metal2 ( 21565 17570 ) ( * 18130 )
+    NEW metal4 ( 1215 1890 ) via3_2
+    NEW metal3 ( 3895 18690 ) via2_5
+    NEW metal2 ( 4275 13230 ) via1_4
+    NEW metal4 ( 4575 14070 ) via3_2
+    NEW metal3 ( 5035 11130 ) via2_5
+    NEW metal2 ( 8455 5390 ) via1_7
+    NEW metal2 ( 9785 18830 ) via1_4
+    NEW metal2 ( 10545 3570 ) via1_4
+    NEW metal2 ( 12445 3570 ) via1_4
+    NEW metal3 ( 13775 70 ) via2_5
+    NEW metal2 ( 20235 2030 ) via1_4
+    NEW metal2 ( 21565 17570 ) via1_4
+ ;
+- n_37
+  ( g3685__7344 ZN ) ( g3658__1857 A1 ) ( g3628__9906 A3 )
+  + ROUTED metal3 ( 16435 4970 ) ( 17005 * ) via2_5
+    NEW metal3 ( 15485 5110 ) ( 16435 * )
+    NEW metal2 ( 14915 4830 ) ( * 5110 )
+    NEW metal2 ( 14915 5110 ) ( 15485 * ) via2_8
+    NEW metal2 ( 15485 5110 ) ( * 5250 ) via1_7
+    NEW metal3 ( 16435 4970 ) ( * 5110 )
+    NEW metal2 ( 17005 4830 ) ( * 4970 )
+    NEW metal2 ( 14915 4830 ) via1_4
+    NEW metal2 ( 17005 4830 ) via1_7
+ ;
+- n_38
+  ( g3680__2250 ZN ) ( g3638__1309 B1 )
+  + ROUTED metal2 ( 8075 1750 ) ( 8455 * )
+    NEW metal2 ( 8455 1750 ) ( * 2030 ) via1_4
+    NEW metal2 ( 8075 1750 ) via1_8
+ ;
+- n_39
+  ( g3682__2703 ZN ) ( g3628__9906 A4 ) ( g3627__1857 C2 )
+  + ROUTED metal2 ( 14725 3850 ) ( 15675 * )
+    NEW metal2 ( 14725 3990 ) ( * 4830 ) via1_4
+    NEW metal2 ( 14725 3850 ) ( * 3990 ) via1_7
+    NEW metal2 ( 15675 3570 ) ( * 3850 )
+    NEW metal2 ( 15675 3570 ) via1_4
+ ;
+- n_40
+  ( g3681__6083 ZN ) ( g3679 A ) ( g3656__1840 B1 )
+  + ROUTED metal2 ( 6745 7350 ) ( * 7630 ) via1_7
+    NEW metal3 ( 4575 7350 ) ( 6745 * ) via2_5
+    NEW metal4 ( 4575 2590 ) ( * 7350 ) via3_2
+    NEW metal2 ( 4465 6370 ) ( * 7350 ) via2_5
+    NEW metal3 ( 4465 7350 ) ( 4575 * )
+    NEW metal3 ( 4575 2590 ) ( 4845 * ) via2_5
+    NEW metal1 ( 4845 2590 ) ( 5035 * 0 )
+    NEW metal2 ( 4465 6370 ) via1_4
+    NEW metal4 ( 4575 2590 ) via3_2
+    NEW metal2 ( 4845 2590 ) via1_7
+ ;
+- n_41
+  ( g3679 ZN ) ( g3654__5795 C1 )
+  + ROUTED metal2 ( 4845 6370 ) ( * 6790 ) via2_5
+    NEW metal3 ( 4845 6790 ) ( 6935 * ) via2_5
+    NEW metal2 ( 6935 6790 ) ( * 7350 ) via1_7
+    NEW metal2 ( 4845 6370 ) via1_7
+ ;
+- n_42
+  ( g3677__7114 ZN ) ( g3630__4296 B2 )
+  + ROUTED metal2 ( 16055 13230 ) ( * 14910 )
+    NEW metal2 ( 16055 14910 ) ( 16245 * )
+    NEW metal2 ( 16245 14910 ) ( * 15610 ) via1_7
+    NEW metal2 ( 16055 13230 ) via1_7
+ ;
+- n_43
+  ( g3676__5703 ZN ) ( g3628__9906 A2 )
+  + ROUTED metal2 ( 15295 7210 ) ( 16245 * )
+    NEW metal2 ( 15105 4550 ) ( * 4830 ) via1_4
+    NEW metal2 ( 15105 4550 ) ( 15675 * )
+    NEW metal2 ( 15295 7210 ) ( * 7490 ) via1_4
+    NEW metal2 ( 15675 4550 ) ( * 5110 )
+    NEW metal2 ( 15675 5110 ) ( 16150 * )
+    NEW metal2 ( 16150 5110 ) ( * 6510 )
+    NEW metal2 ( 16150 6510 ) ( 16245 * )
+    NEW metal2 ( 16245 6510 ) ( * 7210 )
+ ;
+- n_44
+  ( g3675__5953 ZN ) ( g3613__8757 A2 )
+  + ROUTED metal2 ( 10165 12950 ) ( 10545 * )
+    NEW metal2 ( 9595 13510 ) ( 10165 * )
+    NEW metal1 ( 9405 15610 0 ) ( 9595 * ) via1_7
+    NEW metal2 ( 9595 13510 ) ( * 15610 )
+    NEW metal2 ( 10165 12950 ) ( * 13510 )
+    NEW metal2 ( 10545 11970 ) ( * 12950 )
+    NEW metal2 ( 10545 11970 ) via1_7
+ ;
+- n_45
+  ( g3674__1786 ZN ) ( g3620__6083 A2 )
+  + ROUTED metal2 ( 17575 1190 ) ( * 3570 ) via1_7
+    NEW metal2 ( 17575 1190 ) via1_7
+ ;
+- n_46
+  ( g3673__8757 ZN ) ( g3609__2900 A2 )
+  + ROUTED metal3 ( 6935 10710 ) ( 8075 * ) via2_5
+    NEW metal2 ( 8075 10430 ) ( * 10710 )
+    NEW metal2 ( 6935 10710 ) via1_7
+    NEW metal3 ( 6935 10710 ) via2_5
+    NEW metal2 ( 8075 10430 ) via1_7
+ ;
+- n_47
+  ( g3672__7118 ZN ) ( g3619__2250 A2 )
+  + ROUTED metal1 ( 17765 7630 0 ) ( 17955 * ) via1_7
+    NEW metal2 ( 17955 7630 ) ( * 7770 )
+    NEW metal2 ( 17955 7770 ) ( 18335 * ) via1_8
+ ;
+- n_48
+  ( g3671__7675 ZN ) ( g3616__5703 A2 )
+  + ROUTED metal2 ( 18145 14630 ) ( * 14770 ) via1_7
+    NEW metal1 ( 17955 14770 0 ) ( 18145 * )
+    NEW metal2 ( 18145 14630 ) ( 18525 * ) via1_8
+ ;
+- n_49
+  ( g3670__2391 ZN ) ( g3615__5953 A2 )
+  + ROUTED metal2 ( 14725 15610 ) ( * 16030 ) via1_7
+    NEW metal2 ( 14725 15610 ) ( 15105 * ) via1_8
+    NEW metal1 ( 15105 15610 ) ( 15295 * 0 )
+ ;
+- n_50
+  ( g3669__2900 ZN ) ( g3611__7675 A2 )
+  + ROUTED metal2 ( 4085 16030 ) ( * 16170 )
+    NEW metal2 ( 4085 16170 ) ( 4465 * ) via1_8
+    NEW metal2 ( 4085 16030 ) via1_7
+ ;
+- n_51
+  ( g3668__6877 ZN ) ( g3618__5266 A2 )
+  + ROUTED metal2 ( 12825 9170 ) ( * 9450 )
+    NEW metal2 ( 12825 9450 ) ( 13205 * ) via1_8
+    NEW metal1 ( 13205 9450 ) ( 13395 * 0 )
+    NEW metal2 ( 12825 9170 ) via1_7
+ ;
+- n_52
+  ( g3678__5266 ZN ) ( g3630__4296 B1 ) ( g3630__4296 A2 )
+  + ROUTED metal2 ( 15295 13230 ) ( * 13650 )
+    NEW metal2 ( 15295 13650 ) ( 15485 * ) via2_8
+    NEW metal3 ( 15485 13650 ) ( 15865 * ) via2_5
+    NEW metal1 ( 15865 13230 0 ) ( * 13510 ) via1_4
+    NEW metal2 ( 15865 13510 ) ( * 13650 )
+    NEW metal3 ( 15865 13650 ) ( 16625 * ) via2_5
+    NEW metal2 ( 15295 13230 ) via1_7
+    NEW metal2 ( 16625 13650 ) via1_7
+ ;
+- n_53
+  ( g3667__1309 ZN ) ( g3608__6877 A2 )
+  + ROUTED metal2 ( 7695 4830 ) ( * 6090 )
+    NEW metal2 ( 7695 6090 ) ( 8455 * )
+    NEW metal2 ( 8455 6090 ) ( * 6370 ) via1_7
+    NEW metal2 ( 7695 4830 ) via1_4
+ ;
+- n_54
+  ( g3666__2683 ZN ) ( g3607__1309 A2 )
+  + ROUTED metal2 ( 3515 4830 ) ( * 5950 )
+    NEW metal2 ( 2945 5950 ) ( * 6370 ) via1_7
+    NEW metal2 ( 2945 5950 ) ( 3515 * )
+    NEW metal2 ( 3515 4830 ) via1_4
+ ;
+- n_55
+  ( g3665__9682 ZN ) ( g3617__7114 A2 )
+  + ROUTED metal2 ( 17385 10430 ) ( * 11270 ) via2_5
+    NEW metal3 ( 17385 11270 ) ( 19095 * ) via2_5
+    NEW metal2 ( 19095 11270 ) ( * 11690 ) via1_7
+    NEW metal2 ( 17385 10430 ) via1_7
+ ;
+- n_56
+  ( g3664__4547 ZN ) ( g3621__2703 A2 )
+  + ROUTED metal2 ( 3135 1470 ) ( * 2030 ) via1_7
+    NEW metal3 ( 3135 1470 ) ( 3515 * ) via2_5
+    NEW metal2 ( 3515 1470 ) ( * 1610 ) via1_7
+    NEW metal1 ( 3515 1610 ) ( 3705 * 0 )
+    NEW metal3 ( 3135 1470 ) via2_5
+ ;
+- n_57
+  ( g3663__1474 ZN ) ( g3610__2391 A2 )
+  + ROUTED metal3 ( 5605 13230 ) ( 7885 * ) via2_5
+    NEW metal2 ( 5605 13230 ) via1_4
+    NEW metal3 ( 5605 13230 ) via2_5
+    NEW metal2 ( 7885 13230 ) via1_7
+ ;
+- n_58
+  ( g3662__3772 ZN ) ( g3606__2683 A2 )
+  + ROUTED metal2 ( 13395 3570 ) ( * 3850 )
+    NEW metal2 ( 13395 3850 ) ( 13775 * ) via1_8
+    NEW metal1 ( 13775 3850 ) ( 13965 * 0 )
+    NEW metal2 ( 13395 3570 ) via1_7
+ ;
+- n_59
+  ( g3661__4296 ZN ) ( g3612__7118 A2 )
+  + ROUTED metal2 ( 6555 16030 ) ( * 17290 )
+    NEW metal2 ( 6555 17290 ) ( 7695 * )
+    NEW metal2 ( 7695 17290 ) ( * 17570 ) via1_4
+    NEW metal2 ( 6555 16030 ) via1_7
+ ;
+- n_60
+  ( g3660__8780 ZN ) ( g3614__1786 A2 )
+  + ROUTED metal2 ( 13775 16030 ) ( * 17290 ) via1_7
+    NEW metal2 ( 13775 16030 ) via1_7
+ ;
+- n_61
+  ( g3659__9906 ZN ) ( g3635__4547 B2 )
+  + ROUTED metal2 ( 6175 2030 ) ( * 2170 ) via2_5
+    NEW metal3 ( 6175 2170 ) ( 6935 * ) via2_5
+    NEW metal2 ( 6175 2030 ) via1_7
+    NEW metal2 ( 6935 2170 ) via1_4
+ ;
+- n_62
+  ( g3658__1857 ZN ) ( g3655__7344 A1 )
+  + ROUTED metal2 ( 16625 4690 ) ( * 5250 ) via2_5
+    NEW metal3 ( 16625 5250 ) ( 17005 * ) via2_5
+    NEW metal2 ( 16625 4690 ) via1_4
+    NEW metal2 ( 17005 5250 ) via1_7
+ ;
+- n_63
+  ( g3657__5019 ZN ) ( g3653__2703 A1 )
+  + ROUTED metal2 ( 5985 12250 ) ( * 12390 )
+    NEW metal1 ( 5035 14770 ) ( 5795 * 0 )
+    NEW metal2 ( 5035 12810 ) ( * 14770 ) via1_7
+    NEW metal2 ( 5035 12810 ) ( 6175 * )
+    NEW metal2 ( 5985 12390 ) ( 6175 * )
+    NEW metal2 ( 6175 12390 ) ( * 12810 )
+    NEW metal2 ( 5985 12250 ) via1_4
+ ;
+- n_64
+  ( g3656__1840 ZN ) ( g3654__5795 A )
+  + ROUTED metal2 ( 4465 6090 ) ( 5415 * )
+    NEW metal2 ( 5415 6090 ) ( * 6370 ) via1_4
+    NEW metal2 ( 4465 6090 ) via1_4
+ ;
+- n_65
+  ( g3655__7344 ZN ) ( g3627__1857 C1 )
+  + ROUTED metal1 ( 16055 3570 0 ) ( 16435 * ) via1_7
+    NEW metal2 ( 16435 3570 ) ( * 4410 ) via1_7
+ ;
+- n_66
+  ( g3654__5795 ZN ) ( g3652__6083 A )
+  + ROUTED metal2 ( 7125 6510 ) ( * 7630 ) via1_7
+    NEW metal3 ( 5035 6510 ) ( 7125 * ) via2_5
+    NEW metal2 ( 5035 6510 ) via1_4
+    NEW metal3 ( 5035 6510 ) via2_5
+ ;
+- n_67
+  ( g3653__2703 ZN ) ( g3649__7114 A1 )
+  + ROUTED metal3 ( 6745 14210 ) ( 14155 * ) via2_5
+    NEW metal2 ( 14155 13230 ) ( * 14210 )
+    NEW metal2 ( 6745 14210 ) via1_7
+    NEW metal3 ( 6745 14210 ) via2_5
+    NEW metal2 ( 14155 13230 ) via1_4
+ ;
+- n_68
+  ( g3652__6083 ZN ) ( g3651__2250 A1 ) ( g3650__5266 B1 )
+  + ROUTED metal2 ( 7505 8190 ) ( * 8470 )
+    NEW metal2 ( 7315 10710 ) ( * 11130 )
+    NEW metal2 ( 7125 11130 ) ( * 11970 ) via1_7
+    NEW metal2 ( 7125 11130 ) ( 7315 * )
+    NEW metal1 ( 7315 8190 0 ) ( 7505 * ) via1_7
+    NEW metal2 ( 7315 10710 ) ( 7695 * )
+    NEW metal2 ( 7505 8470 ) ( 7695 * )
+    NEW metal2 ( 7695 8470 ) ( * 10430 ) via1_4
+    NEW metal2 ( 7695 10430 ) ( * 10710 )
+ ;
+- n_69
+  ( g3651__2250 ZN ) ( g3648__5703 A2 )
+  + ROUTED metal2 ( 6935 12390 ) ( * 13090 ) via1_7
+    NEW metal1 ( 6935 12390 ) ( 7125 * 0 )
+    NEW metal2 ( 6935 12390 ) via1_7
+ ;
+- n_70
+  ( g3650__5266 ZN ) ( g3648__5703 A1 )
+  + ROUTED metal2 ( 7505 10990 ) ( * 12670 ) via2_5
+    NEW metal2 ( 6745 12670 ) ( * 13090 ) via1_4
+    NEW metal3 ( 6745 12670 ) ( 7505 * )
+    NEW metal1 ( 7505 10990 ) ( 7695 * 0 )
+    NEW metal3 ( 6745 12670 ) via2_5
+    NEW metal2 ( 7505 10990 ) via1_7
+ ;
+- n_71
+  ( g3649__7114 ZN ) ( g3646__1786 A1 )
+  + ROUTED metal3 ( 15105 12810 ) ( 16615 * ) via3_2
+    NEW metal2 ( 15105 12810 ) ( * 12950 ) via1_4
+    NEW metal2 ( 15675 6370 ) ( * 6650 ) via2_5
+    NEW metal3 ( 15675 6650 ) ( 16615 * ) via3_2
+    NEW metal4 ( 16615 6650 ) ( * 12810 )
+    NEW metal3 ( 15105 12810 ) via2_8
+    NEW metal2 ( 15675 6370 ) via1_7
+ ;
+- n_72
+  ( g3648__5703 ZN ) ( g3647__5953 A )
+  + ROUTED metal2 ( 6745 13370 ) ( 7125 * )
+    NEW metal2 ( 7125 13230 ) ( * 13370 )
+    NEW metal2 ( 6745 13370 ) via1_8
+    NEW metal2 ( 7125 13230 ) via1_7
+ ;
+- n_73
+  ( g3647__5953 ZN ) ( g3645__8757 A1 ) ( g3644__7118 B1 )
+  + ROUTED metal2 ( 1235 17150 ) ( 1615 * )
+    NEW metal2 ( 1235 12810 ) ( * 17150 )
+    NEW metal3 ( 1235 12810 ) ( 7315 * ) via2_5
+    NEW metal2 ( 1235 17150 ) ( * 17570 ) via1_4
+    NEW metal2 ( 1615 17150 ) ( * 17570 ) via1_4
+    NEW metal3 ( 1235 12810 ) via2_5
+    NEW metal2 ( 7315 12810 ) via1_7
+ ;
+- n_74
+  ( g3646__1786 ZN ) ( g3643__7675 A1 )
+  + ROUTED metal3 ( 14345 6370 ) ( * 6510 )
+    NEW metal3 ( 10165 6370 ) ( 11495 * )
+    NEW metal3 ( 11495 6370 ) ( * 6510 )
+    NEW metal3 ( 11495 6510 ) ( 14345 * )
+    NEW metal3 ( 14345 6370 ) ( 14725 * ) via2_5
+    NEW metal2 ( 10165 6370 ) via1_7
+    NEW metal3 ( 10165 6370 ) via2_5
+    NEW metal2 ( 14725 6370 ) via1_4
+ ;
+- n_75
+  ( g3645__8757 ZN ) ( g3644__7118 A1 )
+  + ROUTED metal3 ( 665 17710 ) ( 1995 * ) via2_5
+    NEW metal2 ( 1995 17570 ) ( * 17710 )
+    NEW metal2 ( 665 17710 ) via1_4
+    NEW metal3 ( 665 17710 ) via2_5
+    NEW metal2 ( 1995 17570 ) via1_4
+ ;
+- n_76
+  ( g3644__7118 ZN ) ( g3641__2391 A1 ) ( g3640__2900 B1 )
+  + ROUTED metal2 ( 8075 15890 ) ( * 16030 ) via1_4
+    NEW metal3 ( 6745 15890 ) ( 8075 * ) via2_5
+    NEW metal3 ( 1805 17150 ) ( 6745 * ) via2_8
+    NEW metal2 ( 6745 15890 ) ( * 16030 ) via1_4
+    NEW metal2 ( 6745 16030 ) ( * 17150 )
+    NEW metal2 ( 1805 17150 ) via1_7
+    NEW metal3 ( 1805 17150 ) via2_5
+    NEW metal3 ( 6745 15890 ) via2_5
+ ;
+- n_77
+  ( g3643__7675 ZN ) ( g3642 A ) ( g3639__6877 B1 )
+  + ROUTED metal1 ( 9025 4830 0 ) ( 9595 * ) via1_7
+    NEW metal2 ( 9405 2030 ) ( * 2170 ) via2_8
+    NEW metal3 ( 9405 2170 ) ( * 2310 )
+    NEW metal3 ( 9405 2310 ) ( 9595 * ) via2_5
+    NEW metal2 ( 9595 2310 ) ( * 4830 )
+    NEW metal2 ( 9595 4830 ) ( * 5950 ) via1_4
+    NEW metal2 ( 9405 2030 ) via1_4
+ ;
+- n_78
+  ( g3642 ZN ) ( g3638__1309 A1 )
+  + ROUTED metal2 ( 8835 3990 ) ( 9025 * )
+    NEW metal2 ( 8835 1890 ) ( * 3430 )
+    NEW metal2 ( 8835 3430 ) ( 9025 * )
+    NEW metal2 ( 8835 3990 ) ( * 4550 ) via1_7
+    NEW metal2 ( 9025 3430 ) ( * 3990 )
+    NEW metal2 ( 8835 1890 ) via1_4
+ ;
+- n_79
+  ( g3641__2391 ZN ) ( g3640__2900 A1 )
+  + ROUTED metal2 ( 7315 15610 ) ( 7695 * )
+    NEW metal2 ( 7315 15610 ) ( * 15750 ) via1_4
+    NEW metal2 ( 7695 15610 ) ( * 15890 ) via1_4
+ ;
+- n_80
+  ( g3639__6877 ZN ) ( g3635__4547 B1 )
+  + ROUTED metal3 ( 6555 2030 ) ( 9595 * ) via2_5
+    NEW metal2 ( 6555 2030 ) via1_4
+    NEW metal3 ( 6555 2030 ) via2_5
+    NEW metal2 ( 9595 2030 ) via1_4
+ ;
+- n_81
+  ( g3640__2900 ZN ) ( g3636__9682 A1 ) ( g3632__1474 C1 )
+  + ROUTED metal2 ( 11495 16030 ) ( 11685 * )
+    NEW metal3 ( 7885 16030 ) ( 11495 * ) via2_8
+    NEW metal2 ( 11685 16030 ) ( * 17570 ) via1_4
+    NEW metal2 ( 11685 17570 ) ( * 18830 ) via1_4
+    NEW metal2 ( 7885 16030 ) via1_4
+    NEW metal3 ( 7885 16030 ) via2_5
+ ;
+- n_82
+  ( g3638__1309 ZN ) ( g3637__2683 A1 )
+  + ROUTED metal2 ( 8075 770 ) ( * 1610 )
+    NEW metal2 ( 8075 1610 ) ( 8455 * ) via1_8
+    NEW metal1 ( 8455 1610 ) ( 8645 * 0 )
+    NEW metal2 ( 8075 770 ) via1_7
+ ;
+- n_83
+  ( g3637__2683 ZN ) ( ctrl_state_out_reg\[1\] D )
+  + ROUTED metal2 ( 6555 770 ) ( * 1050 ) via2_5
+    NEW metal3 ( 6555 1050 ) ( 7885 * ) via2_5
+    NEW metal2 ( 6555 770 ) via1_4
+    NEW metal2 ( 7885 1050 ) via1_7
+ ;
+- n_84
+  ( g3636__9682 ZN ) ( g3632__1474 A1 )
+  + ROUTED metal2 ( 12255 18410 ) ( 12635 * )
+    NEW metal2 ( 12255 18410 ) ( * 18550 ) via1_4
+    NEW metal2 ( 12635 17570 ) ( * 18410 )
+    NEW metal2 ( 12635 17570 ) via1_7
+ ;
+- n_85
+  ( g3635__4547 ZN ) ( ctrl_state_out_reg\[0\] D )
+  + ROUTED metal2 ( 6365 2310 ) ( * 2450 )
+    NEW metal2 ( 5985 2450 ) ( * 3570 ) via1_7
+    NEW metal2 ( 5985 2450 ) ( 6365 * )
+    NEW metal2 ( 6365 2310 ) via1_4
+ ;
+- n_86
+  ( g3632__1474 ZN ) ( g3631__3772 A )
+  + ROUTED metal3 ( 13255 15050 ) ( 13585 * ) via2_5
+    NEW metal3 ( 12635 17150 ) ( 13255 * ) via3_2
+    NEW metal4 ( 13255 15050 ) ( * 17150 )
+    NEW metal2 ( 13585 13230 ) ( * 15050 )
+    NEW metal2 ( 12635 17150 ) via1_7
+    NEW metal3 ( 12635 17150 ) via2_5
+    NEW metal4 ( 13255 15050 ) via3_2
+    NEW metal2 ( 13585 13230 ) via1_4
+ ;
+- n_87
+  ( g3631__3772 ZN ) ( g3630__4296 A1 )
+  + ROUTED metal3 ( 15295 13370 ) ( 15485 * ) via2_8
+    NEW metal3 ( 13775 13650 ) ( 15295 * )
+    NEW metal1 ( 13585 13650 0 ) ( 13775 * ) via1_7
+    NEW metal3 ( 15295 13370 ) ( * 13650 )
+    NEW metal2 ( 15485 13230 ) ( * 13370 )
+    NEW metal3 ( 13775 13650 ) via2_5
+    NEW metal2 ( 15485 13230 ) via1_4
+ ;
+- n_88
+  ( g3630__4296 ZN ) ( g3629__8780 A )
+  + ROUTED metal2 ( 15675 12810 ) ( 16245 * )
+    NEW metal2 ( 15675 10430 ) ( * 12110 )
+    NEW metal2 ( 15675 12110 ) ( 16245 * )
+    NEW metal2 ( 15675 12810 ) ( * 13090 ) via1_4
+    NEW metal2 ( 16245 12110 ) ( * 12810 )
+    NEW metal2 ( 15675 10430 ) via1_4
+ ;
+- n_89
+  ( g3629__8780 ZN ) ( g3628__9906 A1 )
+  + ROUTED metal3 ( 14655 4970 ) ( 15295 * ) via2_8
+    NEW metal4 ( 14655 4970 ) ( * 10010 ) via3_2
+    NEW metal3 ( 14655 10010 ) ( 15485 * ) via2_8
+    NEW metal2 ( 15295 4830 ) ( * 4970 )
+    NEW metal1 ( 15485 10010 ) ( 15675 * 0 )
+    NEW metal4 ( 14655 4970 ) via3_2
+    NEW metal2 ( 15295 4830 ) via1_7
+    NEW metal2 ( 15485 10010 ) via1_8
+ ;
+- n_90
+  ( g3628__9906 ZN ) ( g3627__1857 A )
+  + ROUTED metal3 ( 15295 3710 ) ( 15485 * ) via2_8
+    NEW metal3 ( 14725 3990 ) ( 15295 * )
+    NEW metal3 ( 14345 4270 ) ( 14725 * )
+    NEW metal2 ( 14345 4270 ) ( * 4550 ) via1_4
+    NEW metal3 ( 14725 3990 ) ( * 4270 )
+    NEW metal3 ( 15295 3710 ) ( * 3990 )
+    NEW metal2 ( 15485 3570 ) ( * 3710 )
+    NEW metal3 ( 14345 4270 ) via2_5
+    NEW metal2 ( 15485 3570 ) via1_4
+ ;
+- n_91
+  ( g3627__1857 ZN ) ( g3626__5019 A1 ) ( g3625__1840 A1 ) ( g3624__7344 A1 )
+  + ROUTED metal3 ( 15295 3290 ) ( * 3360 )
+    NEW metal3 ( 13205 3360 ) ( * 3430 )
+    NEW metal3 ( 12255 3430 ) ( * 3570 )
+    NEW metal2 ( 12065 3570 ) ( * 3710 ) via1_7
+    NEW metal3 ( 9785 3570 ) ( 10925 * ) via2_5
+    NEW metal3 ( 10925 3570 ) ( 12065 * ) via2_5
+    NEW metal3 ( 12065 3570 ) ( 12255 * )
+    NEW metal3 ( 12255 3430 ) ( 13205 * )
+    NEW metal3 ( 13205 3360 ) ( 15295 * )
+    NEW metal3 ( 15295 3290 ) ( 15485 * ) via2_5
+    NEW metal2 ( 9785 3570 ) via1_4
+    NEW metal3 ( 9785 3570 ) via2_5
+    NEW metal2 ( 10925 3570 ) via1_7
+    NEW metal2 ( 15485 3290 ) via1_7
+ ;
+- n_92
+  ( g3626__5019 ZN ) ( g3605__9682 C1 ) ( g3604__4547 A2 ) ( g3603__1474 A1 )
+  ( g3602__3772 A1 ) ( g3601__4296 A1 ) ( g3600__8780 A1 ) ( g3599__9906 A1 )
+  ( g3598__1857 A1 ) ( g3597__5019 C1 ) ( g3596__1840 C1 ) ( g3595__7344 C1 )
+  ( g3594__5795 C1 ) ( g3593__2703 A2 ) ( g3592__6083 A2 ) ( g3591__2250 A2 )
+  ( g3590__5266 A1 )
+  + ROUTED metal3 ( 19975 18410 ) ( 22515 * ) via2_5
+    NEW metal2 ( 21565 7070 ) ( * 11690 ) via2_5
+    NEW metal3 ( 19855 7070 ) ( 21565 * ) via2_5
+    NEW metal2 ( 20615 1750 ) ( 20805 * )
+    NEW metal4 ( 19975 11690 ) ( * 12530 )
+    NEW metal4 ( 19695 12530 ) ( * 17710 )
+    NEW metal2 ( 19475 4410 ) ( * 4830 )
+    NEW metal2 ( 19475 1750 ) ( * 3290 )
+    NEW metal3 ( 16435 1610 ) ( 19095 * )
+    NEW metal4 ( 18575 18410 ) ( * 19390 ) via3_2
+    NEW metal3 ( 18145 19390 ) ( * 19530 )
+    NEW metal2 ( 14725 1190 ) ( 14915 * )
+    NEW metal3 ( 13585 1470 ) ( 14725 * ) via2_8
+    NEW metal2 ( 13395 1890 ) ( * 2030 ) via1_4
+    NEW metal3 ( 11875 1750 ) ( 13015 * )
+    NEW metal3 ( 11495 1890 ) ( 11875 * )
+    NEW metal2 ( 6365 3710 ) ( * 6370 ) via1_7
+    NEW metal3 ( 4465 3570 ) ( 5985 * )
+    NEW metal3 ( 5605 10920 ) ( * 10990 )
+    NEW metal2 ( 5225 10990 ) ( * 11970 ) via1_7
+    NEW metal2 ( 5035 18550 ) ( * 18830 ) via1_7
+    NEW metal3 ( 3515 18550 ) ( 5035 * ) via2_5
+    NEW metal3 ( 3175 3710 ) ( 4465 * )
+    NEW metal3 ( 3455 18550 ) ( 3515 * )
+    NEW metal3 ( 3455 13370 ) ( 3515 * ) via2_8
+    NEW metal4 ( 3455 12390 ) ( * 13370 ) via3_2
+    NEW metal3 ( 1425 3570 ) ( * 3710 )
+    NEW metal2 ( 1045 3710 ) ( * 6370 ) via1_7
+    NEW metal2 ( 855 2030 ) ( * 2170 ) via2_8
+    NEW metal3 ( 855 2170 ) ( 1045 * )
+    NEW metal3 ( 1045 2170 ) ( * 2450 ) via2_8
+    NEW metal2 ( 1045 2450 ) ( * 3710 ) via2_5
+    NEW metal3 ( 1045 3710 ) ( 1425 * )
+    NEW metal3 ( 1425 3570 ) ( 2755 * )
+    NEW metal3 ( 2755 3570 ) ( * 3710 )
+    NEW metal3 ( 2755 3710 ) ( 3175 * ) via3_2
+    NEW metal3 ( 3135 18830 ) ( 3515 * )
+    NEW metal4 ( 3175 3710 ) ( * 11550 )
+    NEW metal4 ( 3175 11550 ) ( 3455 * )
+    NEW metal4 ( 3455 11550 ) ( * 12390 ) via3_2
+    NEW metal3 ( 3455 12390 ) ( 5225 * ) via2_8
+    NEW metal4 ( 3455 13370 ) ( * 18550 ) via3_2
+    NEW metal2 ( 3515 13230 ) ( * 13370 )
+    NEW metal3 ( 3515 18550 ) ( * 18830 )
+    NEW metal3 ( 4465 3570 ) ( * 3710 )
+    NEW metal3 ( 5225 10990 ) ( 5605 * )
+    NEW metal2 ( 5225 11970 ) ( * 12390 )
+    NEW metal3 ( 5605 10920 ) ( 8835 * )
+    NEW metal3 ( 5985 3570 ) ( * 3710 )
+    NEW metal3 ( 5985 3710 ) ( 6365 * ) via2_5
+    NEW metal3 ( 8835 10920 ) ( * 10990 )
+    NEW metal3 ( 8835 10990 ) ( 9335 * ) via3_2
+    NEW metal4 ( 9335 10990 ) ( * 19390 ) via3_2
+    NEW metal3 ( 9335 19390 ) ( 10545 * ) via2_5
+    NEW metal2 ( 10545 18830 ) ( * 19390 )
+    NEW metal3 ( 10545 19390 ) ( 13775 * ) via2_5
+    NEW metal2 ( 11495 1890 ) ( * 3010 ) via1_7
+    NEW metal3 ( 11875 1750 ) ( * 1890 )
+    NEW metal3 ( 13015 1750 ) ( * 1890 )
+    NEW metal3 ( 13015 1890 ) ( 13395 * ) via2_5
+    NEW metal3 ( 13395 1890 ) ( 13585 * )
+    NEW metal3 ( 13585 1470 ) ( * 1890 )
+    NEW metal2 ( 13775 18830 ) ( * 19390 )
+    NEW metal3 ( 13775 19390 ) ( 16435 * ) via2_5
+    NEW metal2 ( 14725 1190 ) ( * 1470 )
+    NEW metal3 ( 14725 1470 ) ( * 1610 )
+    NEW metal3 ( 14725 1610 ) ( 15485 * )
+    NEW metal2 ( 14915 770 ) ( * 1190 )
+    NEW metal3 ( 15485 1610 ) ( * 1750 )
+    NEW metal3 ( 15485 1750 ) ( 16435 * )
+    NEW metal3 ( 16435 1610 ) ( * 1750 )
+    NEW metal2 ( 16435 18830 ) ( * 19390 )
+    NEW metal3 ( 16435 19390 ) ( 16815 * )
+    NEW metal3 ( 16815 19390 ) ( * 19530 )
+    NEW metal3 ( 16815 19530 ) ( 18145 * )
+    NEW metal3 ( 18145 19390 ) ( 18575 * )
+    NEW metal3 ( 18575 18410 ) ( 19975 * ) via3_2
+    NEW metal3 ( 19095 1610 ) ( * 1750 )
+    NEW metal3 ( 19095 1750 ) ( 19475 * ) via2_5
+    NEW metal3 ( 19475 1750 ) ( 20615 * ) via2_8
+    NEW metal2 ( 19475 3290 ) ( 19665 * )
+    NEW metal2 ( 19475 4410 ) ( 19665 * )
+    NEW metal2 ( 19475 4830 ) ( 19855 * )
+    NEW metal2 ( 19665 3290 ) ( * 4410 )
+    NEW metal4 ( 19695 12530 ) ( 19975 * )
+    NEW metal4 ( 19695 17710 ) ( 19975 * )
+    NEW metal2 ( 19855 4830 ) ( * 7070 ) via2_5
+    NEW metal2 ( 19855 7070 ) ( * 7630 ) via1_4
+    NEW metal3 ( 19975 11690 ) ( 21565 * )
+    NEW metal4 ( 19975 17710 ) ( * 18410 )
+    NEW metal2 ( 20805 1750 ) ( * 2030 ) via1_4
+    NEW metal2 ( 21565 11690 ) ( * 11970 ) via1_7
+    NEW metal1 ( 22325 17570 0 ) ( 22515 * ) via1_7
+    NEW metal2 ( 22515 17570 ) ( * 18410 )
+    NEW metal2 ( 855 2030 ) via1_7
+    NEW metal2 ( 3135 18830 ) via1_7
+    NEW metal3 ( 3135 18830 ) via2_5
+    NEW metal2 ( 3515 13230 ) via1_7
+    NEW metal3 ( 5225 10990 ) via2_5
+    NEW metal2 ( 10545 18830 ) via1_7
+    NEW metal3 ( 11495 1890 ) via2_5
+    NEW metal2 ( 13775 18830 ) via1_7
+    NEW metal2 ( 14915 770 ) via1_4
+    NEW metal2 ( 16435 18830 ) via1_7
+    NEW metal4 ( 18575 18410 ) via3_2
+    NEW metal4 ( 19975 11690 ) via3_2
+ ;
+- n_93
+  ( g3625__1840 ZN ) ( g3605__9682 A1 ) ( g3604__4547 C1 ) ( g3603__1474 C1 )
+  ( g3602__3772 C1 ) ( g3601__4296 C1 ) ( g3600__8780 C1 ) ( g3599__9906 C1 )
+  ( g3598__1857 C1 ) ( g3597__5019 A1 ) ( g3596__1840 A1 ) ( g3595__7344 A1 )
+  ( g3594__5795 A1 ) ( g3593__2703 B1 ) ( g3592__6083 B1 ) ( g3591__2250 B1 )
+  ( g3590__5266 C1 )
+  + ROUTED metal3 ( 20535 18830 ) ( 21375 * ) via2_5
+    NEW metal4 ( 20535 12670 ) ( * 18830 ) via3_2
+    NEW metal2 ( 20425 7910 ) ( * 10850 )
+    NEW metal2 ( 20425 2030 ) ( * 5390 )
+    NEW metal3 ( 16245 2030 ) ( 20425 * ) via2_5
+    NEW metal3 ( 17005 18830 ) ( * 18900 )
+    NEW metal4 ( 16055 2030 ) ( 16335 * )
+    NEW metal3 ( 14155 2170 ) ( 16055 * ) via3_2
+    NEW metal3 ( 13775 2310 ) ( 13965 * ) via2_5
+    NEW metal3 ( 11575 2450 ) ( 13775 * )
+    NEW metal2 ( 11685 3850 ) ( * 3990 ) via2_5
+    NEW metal3 ( 9025 3990 ) ( * 4130 )
+    NEW metal2 ( 7315 3990 ) ( * 6370 ) via1_7
+    NEW metal3 ( 4295 18830 ) ( 5985 * ) via2_5
+    NEW metal4 ( 4295 13510 ) ( * 18830 ) via3_2
+    NEW metal2 ( 4275 11550 ) ( * 11970 ) via1_7
+    NEW metal3 ( 1495 11550 ) ( 4275 * ) via2_5
+    NEW metal2 ( 1995 6230 ) ( * 6370 ) via1_4
+    NEW metal3 ( 1495 6230 ) ( 1995 * ) via2_5
+    NEW metal3 ( 1495 2450 ) ( 1805 * ) via2_8
+    NEW metal4 ( 1495 3990 ) ( * 6230 ) via3_2
+    NEW metal4 ( 1495 2450 ) ( * 3990 ) via3_2
+    NEW metal3 ( 1495 3990 ) ( 7315 * ) via2_5
+    NEW metal4 ( 1495 6230 ) ( * 11550 ) via3_2
+    NEW metal2 ( 1805 2030 ) ( * 2450 )
+    NEW metal3 ( 4085 18830 ) ( 4295 * )
+    NEW metal2 ( 4275 11970 ) ( * 12110 )
+    NEW metal2 ( 4275 12110 ) ( 4465 * )
+    NEW metal3 ( 4295 13510 ) ( 4465 * ) via2_5
+    NEW metal2 ( 4465 12110 ) ( * 13230 ) via1_7
+    NEW metal2 ( 4465 13230 ) ( * 13510 )
+    NEW metal3 ( 5985 18830 ) ( 9595 * ) via2_5
+    NEW metal3 ( 7315 3990 ) ( 7695 * )
+    NEW metal3 ( 7695 3990 ) ( * 4130 )
+    NEW metal3 ( 7695 4130 ) ( 9025 * )
+    NEW metal3 ( 9025 3990 ) ( 11575 * ) via3_2
+    NEW metal4 ( 11575 2450 ) ( * 3990 )
+    NEW metal3 ( 11575 3990 ) ( 11685 * )
+    NEW metal3 ( 12825 18830 ) ( 15865 * )
+    NEW metal3 ( 13775 2310 ) ( * 2450 )
+    NEW metal2 ( 13965 2030 ) ( * 2310 )
+    NEW metal3 ( 13965 2310 ) ( 14155 * )
+    NEW metal3 ( 14155 2170 ) ( * 2310 )
+    NEW metal2 ( 15295 770 ) ( * 1050 ) via2_5
+    NEW metal3 ( 15295 1050 ) ( 16335 * ) via3_2
+    NEW metal3 ( 15865 18830 ) ( * 18900 )
+    NEW metal3 ( 15865 18900 ) ( 17005 * )
+    NEW metal4 ( 16055 2030 ) ( * 2170 )
+    NEW metal3 ( 16055 2170 ) ( 16245 * )
+    NEW metal3 ( 16245 2030 ) ( * 2170 )
+    NEW metal4 ( 16335 1050 ) ( * 2030 )
+    NEW metal3 ( 17005 18830 ) ( 17385 * ) via2_5
+    NEW metal3 ( 17385 18830 ) ( 20535 * )
+    NEW metal2 ( 20235 7630 ) ( * 7910 )
+    NEW metal2 ( 20235 7910 ) ( 20425 * )
+    NEW metal2 ( 20425 5390 ) ( 20615 * )
+    NEW metal2 ( 20425 7910 ) ( 20615 * )
+    NEW metal2 ( 20425 10850 ) ( 20615 * )
+    NEW metal3 ( 20535 12670 ) ( 20615 * ) via2_5
+    NEW metal2 ( 20615 5390 ) ( * 7910 )
+    NEW metal2 ( 20615 10850 ) ( * 11970 ) via1_7
+    NEW metal2 ( 20615 11970 ) ( * 12670 )
+    NEW metal2 ( 21375 17570 ) ( * 18830 )
+    NEW metal4 ( 1495 2450 ) via3_2
+    NEW metal2 ( 1805 2030 ) via1_7
+    NEW metal2 ( 4085 18830 ) via1_7
+    NEW metal3 ( 4085 18830 ) via2_5
+    NEW metal4 ( 4295 13510 ) via3_2
+    NEW metal2 ( 5985 18830 ) via1_7
+    NEW metal2 ( 9595 18830 ) via1_7
+    NEW metal4 ( 11575 2450 ) via3_2
+    NEW metal2 ( 11685 3850 ) via1_7
+    NEW metal2 ( 12825 18830 ) via1_7
+    NEW metal3 ( 12825 18830 ) via2_5
+    NEW metal2 ( 13965 2030 ) via1_7
+    NEW metal2 ( 15295 770 ) via1_7
+    NEW metal2 ( 17385 18830 ) via1_4
+    NEW metal2 ( 20235 7630 ) via1_4
+    NEW metal2 ( 20425 2030 ) via1_7
+    NEW metal4 ( 20535 12670 ) via3_2
+    NEW metal2 ( 21375 17570 ) via1_7
+ ;
+- n_94
+  ( g3624__7344 ZN ) ( g3623__5795 A1 )
+  + ROUTED metal2 ( 9785 3850 ) ( 9975 * )
+    NEW metal2 ( 9975 3570 ) ( * 3850 )
+    NEW metal2 ( 9785 3850 ) via1_8
+    NEW metal2 ( 9975 3570 ) via1_7
+ ;
+- n_95
+  ( g3622 ZN ) ( g3621__2703 B1 ) ( g3620__6083 B1 ) ( g3619__2250 B1 )
+  ( g3618__5266 B1 ) ( g3617__7114 B1 ) ( g3616__5703 B1 ) ( g3615__5953 B1 )
+  ( g3614__1786 B1 ) ( g3613__8757 B1 ) ( g3612__7118 B1 ) ( g3611__7675 B1 )
+  ( g3610__2391 B1 ) ( g3609__2900 B1 ) ( g3608__6877 B1 ) ( g3607__1309 B1 )
+  ( g3606__2683 B1 )
+  + ROUTED metal3 ( 14345 15890 ) ( 17385 * ) via2_5
+    NEW metal2 ( 17005 8470 ) ( 17195 * )
+    NEW metal2 ( 17005 8750 ) ( * 8890 )
+    NEW metal2 ( 16815 8890 ) ( * 10430 ) via1_4
+    NEW metal3 ( 13205 8610 ) ( 16625 * )
+    NEW metal3 ( 12255 8750 ) ( 13205 * )
+    NEW metal2 ( 12825 3290 ) ( * 3570 ) via1_4
+    NEW metal3 ( 11015 3290 ) ( 12825 * ) via2_5
+    NEW metal3 ( 8645 15610 ) ( 11685 * )
+    NEW metal2 ( 11115 9310 ) ( * 11270 ) via2_5
+    NEW metal3 ( 11015 9310 ) ( 11115 * ) via2_5
+    NEW metal4 ( 11015 5950 ) ( * 9310 ) via3_2
+    NEW metal3 ( 10545 5950 ) ( 11015 * ) via3_2
+    NEW metal2 ( 9025 5950 ) ( * 6370 ) via1_4
+    NEW metal3 ( 8265 15750 ) ( 8645 * )
+    NEW metal2 ( 8455 10430 ) ( 8645 * ) via1_4
+    NEW metal3 ( 8645 5950 ) ( * 6020 )
+    NEW metal2 ( 8455 11270 ) ( * 13230 ) via1_4
+    NEW metal2 ( 8265 13230 ) ( * 15750 ) via2_5
+    NEW metal3 ( 6365 15610 ) ( * 15750 )
+    NEW metal2 ( 5985 15750 ) ( * 16030 ) via1_4
+    NEW metal3 ( 5605 16590 ) ( * 16730 )
+    NEW metal2 ( 1425 2590 ) ( 2565 * )
+    NEW metal2 ( 2375 5950 ) ( * 6370 ) via1_4
+    NEW metal2 ( 1425 2590 ) ( * 5950 ) via2_5
+    NEW metal3 ( 1425 5950 ) ( 2375 * ) via2_5
+    NEW metal3 ( 2375 5950 ) ( 2755 * )
+    NEW metal2 ( 2565 2030 ) ( * 2590 )
+    NEW metal3 ( 2755 5950 ) ( * 6020 )
+    NEW metal3 ( 2755 6020 ) ( 8645 * )
+    NEW metal2 ( 3515 16030 ) ( * 16590 ) via2_5
+    NEW metal3 ( 3515 16590 ) ( 3895 * )
+    NEW metal3 ( 3895 16590 ) ( * 16730 )
+    NEW metal3 ( 3895 16730 ) ( 5605 * )
+    NEW metal3 ( 5605 16590 ) ( 5985 * ) via2_5
+    NEW metal3 ( 5985 15750 ) ( 6365 * )
+    NEW metal2 ( 5985 16030 ) ( * 16590 )
+    NEW metal3 ( 6365 15610 ) ( 7885 * )
+    NEW metal3 ( 7885 15610 ) ( * 15750 )
+    NEW metal3 ( 7885 15750 ) ( 8265 * )
+    NEW metal2 ( 8265 13230 ) ( 8455 * )
+    NEW metal2 ( 8455 10430 ) ( * 11270 ) via2_5
+    NEW metal3 ( 8455 11270 ) ( 11115 * )
+    NEW metal3 ( 8645 5950 ) ( 9025 * ) via2_5
+    NEW metal3 ( 8645 15610 ) ( * 15750 )
+    NEW metal3 ( 9025 5950 ) ( 10545 * ) via2_5
+    NEW metal4 ( 11015 3290 ) ( * 5950 )
+    NEW metal3 ( 11115 9310 ) ( 12255 * ) via2_5
+    NEW metal2 ( 11115 11270 ) ( * 11970 ) via1_4
+    NEW metal3 ( 11685 15610 ) ( * 15750 )
+    NEW metal3 ( 11685 15750 ) ( 13015 * )
+    NEW metal2 ( 12255 8750 ) ( * 9170 ) via1_4
+    NEW metal2 ( 12255 9170 ) ( * 9310 )
+    NEW metal3 ( 13015 15750 ) ( * 16030 )
+    NEW metal3 ( 13015 16030 ) ( 13205 * ) via2_5
+    NEW metal3 ( 13205 8610 ) ( * 8750 )
+    NEW metal3 ( 13205 16030 ) ( 14155 * ) via2_5
+    NEW metal3 ( 14155 16030 ) ( 14345 * )
+    NEW metal3 ( 14345 15890 ) ( * 16030 )
+    NEW metal3 ( 16625 8610 ) ( * 8750 )
+    NEW metal3 ( 16625 8750 ) ( 17005 * ) via2_5
+    NEW metal2 ( 16815 8890 ) ( 17005 * )
+    NEW metal2 ( 17005 3570 ) ( * 4270 )
+    NEW metal2 ( 17005 4270 ) ( 17195 * )
+    NEW metal2 ( 17005 8470 ) ( * 8750 )
+    NEW metal2 ( 17195 4270 ) ( * 7630 ) via1_4
+    NEW metal2 ( 17195 7630 ) ( * 8470 )
+    NEW metal2 ( 17385 14770 ) ( * 15890 )
+    NEW metal2 ( 2565 2030 ) via1_4
+    NEW metal2 ( 3515 16030 ) via1_4
+    NEW metal3 ( 5985 15750 ) via2_5
+    NEW metal2 ( 10545 5950 ) via1_7
+    NEW metal4 ( 11015 3290 ) via3_2
+    NEW metal3 ( 12255 8750 ) via2_5
+    NEW metal2 ( 13205 16030 ) via1_4
+    NEW metal2 ( 14155 16030 ) via1_4
+    NEW metal2 ( 17005 3570 ) via1_4
+    NEW metal2 ( 17385 14770 ) via1_4
+ ;
+- n_96
+  ( g3623__5795 ZN ) ( g3622 A ) ( g3621__2703 A1 ) ( g3620__6083 A1 )
+  ( g3619__2250 A1 ) ( g3618__5266 A1 ) ( g3617__7114 A1 ) ( g3616__5703 A1 )
+  ( g3615__5953 A1 ) ( g3614__1786 A1 ) ( g3613__8757 A1 ) ( g3612__7118 A1 )
+  ( g3611__7675 A1 ) ( g3610__2391 A1 ) ( g3609__2900 A1 ) ( g3608__6877 A1 )
+  ( g3607__1309 A1 ) ( g3606__2683 A1 )
+  + ROUTED metal1 ( 17385 14210 ) ( 17765 * )
+    NEW metal2 ( 17385 7630 ) ( 17575 * ) via1_4
+    NEW metal2 ( 17195 8610 ) ( 17385 * )
+    NEW metal3 ( 15105 3570 ) ( 17385 * ) via2_5
+    NEW metal2 ( 17005 11690 ) ( 17195 * )
+    NEW metal3 ( 13205 3710 ) ( 15105 * )
+    NEW metal3 ( 13535 16170 ) ( 13585 * ) via2_5
+    NEW metal4 ( 13535 11970 ) ( * 16170 ) via3_2
+    NEW metal2 ( 13015 4270 ) ( 13205 * )
+    NEW metal3 ( 10165 5250 ) ( 13015 * ) via2_5
+    NEW metal3 ( 8455 9730 ) ( 12635 * ) via2_5
+    NEW metal3 ( 8075 11970 ) ( 10735 * ) via2_5
+    NEW metal2 ( 10165 3990 ) ( * 5250 ) via2_5
+    NEW metal2 ( 8645 5250 ) ( * 6370 ) via1_4
+    NEW metal2 ( 8265 9730 ) ( * 10430 ) via1_4
+    NEW metal2 ( 8075 11130 ) ( * 11970 ) via2_5
+    NEW metal4 ( 7375 14770 ) ( * 16170 ) via3_2
+    NEW metal2 ( 3135 5250 ) ( * 5810 )
+    NEW metal2 ( 2755 5810 ) ( * 6370 ) via1_4
+    NEW metal2 ( 2755 5810 ) ( 3135 * )
+    NEW metal2 ( 2945 2030 ) ( * 5110 )
+    NEW metal2 ( 2945 5110 ) ( 3135 * )
+    NEW metal2 ( 3135 5110 ) ( * 5250 ) via2_5
+    NEW metal3 ( 3135 5250 ) ( 8645 * ) via2_5
+    NEW metal2 ( 3895 16030 ) ( * 16170 ) via2_5
+    NEW metal3 ( 3895 16170 ) ( 6365 * ) via2_5
+    NEW metal2 ( 6365 16030 ) ( * 16170 )
+    NEW metal3 ( 6365 16170 ) ( 7375 * )
+    NEW metal3 ( 7375 14770 ) ( 8075 * ) via2_5
+    NEW metal2 ( 8075 11130 ) ( 8265 * )
+    NEW metal2 ( 8075 11970 ) ( * 13230 ) via1_4
+    NEW metal2 ( 8075 13230 ) ( * 14770 )
+    NEW metal2 ( 8265 9730 ) ( 8455 * ) via2_8
+    NEW metal2 ( 8265 10430 ) ( * 11130 )
+    NEW metal2 ( 8455 9730 ) ( 8645 * )
+    NEW metal3 ( 8645 5250 ) ( 10165 * )
+    NEW metal2 ( 8645 6370 ) ( * 9730 )
+    NEW metal1 ( 9975 3990 0 ) ( 10165 * ) via1_7
+    NEW metal2 ( 10165 5250 ) ( * 5950 )
+    NEW metal2 ( 10165 5950 ) ( 10355 * )
+    NEW metal2 ( 10355 5950 ) ( * 6370 ) via1_4
+    NEW metal3 ( 10735 11970 ) ( 13535 * ) via3_2
+    NEW metal2 ( 12635 9170 ) ( * 9730 )
+    NEW metal2 ( 13015 4270 ) ( * 5250 )
+    NEW metal2 ( 13205 3570 ) ( * 3710 ) via2_5
+    NEW metal2 ( 13205 3710 ) ( * 4270 )
+    NEW metal3 ( 13535 11970 ) ( 17005 * ) via2_5
+    NEW metal2 ( 13585 16030 ) ( * 16170 )
+    NEW metal3 ( 13585 16170 ) ( 14535 * ) via2_5
+    NEW metal2 ( 14535 16030 ) ( * 16170 )
+    NEW metal3 ( 15105 3570 ) ( * 3710 )
+    NEW metal2 ( 17005 11690 ) ( * 11970 )
+    NEW metal2 ( 17195 8610 ) ( * 10430 ) via1_4
+    NEW metal2 ( 17195 10430 ) ( * 11690 )
+    NEW metal2 ( 17195 11690 ) ( 17385 * )
+    NEW metal2 ( 17385 7630 ) ( * 8610 )
+    NEW metal2 ( 17385 11690 ) ( * 14210 ) via1_7
+    NEW metal1 ( 17765 14210 ) ( * 14770 0 )
+    NEW metal2 ( 2945 2030 ) via1_4
+    NEW metal2 ( 3895 16030 ) via1_4
+    NEW metal2 ( 6365 16030 ) via1_4
+    NEW metal4 ( 7375 14770 ) via3_2
+    NEW metal2 ( 10735 11970 ) via1_4
+    NEW metal2 ( 12635 9170 ) via1_4
+    NEW metal2 ( 13205 3570 ) via1_4
+    NEW metal2 ( 13585 16030 ) via1_4
+    NEW metal2 ( 14535 16030 ) via1_4
+    NEW metal2 ( 17385 3570 ) via1_4
+ ;
+- n_97
+  ( g3621__2703 ZN ) ( dpath_b_reg_out_reg\[0\] D )
+  + ROUTED metal2 ( 2755 2450 ) ( * 2590 ) via2_8
+    NEW metal2 ( 855 2590 ) ( * 3570 ) via1_7
+    NEW metal3 ( 855 2590 ) ( 2755 * )
+    NEW metal3 ( 855 2590 ) via2_5
+    NEW metal2 ( 2755 2450 ) via1_7
+ ;
+- n_98
+  ( g3620__6083 ZN ) ( dpath_b_reg_out_reg\[14\] D )
+  + ROUTED metal2 ( 17195 3710 ) ( * 4130 )
+    NEW metal2 ( 17195 4130 ) ( 18335 * )
+    NEW metal2 ( 18335 4130 ) ( * 4830 ) via1_7
+    NEW metal2 ( 17195 3710 ) via1_4
+ ;
+- n_99
+  ( g3619__2250 ZN ) ( dpath_b_reg_out_reg\[13\] D )
+  + ROUTED metal2 ( 17575 7910 ) ( * 8050 )
+    NEW metal1 ( 17385 7910 0 ) ( 17575 * ) via1_7
+    NEW metal2 ( 17575 8050 ) ( 17765 * )
+    NEW metal2 ( 17765 8050 ) ( * 9170 ) via1_7
+ ;
+- n_100
+  ( g3618__5266 ZN ) ( dpath_b_reg_out_reg\[12\] D )
+  + ROUTED metal2 ( 12635 8610 ) ( 13015 * )
+    NEW metal2 ( 12445 7630 ) ( * 8190 )
+    NEW metal2 ( 12445 8190 ) ( 13015 * )
+    NEW metal1 ( 12445 8890 0 ) ( 12635 * ) via1_7
+    NEW metal2 ( 12635 8610 ) ( * 8890 )
+    NEW metal2 ( 13015 8190 ) ( * 8610 )
+    NEW metal2 ( 12445 7630 ) via1_7
+ ;
+- n_101
+  ( g3617__7114 ZN ) ( dpath_b_reg_out_reg\[11\] D )
+  + ROUTED metal2 ( 16815 10710 ) ( * 10850 )
+    NEW metal2 ( 16435 10850 ) ( * 11970 ) via1_7
+    NEW metal2 ( 16435 10850 ) ( 16815 * )
+    NEW metal1 ( 16815 10710 ) ( 17005 * 0 )
+    NEW metal2 ( 16815 10710 ) via1_7
+ ;
+- n_102
+  ( g3616__5703 ZN ) ( dpath_b_reg_out_reg\[10\] D )
+  + ROUTED metal2 ( 17575 14910 ) ( * 16030 ) via1_7
+    NEW metal2 ( 17575 14910 ) via1_4
+ ;
+- n_103
+  ( g3615__5953 ZN ) ( dpath_b_reg_out_reg\[9\] D )
+  + ROUTED metal2 ( 14345 14770 ) ( * 15890 ) via1_4
+    NEW metal2 ( 14345 14770 ) via1_7
+ ;
+- n_104
+  ( g3614__1786 ZN ) ( dpath_b_reg_out_reg\[8\] D )
+  + ROUTED metal2 ( 12635 14770 ) ( * 15470 ) via2_5
+    NEW metal3 ( 12635 15470 ) ( 13395 * ) via2_5
+    NEW metal2 ( 13395 15470 ) ( * 15890 ) via1_4
+    NEW metal2 ( 12635 14770 ) via1_7
+ ;
+- n_105
+  ( g3613__8757 ZN ) ( dpath_b_reg_out_reg\[7\] D )
+  + ROUTED metal2 ( 10925 12110 ) ( * 12250 ) via2_5
+    NEW metal2 ( 9785 12250 ) ( * 13230 ) via1_7
+    NEW metal3 ( 9785 12250 ) ( 10925 * )
+    NEW metal3 ( 9785 12250 ) via2_5
+    NEW metal2 ( 10925 12110 ) via1_4
+ ;
+- n_106
+  ( g3612__7118 ZN ) ( dpath_b_reg_out_reg\[6\] D )
+  + ROUTED metal2 ( 6175 16450 ) ( * 17570 ) via2_5
+    NEW metal3 ( 4465 17570 ) ( 6175 * )
+    NEW metal2 ( 4465 17570 ) via1_7
+    NEW metal3 ( 4465 17570 ) via2_5
+    NEW metal2 ( 6175 16450 ) via1_7
+ ;
+- n_107
+  ( g3611__7675 ZN ) ( dpath_b_reg_out_reg\[5\] D )
+  + ROUTED metal3 ( 1235 15610 ) ( * 15750 )
+    NEW metal2 ( 855 15750 ) ( * 16030 ) via1_7
+    NEW metal3 ( 855 15750 ) ( 1235 * )
+    NEW metal3 ( 1235 15610 ) ( 2755 * )
+    NEW metal3 ( 2755 15610 ) ( * 15750 )
+    NEW metal3 ( 2755 15750 ) ( 3705 * ) via2_5
+    NEW metal2 ( 3705 15750 ) ( * 15890 ) via1_4
+    NEW metal3 ( 855 15750 ) via2_5
+ ;
+- n_108
+  ( g3610__2391 ZN ) ( dpath_b_reg_out_reg\[4\] D )
+  + ROUTED metal2 ( 8455 13510 ) ( * 14490 )
+    NEW metal1 ( 8265 13510 0 ) ( 8455 * ) via1_7
+    NEW metal2 ( 8455 14490 ) ( 8645 * )
+    NEW metal2 ( 8645 14490 ) ( * 14770 )
+    NEW metal2 ( 8645 14770 ) ( 9215 * ) via1_8
+ ;
+- n_109
+  ( g3609__2900 ZN ) ( dpath_b_reg_out_reg\[3\] D )
+  + ROUTED metal2 ( 8645 10710 ) ( * 11690 )
+    NEW metal1 ( 8455 10710 0 ) ( 8645 * ) via1_7
+    NEW metal2 ( 8645 11690 ) ( 9595 * )
+    NEW metal2 ( 9595 11690 ) ( * 11970 ) via1_7
+ ;
+- n_110
+  ( g3608__6877 ZN ) ( dpath_b_reg_out_reg\[2\] D )
+  + ROUTED metal2 ( 9215 6790 ) ( * 9170 ) via1_7
+    NEW metal3 ( 8835 6790 ) ( 9215 * ) via2_5
+    NEW metal2 ( 8835 6510 ) ( * 6790 ) via2_5
+    NEW metal2 ( 8835 6510 ) via1_4
+ ;
+- n_111
+  ( g3607__1309 ZN ) ( dpath_b_reg_out_reg\[1\] D )
+  + ROUTED metal2 ( 2565 6510 ) ( * 7210 )
+    NEW metal2 ( 2565 7210 ) ( 2945 * )
+    NEW metal2 ( 2945 7210 ) ( * 9170 ) via1_7
+    NEW metal2 ( 2565 6510 ) via1_4
+ ;
+- n_112
+  ( g3606__2683 ZN ) ( dpath_b_reg_out_reg\[15\] D )
+  + ROUTED metal2 ( 13015 3710 ) ( * 3850 ) via2_5
+    NEW metal2 ( 10925 3850 ) ( * 4830 ) via1_7
+    NEW metal3 ( 10925 3850 ) ( 13015 * )
+    NEW metal3 ( 10925 3850 ) via2_5
+    NEW metal2 ( 13015 3710 ) via1_4
+ ;
+- n_113
+  ( g3605__9682 ZN ) ( g3562__2683 A1 )
+  + ROUTED metal2 ( 17385 18550 ) ( 18145 * )
+    NEW metal2 ( 18145 18550 ) ( * 18830 ) via1_4
+    NEW metal2 ( 17385 18550 ) via1_8
+ ;
+- n_114
+  ( g3604__4547 ZN ) ( g3572__5703 A1 )
+  + ROUTED metal2 ( 12255 1610 ) ( * 2030 ) via1_4
+    NEW metal2 ( 12255 1610 ) ( 13015 * )
+    NEW metal2 ( 13015 1610 ) ( * 1750 ) via1_7
+ ;
+- n_115
+  ( g3603__1474 ZN ) ( g3571__5953 A1 )
+  + ROUTED metal2 ( 21565 12250 ) ( * 12530 )
+    NEW metal2 ( 21185 12530 ) ( * 13230 ) via1_4
+    NEW metal2 ( 21185 12530 ) ( 21565 * )
+    NEW metal2 ( 21565 12250 ) via1_7
+ ;
+- n_116
+  ( g3602__3772 ZN ) ( g3569__8757 A1 )
+  + ROUTED metal2 ( 20995 17850 ) ( * 20370 )
+    NEW metal3 ( 20995 17850 ) ( 22325 * ) via2_5
+    NEW metal2 ( 20995 20370 ) ( 21185 * ) via1_4
+    NEW metal3 ( 20995 17850 ) via2_5
+    NEW metal2 ( 22325 17850 ) via1_7
+ ;
+- n_117
+  ( g3601__4296 ZN ) ( g3566__2391 A1 )
+  + ROUTED metal2 ( 13775 18550 ) ( 14535 * )
+    NEW metal2 ( 14535 18550 ) ( * 18830 ) via1_4
+    NEW metal2 ( 13775 18550 ) via1_8
+ ;
+- n_118
+  ( g3600__8780 ZN ) ( g3568__7118 A1 )
+  + ROUTED metal2 ( 10545 18550 ) ( 10925 * )
+    NEW metal2 ( 10925 18550 ) ( * 18830 ) via1_4
+    NEW metal2 ( 10545 18550 ) via1_8
+ ;
+- n_119
+  ( g3599__9906 ZN ) ( g3567__7675 A1 )
+  + ROUTED metal2 ( 3135 18130 ) ( 3325 * )
+    NEW metal2 ( 3135 18130 ) ( * 18550 ) via1_7
+    NEW metal2 ( 3325 17570 ) ( * 18130 )
+    NEW metal2 ( 3325 17570 ) via1_4
+ ;
+- n_120
+  ( g3598__1857 ZN ) ( g3565__2900 B1 )
+  + ROUTED metal2 ( 285 1470 ) ( * 2030 ) via1_4
+    NEW metal2 ( 285 1470 ) ( 855 * )
+    NEW metal2 ( 855 1470 ) ( * 1750 ) via1_7
+ ;
+- n_121
+  ( g3597__5019 ZN ) ( g3570__1786 A1 )
+  + ROUTED metal2 ( 7505 18550 ) ( * 20370 ) via1_4
+    NEW metal3 ( 5985 18550 ) ( 7505 * ) via2_5
+    NEW metal2 ( 5985 18550 ) via1_7
+    NEW metal3 ( 5985 18550 ) via2_5
+ ;
+- n_122
+  ( g3596__1840 ZN ) ( g3564__6877 A1 )
+  + ROUTED metal2 ( 3895 11970 ) ( * 12250 )
+    NEW metal2 ( 3895 12250 ) ( 4275 * ) via1_8
+    NEW metal2 ( 3895 11970 ) via1_4
+ ;
+- n_123
+  ( g3595__7344 ZN ) ( g3563__1309 A1 )
+  + ROUTED metal2 ( 7315 6650 ) ( 7695 * )
+    NEW metal2 ( 7695 6370 ) ( * 6650 )
+    NEW metal2 ( 7315 6650 ) via1_8
+    NEW metal2 ( 7695 6370 ) via1_4
+ ;
+- n_124
+  ( g3594__5795 ZN ) ( g3558__3772 A1 )
+  + ROUTED metal3 ( 1995 6650 ) ( 3325 * ) via2_5
+    NEW metal2 ( 3325 6370 ) ( * 6650 )
+    NEW metal2 ( 1995 6650 ) via1_7
+    NEW metal3 ( 1995 6650 ) via2_5
+    NEW metal2 ( 3325 6370 ) via1_4
+ ;
+- n_125
+  ( g3593__2703 ZN ) ( g3561__9682 A1 )
+  + ROUTED metal2 ( 20615 770 ) ( * 1610 )
+    NEW metal2 ( 20615 1610 ) ( 21185 * )
+    NEW metal2 ( 21185 1610 ) ( * 1750 ) via1_7
+    NEW metal2 ( 20615 770 ) via1_4
+ ;
+- n_126
+  ( g3592__6083 ZN ) ( g3560__4547 A1 )
+  + ROUTED metal3 ( 19475 5110 ) ( 21375 * ) via2_5
+    NEW metal2 ( 19475 5110 ) ( * 7350 ) via1_7
+    NEW metal2 ( 21375 4830 ) ( * 5110 )
+    NEW metal3 ( 19475 5110 ) via2_5
+    NEW metal2 ( 21375 4830 ) via1_4
+ ;
+- n_127
+  ( g3591__2250 ZN ) ( g3559__1474 A1 )
+  + ROUTED metal4 ( 14655 1330 ) ( * 2590 ) via3_2
+    NEW metal3 ( 14535 1330 ) ( 14655 * ) via3_2
+    NEW metal2 ( 14535 1050 ) ( * 1330 ) via2_5
+    NEW metal2 ( 13965 2590 ) ( * 4130 )
+    NEW metal2 ( 13585 4130 ) ( * 4830 ) via1_4
+    NEW metal2 ( 13585 4130 ) ( 13965 * )
+    NEW metal3 ( 13965 2590 ) ( 14655 * )
+    NEW metal3 ( 13965 2590 ) via2_5
+    NEW metal2 ( 14535 1050 ) via1_7
+ ;
+- n_128
+  ( g3590__5266 ZN ) ( g3573__7114 A1 )
+  + ROUTED metal2 ( 3515 12950 ) ( 3705 * )
+    NEW metal2 ( 3515 13510 ) ( * 14770 ) via1_4
+    NEW metal2 ( 3515 13510 ) ( 3705 * )
+    NEW metal2 ( 3705 12950 ) ( * 13510 )
+    NEW metal2 ( 3515 12950 ) via1_8
+ ;
+- n_129
+  ( g3573__7114 ZN ) ( dpath_a_reg_out_reg\[4\] D )
+  + ROUTED metal3 ( 855 14770 ) ( 3705 * ) via2_5
+    NEW metal2 ( 855 14770 ) via1_7
+    NEW metal3 ( 855 14770 ) via2_5
+    NEW metal2 ( 3705 14770 ) via1_4
+ ;
+- n_130
+  ( g3572__5703 ZN ) ( dpath_a_reg_out_reg\[15\] D )
+  + ROUTED metal2 ( 11875 1750 ) ( 12065 * )
+    NEW metal2 ( 11875 1750 ) ( * 2310 )
+    NEW metal2 ( 11875 2310 ) ( 12255 * ) via1_8
+    NEW metal2 ( 12065 770 ) ( * 1750 )
+    NEW metal1 ( 12255 2310 ) ( 12445 * 0 )
+    NEW metal2 ( 12065 770 ) via1_7
+ ;
+- n_131
+  ( g3571__5953 ZN ) ( dpath_a_reg_out_reg\[11\] D )
+  + ROUTED metal2 ( 19475 13230 ) ( * 13370 ) via2_5
+    NEW metal3 ( 19475 13370 ) ( 20995 * ) via2_5
+    NEW metal2 ( 19475 13230 ) via1_7
+    NEW metal2 ( 20995 13370 ) via1_4
+ ;
+- n_132
+  ( g3570__1786 ZN ) ( dpath_a_reg_out_reg\[6\] D )
+  + ROUTED metal2 ( 7125 19810 ) ( * 19950 ) via2_5
+    NEW metal3 ( 4845 19810 ) ( * 19950 )
+    NEW metal2 ( 4465 19950 ) ( * 20370 ) via1_7
+    NEW metal3 ( 4465 19950 ) ( 4845 * )
+    NEW metal3 ( 4845 19810 ) ( 6745 * )
+    NEW metal3 ( 6745 19810 ) ( * 19950 )
+    NEW metal3 ( 6745 19950 ) ( 7125 * )
+    NEW metal1 ( 7125 19810 ) ( 7315 * )
+    NEW metal1 ( 7315 19810 ) ( * 19950 0 )
+    NEW metal3 ( 4465 19950 ) via2_5
+    NEW metal2 ( 7125 19810 ) via1_7
+ ;
+- n_133
+  ( g3569__8757 ZN ) ( dpath_a_reg_out_reg\[10\] D )
+  + ROUTED metal2 ( 21185 19390 ) ( 21945 * )
+    NEW metal1 ( 20995 20090 0 ) ( 21185 * ) via1_7
+    NEW metal2 ( 21185 19390 ) ( * 20090 )
+    NEW metal2 ( 21945 18830 ) ( * 19390 )
+    NEW metal2 ( 21945 18830 ) via1_7
+ ;
+- n_134
+  ( g3568__7118 ZN ) ( dpath_a_reg_out_reg\[7\] D )
+  + ROUTED metal2 ( 10735 19110 ) ( * 20370 ) via1_7
+    NEW metal2 ( 10735 19110 ) ( 10925 * ) via1_8
+    NEW metal1 ( 10925 19110 ) ( 11115 * 0 )
+ ;
+- n_135
+  ( g3567__7675 ZN ) ( dpath_a_reg_out_reg\[5\] D )
+  + ROUTED metal2 ( 3135 17710 ) ( * 17990 ) via2_8
+    NEW metal2 ( 855 17990 ) ( * 20370 ) via1_7
+    NEW metal3 ( 855 17990 ) ( 3135 * )
+    NEW metal3 ( 855 17990 ) via2_5
+    NEW metal2 ( 3135 17710 ) via1_4
+ ;
+- n_136
+  ( g3566__2391 ZN ) ( dpath_a_reg_out_reg\[8\] D )
+  + ROUTED metal2 ( 14535 19390 ) ( * 20370 ) via1_7
+    NEW metal1 ( 14345 19250 0 ) ( * 19390 )
+    NEW metal1 ( 14345 19390 ) ( 14535 * ) via1_7
+ ;
+- n_137
+  ( g3565__2900 ZN ) ( dpath_a_reg_out_reg\[0\] D )
+  + ROUTED metal2 ( 475 2170 ) ( * 2310 )
+    NEW metal2 ( 475 2310 ) ( 1045 * )
+    NEW metal2 ( 855 770 ) ( * 1330 )
+    NEW metal2 ( 855 1330 ) ( 1045 * )
+    NEW metal2 ( 1045 1330 ) ( * 2310 )
+    NEW metal2 ( 475 2170 ) via1_4
+    NEW metal2 ( 855 770 ) via1_7
+ ;
+- n_138
+  ( g3564__6877 ZN ) ( dpath_a_reg_out_reg\[3\] D )
+  + ROUTED metal2 ( 3705 12110 ) ( * 12250 ) via2_5
+    NEW metal3 ( 2755 12250 ) ( * 12390 )
+    NEW metal2 ( 855 11970 ) ( * 12250 ) via2_5
+    NEW metal3 ( 855 12250 ) ( 1235 * )
+    NEW metal3 ( 1235 12250 ) ( * 12390 )
+    NEW metal3 ( 1235 12390 ) ( 2755 * )
+    NEW metal3 ( 2755 12250 ) ( 3705 * )
+    NEW metal2 ( 855 11970 ) via1_7
+    NEW metal2 ( 3705 12110 ) via1_4
+ ;
+- n_139
+  ( g3563__1309 ZN ) ( dpath_a_reg_out_reg\[2\] D )
+  + ROUTED metal2 ( 10165 7070 ) ( * 7630 ) via1_7
+    NEW metal3 ( 7885 7070 ) ( 10165 * ) via2_5
+    NEW metal2 ( 7885 6510 ) ( * 7070 ) via2_5
+    NEW metal2 ( 7885 6510 ) via1_4
+ ;
+- n_140
+  ( g3562__2683 ZN ) ( dpath_a_reg_out_reg\[9\] D )
+  + ROUTED metal2 ( 18145 19110 ) ( * 19250 )
+    NEW metal1 ( 17955 19110 0 ) ( 18145 * ) via1_7
+    NEW metal2 ( 18145 19250 ) ( 18525 * )
+    NEW metal2 ( 18525 19250 ) ( * 20370 ) via1_7
+ ;
+- n_141
+  ( g3561__9682 ZN ) ( dpath_a_reg_out_reg\[14\] D )
+  + ROUTED metal2 ( 20425 910 ) ( * 1750 )
+    NEW metal2 ( 20045 1750 ) ( * 3570 ) via1_7
+    NEW metal2 ( 20045 1750 ) ( 20425 * )
+    NEW metal2 ( 20425 910 ) via1_4
+ ;
+- n_142
+  ( g3560__4547 ZN ) ( dpath_a_reg_out_reg\[13\] D )
+  + ROUTED metal2 ( 21185 5390 ) ( * 6370 ) via1_7
+    NEW metal1 ( 21185 5250 0 ) ( * 5390 ) via1_7
+ ;
+- n_143
+  ( g3559__1474 ZN ) ( dpath_a_reg_out_reg\[12\] D )
+  + ROUTED metal2 ( 13585 5110 ) ( * 5810 )
+    NEW metal2 ( 12255 5810 ) ( * 6370 ) via1_7
+    NEW metal2 ( 12255 5810 ) ( 13585 * )
+    NEW metal1 ( 13585 5110 ) ( 13775 * 0 )
+    NEW metal2 ( 13585 5110 ) via1_7
+ ;
+- n_144
+  ( g3558__3772 ZN ) ( dpath_a_reg_out_reg\[1\] D )
+  + ROUTED metal2 ( 3515 6510 ) ( * 6930 ) via2_5
+    NEW metal2 ( 1235 6930 ) ( * 7630 ) via1_7
+    NEW metal3 ( 1235 6930 ) ( 3515 * )
+    NEW metal3 ( 1235 6930 ) via2_5
+    NEW metal2 ( 3515 6510 ) via1_4
+ ;
+- n_145
+  ( g299 ZN ) ( g297__8780 A1 )
+  + ROUTED metal1 ( 8645 770 0 ) ( 8835 * 0 )
+ ;
+END NETS
+
+END DESIGN

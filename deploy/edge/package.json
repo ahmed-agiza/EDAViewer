@@ -1,0 +1,12 @@
+{
+	"name": "edge",
+	"version": "1.0.0",
+	"description": "EDAV Lambda@Edge",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Ahmed Agiza",
+	"license": "MIT",
+	"dependencies": {}
+}
